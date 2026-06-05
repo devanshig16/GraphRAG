@@ -1,6 +1,7 @@
 import os
 import json
 import networkx as nx
+import matplotlib.pyplot as plt
 from openai import OpenAI
 from dotenv import load_dotenv
 
@@ -146,6 +147,33 @@ class GraphRAG:
             raise ValueError("Nothing indexed yet. Call index() first.")
         return query_graph(question, self.community_summaries)
 
+    def visualize(self):
+        """Draw the knowledge graph. Each community gets a distinct colour."""
+        if self.graph is None:
+            raise ValueError("Nothing indexed yet. Call index() first.")
+
+        communities = detect_communities(self.graph)
+        # Assign a colour index to every node based on its community
+        node_community = {}
+        for community_id, nodes in communities.items():
+            for node in nodes:
+                node_community[node] = community_id
+
+        colors = plt.cm.tab20.colors
+        node_colors = [colors[node_community.get(n, 0) % len(colors)] for n in self.graph.nodes]
+        edge_labels = {(u, v): d.get("relation", "") for u, v, d in self.graph.edges(data=True)}
+
+        plt.figure(figsize=(14, 9))
+        pos = nx.spring_layout(self.graph, seed=42, k=2)
+        nx.draw_networkx_nodes(self.graph, pos, node_color=node_colors, node_size=1200)
+        nx.draw_networkx_labels(self.graph, pos, font_size=8, font_weight="bold")
+        nx.draw_networkx_edges(self.graph, pos, alpha=0.4, arrows=False)
+        nx.draw_networkx_edge_labels(self.graph, pos, edge_labels=edge_labels, font_size=7, alpha=0.8)
+        plt.title("Knowledge Graph (colours = communities)", fontsize=14)
+        plt.axis("off")
+        plt.tight_layout()
+        plt.show()
+
 
 # ── Quick demo ────────────────────────────────────────────────────────────────
 
@@ -177,3 +205,5 @@ if __name__ == "__main__":
     ]:
         print(f"Q: {question}")
         print(f"A: {rag.query(question)}\n")
+
+    rag.visualize()
