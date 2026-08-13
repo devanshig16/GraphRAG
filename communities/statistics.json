@@ -1,0 +1,49 @@
+{
+  "graph_size": 20758,
+  "graph_edges": 29863,
+  "assigned_nodes": 20566,
+  "unassigned_nodes": 192,
+  "hierarchy_depth": 2,
+  "config": {
+    "max_size": 50,
+    "min_size": 10,
+    "resolutions": {
+      "0": 2.0,
+      "1": 2.5,
+      "2": 3.0
+    },
+    "default_resolution": 3.0
+  },
+  "levels": [
+    {
+      "level": 0,
+      "description": "Coarsest",
+      "resolution": 2.0,
+      "communities": 119,
+      "avg_size": 172.8235294117647,
+      "min_size": 10,
+      "max_size": 976,
+      "distribution": {
+        "tiny_lt10": 0,
+        "small_10_25": 13,
+        "medium_25_50": 10,
+        "large_gt50": 96
+      }
+    },
+    {
+      "level": 1,
+      "description": "Medium",
+      "resolution": 2.5,
+      "communities": 827,
+      "avg_size": 24.86819830713422,
+      "min_size": 8,
+      "max_size": 530,
+      "distribution": {
+        "tiny_lt10": 1,
+        "small_10_25": 677,
+        "medium_25_50": 49,
+        "large_gt50": 100
+      }
+    }
+  ]
+}

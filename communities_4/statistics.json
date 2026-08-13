@@ -1,0 +1,28 @@
+{
+  "graph_size": 20758,
+  "graph_edges": 29863,
+  "hierarchy_depth": 3,
+  "levels": [
+    {
+      "level": 0,
+      "communities": 89,
+      "avg_size": 233.23595505617976,
+      "min_size": 5,
+      "max_size": 1532
+    },
+    {
+      "level": 1,
+      "communities": 1172,
+      "avg_size": 17.71160409556314,
+      "min_size": 2,
+      "max_size": 241
+    },
+    {
+      "level": 2,
+      "communities": 2207,
+      "avg_size": 9.405527865881286,
+      "min_size": 1,
+      "max_size": 152
+    }
+  ]
+}

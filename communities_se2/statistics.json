@@ -1,0 +1,45 @@
+{
+  "algorithm": "SE2 (SpeakEasy2: Champagne)",
+  "paper": "Gaiteri et al. Genome Biology 2023",
+  "graph_nodes": 20758,
+  "graph_edges": 29863,
+  "max_cluster_size": 40,
+  "hierarchy_depth": 5,
+  "levels": [
+    {
+      "level": 0,
+      "communities": 9804,
+      "avg_size": 2.117299061607507,
+      "min_size": 1,
+      "max_size": 745
+    },
+    {
+      "level": 1,
+      "communities": 9983,
+      "avg_size": 2.0793348692777722,
+      "min_size": 1,
+      "max_size": 165
+    },
+    {
+      "level": 2,
+      "communities": 10104,
+      "avg_size": 2.0544338875692794,
+      "min_size": 1,
+      "max_size": 77
+    },
+    {
+      "level": 3,
+      "communities": 10113,
+      "avg_size": 2.0526055572035995,
+      "min_size": 1,
+      "max_size": 62
+    },
+    {
+      "level": 4,
+      "communities": 10221,
+      "avg_size": 2.030916740045005,
+      "min_size": 1,
+      "max_size": 39
+    }
+  ]
+}
