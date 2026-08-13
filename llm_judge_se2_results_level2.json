@@ -1,0 +1,6160 @@
+[
+  {
+    "community_id": "1",
+    "status": "ok",
+    "original_terms": [
+      "GO:0000947",
+      "GO:0000952",
+      "GO:0000955",
+      "GO:0009095"
+    ],
+    "initial_score": 7,
+    "final_score": 10,
+    "lin_score": 0.5278,
+    "score_improved": true,
+    "coherent": true,
+    "theme": "Amino acid catabolic processes via the Ehrlich pathway produce alcohols or carboxylic acids.",
+    "reasoning": "All terms are part of the Ehrlich pathway for amino acid catabolism, which is a coherent biological process.",
+    "outliers": [
+      "GO:0009095"
+    ],
+    "cleaned_terms": [
+      "GO:0000947",
+      "GO:0000952",
+      "GO:0000955"
+    ]
+  },
+  {
+    "community_id": "6",
+    "status": "ok",
+    "original_terms": [
+      "GO:0000080",
+      "GO:0000087",
+      "GO:0000092",
+      "GO:0000279",
+      "GO:0002111"
+    ],
+    "initial_score": 7,
+    "final_score": 9,
+    "lin_score": 0.3722,
+    "score_improved": true,
+    "coherent": true,
+    "theme": "These GO terms describe various phases of the mitotic cell cycle process.",
+    "reasoning": "All terms are part of the mitotic cell cycle process, specifically different phases of it.",
+    "outliers": [
+      "GO:0002111"
+    ],
+    "cleaned_terms": [
+      "GO:0000080",
+      "GO:0000087",
+      "GO:0000092",
+      "GO:0000279"
+    ]
+  },
+  {
+    "community_id": "12.0.0",
+    "status": "ok",
+    "original_terms": [
+      "GO:0015407",
+      "GO:0015416",
+      "GO:0015422",
+      "GO:0015424",
+      "GO:0015432",
+      "GO:0015441",
+      "GO:0015446"
+    ],
+    "initial_score": 9,
+    "final_score": 9,
+    "lin_score": 0.3373,
+    "score_improved": false,
+    "coherent": true,
+    "theme": "These GO terms represent different types of ABC-type transporter activities that use ATP to facilitate the transmembrane transport of various solutes.",
+    "reasoning": "All terms describe the transport of various molecules across membranes using ATP as an energy source. They are all part of the broader category of ABC transporter activities.",
+    "outliers": [],
+    "cleaned_terms": [
+      "GO:0015407",
+      "GO:0015416",
+      "GO:0015422",
+      "GO:0015424",
+      "GO:0015432",
+      "GO:0015441",
+      "GO:0015446"
+    ]
+  },
+  {
+    "community_id": "12.0.1",
+    "status": "ok",
+    "original_terms": [
+      "GO:0015625",
+      "GO:0015662",
+      "GO:0016464",
+      "GO:0003883",
+      "GO:0004088",
+      "GO:0004386",
+      "GO:0004478",
+      "GO:0004516",
+      "GO:0004642",
+      "GO:0004756",
+      "GO:0004775",
+      "GO:0005388",
+      "GO:0008186",
+      "GO:0008551",
+      "GO:0008553",
+      "GO:0008554",
+      "GO:0008558",
+      "GO:0008559",
+      "GO:0008564",
+      "GO:0008566",
+      "GO:0008900",
+      "GO:0008986",
+      "GO:0015408",
+      "GO:0015410",
+      "GO:0015411",
+      "GO:0015412",
+      "GO:0015413",
+      "GO:0015414",
+      "GO:0015417",
+      "GO:0015418",
+      "GO:0015419",
+      "GO:0015420",
+      "GO:0015421",
+      "GO:0015423",
+      "GO:0015426",
+      "GO:0015430",
+      "GO:0015431",
+      "GO:0015436",
+      "GO:0015439",
+      "GO:0015440",
+      "GO:0015445",
+      "GO:0015594",
+      "GO:0015599",
+      "GO:0015607",
+      "GO:0015611",
+      "GO:0015612",
+      "GO:0015614",
+      "GO:0015615",
+      "GO:0015624",
+      "GO:0015633",
+      "GO:0016851"
+    ],
+    "initial_score": 9,
+    "final_score": 9,
+    "lin_score": 0.2177,
+    "score_improved": false,
+    "coherent": true,
+    "theme": "ATP-dependent transport activities across cell membranes for various solutes and ions.",
+    "reasoning": "All terms are related to ATP-dependent transport activities across membranes. They involve the transfer of various molecules (e.g., ions, amino acids, sugars) from one side of a membrane to another using ATP as an energy source.",
+    "outliers": [],
+    "cleaned_terms": [
+      "GO:0015625",
+      "GO:0015662",
+      "GO:0016464",
+      "GO:0003883",
+      "GO:0004088",
+      "GO:0004386",
+      "GO:0004478",
+      "GO:0004516",
+      "GO:0004642",
+      "GO:0004756",
+      "GO:0004775",
+      "GO:0005388",
+      "GO:0008186",
+      "GO:0008551",
+      "GO:0008553",
+      "GO:0008554",
+      "GO:0008558",
+      "GO:0008559",
+      "GO:0008564",
+      "GO:0008566",
+      "GO:0008900",
+      "GO:0008986",
+      "GO:0015408",
+      "GO:0015410",
+      "GO:0015411",
+      "GO:0015412",
+      "GO:0015413",
+      "GO:0015414",
+      "GO:0015417",
+      "GO:0015418",
+      "GO:0015419",
+      "GO:0015420",
+      "GO:0015421",
+      "GO:0015423",
+      "GO:0015426",
+      "GO:0015430",
+      "GO:0015431",
+      "GO:0015436",
+      "GO:0015439",
+      "GO:0015440",
+      "GO:0015445",
+      "GO:0015594",
+      "GO:0015599",
+      "GO:0015607",
+      "GO:0015611",
+      "GO:0015612",
+      "GO:0015614",
+      "GO:0015615",
+      "GO:0015624",
+      "GO:0015633",
+      "GO:0016851"
+    ]
+  },
+  {
+    "community_id": "12.0.2",
+    "status": "ok",
+    "original_terms": [
+      "GO:0000825",
+      "GO:0001729",
+      "GO:0003877",
+      "GO:0003951",
+      "GO:0004001",
+      "GO:0004017",
+      "GO:0004020",
+      "GO:0004075",
+      "GO:0004111",
+      "GO:0004140",
+      "GO:0004141",
+      "GO:0004143",
+      "GO:0004163",
+      "GO:0004305",
+      "GO:0004326",
+      "GO:0004329",
+      "GO:0004349",
+      "GO:0004430",
+      "GO:0004740",
+      "GO:0004743",
+      "GO:0004798",
+      "GO:0004835",
+      "GO:0004856",
+      "GO:0006756",
+      "GO:0008440",
+      "GO:0008481",
+      "GO:0008568",
+      "GO:0008716",
+      "GO:0008804",
+      "GO:0008841",
+      "GO:0008885",
+      "GO:0008906",
+      "GO:0009029",
+      "GO:0009030",
+      "GO:0009777",
+      "GO:0016303",
+      "GO:0016308",
+      "GO:0017178"
+    ],
+    "initial_score": 8,
+    "final_score": 8,
+    "lin_score": 0.209,
+    "score_improved": false,
+    "coherent": true,
+    "theme": "Phosphorylation reactions involving ATP as the phosphate donor",
+    "reasoning": "All terms are involved in the phosphorylation of various molecules, which is a common biological theme. However, some terms represent different types of kinases with slightly different substrates and functions.",
+    "outliers": [],
+    "cleaned_terms": [
+      "GO:0000825",
+      "GO:0001729",
+      "GO:0003877",
+      "GO:0003951",
+      "GO:0004001",
+      "GO:0004017",
+      "GO:0004020",
+      "GO:0004075",
+      "GO:0004111",
+      "GO:0004140",
+      "GO:0004141",
+      "GO:0004143",
+      "GO:0004163",
+      "GO:0004305",
+      "GO:0004326",
+      "GO:0004329",
+      "GO:0004349",
+      "GO:0004430",
+      "GO:0004740",
+      "GO:0004743",
+      "GO:0004798",
+      "GO:0004835",
+      "GO:0004856",
+      "GO:0006756",
+      "GO:0008440",
+      "GO:0008481",
+      "GO:0008568",
+      "GO:0008716",
+      "GO:0008804",
+      "GO:0008841",
+      "GO:0008885",
+      "GO:0008906",
+      "GO:0009029",
+      "GO:0009030",
+      "GO:0009777",
+      "GO:0016303",
+      "GO:0016308",
+      "GO:0017178"
+    ]
+  },
+  {
+    "community_id": "12.0.3",
+    "status": "ok",
+    "original_terms": [
+      "GO:0002145",
+      "GO:0010943"
+    ],
+    "initial_score": 6,
+    "final_score": 6,
+    "lin_score": 0.3333,
+    "score_improved": false,
+    "coherent": false,
+    "theme": "Enzymatic activities involving the hydrolysis of pyrophosphate bonds in different substrates.",
+    "reasoning": "The terms are related to enzymatic activities but do not share a common biological mechanism or pathway.",
+    "outliers": [],
+    "cleaned_terms": [
+      "GO:0002145",
+      "GO:0010943"
+    ]
+  },
+  {
+    "community_id": "12.0.4",
+    "status": "ok",
+    "original_terms": [
+      "GO:0003848",
+      "GO:0003873",
+      "GO:0004103",
+      "GO:0004335",
+      "GO:0004370",
+      "GO:0004371",
+      "GO:0004413",
+      "GO:0004417",
+      "GO:0004496",
+      "GO:0004637",
+      "GO:0004639",
+      "GO:0004765",
+      "GO:0008531",
+      "GO:0008671",
+      "GO:0008673",
+      "GO:0008676",
+      "GO:0008737",
+      "GO:0008763",
+      "GO:0008765",
+      "GO:0008887",
+      "GO:0008902",
+      "GO:0008974",
+      "GO:0017168"
+    ],
+    "initial_score": 9,
+    "final_score": 9,
+    "lin_score": 0.2697,
+    "score_improved": false,
+    "coherent": true,
+    "theme": "These GO terms describe a variety of enzymes that catalyze ATP-dependent phosphorylation reactions on different substrates.",
+    "reasoning": "All terms are involved in ATP-dependent phosphorylation reactions of various substrates. They belong to the broader category of metabolic processes and enzymatic activities.",
+    "outliers": [],
+    "cleaned_terms": [
+      "GO:0003848",
+      "GO:0003873",
+      "GO:0004103",
+      "GO:0004335",
+      "GO:0004370",
+      "GO:0004371",
+      "GO:0004413",
+      "GO:0004417",
+      "GO:0004496",
+      "GO:0004637",
+      "GO:0004639",
+      "GO:0004765",
+      "GO:0008531",
+      "GO:0008671",
+      "GO:0008673",
+      "GO:0008676",
+      "GO:0008737",
+      "GO:0008763",
+      "GO:0008765",
+      "GO:0008887",
+      "GO:0008902",
+      "GO:0008974",
+      "GO:0017168"
+    ]
+  },
+  {
+    "community_id": "12.0.6",
+    "status": "ok",
+    "original_terms": [
+      "GO:0003989",
+      "GO:0004658"
+    ],
+    "initial_score": 9,
+    "final_score": 9,
+    "lin_score": 0.5,
+    "score_improved": false,
+    "coherent": true,
+    "theme": "Enzymatic carboxylation of acyl-CoAs",
+    "reasoning": "Both terms are related to the carboxylation of acyl-CoAs and involve similar enzymatic reactions, but one deals with acetyl-CoA while the other with propionyl-CoA.",
+    "outliers": [],
+    "cleaned_terms": [
+      "GO:0003989",
+      "GO:0004658"
+    ]
+  },
+  {
+    "community_id": "12.0.8",
+    "status": "ok",
+    "original_terms": [
+      "GO:0004357",
+      "GO:0004363"
+    ],
+    "initial_score": 9,
+    "final_score": 9,
+    "lin_score": 0.5,
+    "score_improved": false,
+    "coherent": true,
+    "theme": "Biosynthesis of glutathione",
+    "reasoning": "Both terms are involved in the biosynthesis of glutathione, a key antioxidant molecule.",
+    "outliers": [],
+    "cleaned_terms": [
+      "GO:0004357",
+      "GO:0004363"
+    ]
+  },
+  {
+    "community_id": "12.0.9",
+    "status": "ok",
+    "original_terms": [
+      "GO:0004485",
+      "GO:0004736",
+      "GO:0004847"
+    ],
+    "initial_score": 6,
+    "final_score": 8,
+    "lin_score": 0.3333,
+    "score_improved": true,
+    "coherent": true,
+    "theme": "Enzymatic reactions involving ATP and bicarbonate in carbon metabolism.",
+    "reasoning": "Both terms are related to the metabolic conversion of carbon compounds, specifically involving ATP and bicarbonate in their reactions.",
+    "outliers": [
+      "GO:0004847"
+    ],
+    "cleaned_terms": [
+      "GO:0004485",
+      "GO:0004736"
+    ]
+  },
+  {
+    "community_id": "12.0.10",
+    "status": "ok",
+    "original_terms": [
+      "GO:0004641",
+      "GO:0004780",
+      "GO:0008803",
+      "GO:0009678",
+      "GO:0017018"
+    ],
+    "initial_score": 4,
+    "final_score": 6,
+    "lin_score": 0.088,
+    "score_improved": true,
+    "coherent": false,
+    "theme": "Enzymatic activities involving nucleotide and phosphate derivatives.",
+    "reasoning": "The terms are all related to enzymatic activities involving the catalysis of reactions with diphosphate or adenosine derivatives. However, they do not share a common biological pathway or mechanism.",
+    "outliers": [
+      "GO:0017018"
+    ],
+    "cleaned_terms": [
+      "GO:0004641",
+      "GO:0004780",
+      "GO:0008803",
+      "GO:0009678"
+    ]
+  },
+  {
+    "community_id": "12.0.11",
+    "status": "ok",
+    "original_terms": [
+      "GO:0004676",
+      "GO:0004677",
+      "GO:0004679",
+      "GO:0004690",
+      "GO:0004692"
+    ],
+    "initial_score": 8,
+    "final_score": 8,
+    "lin_score": 0.5,
+    "score_improved": false,
+    "coherent": true,
+    "theme": "These GO terms describe various protein kinases that catalyze the phosphorylation of proteins using different activators.",
+    "reasoning": "All terms are involved in the catalysis of ATP to ADP and phosphorylation of proteins, but they differ based on their specific activators (AMP, DNA, cNMP, or cGMP).",
+    "outliers": [],
+    "cleaned_terms": [
+      "GO:0004676",
+      "GO:0004677",
+      "GO:0004679",
+      "GO:0004690",
+      "GO:0004692"
+    ]
+  },
+  {
+    "community_id": "12.0.12",
+    "status": "ok",
+    "original_terms": [
+      "GO:0008556",
+      "GO:0015415",
+      "GO:0015425",
+      "GO:0015434",
+      "GO:0015438",
+      "GO:0015444",
+      "GO:0015462"
+    ],
+    "initial_score": 8,
+    "final_score": 8,
+    "lin_score": 0.2802,
+    "score_improved": false,
+    "coherent": true,
+    "theme": "ATP-dependent transporters for various solutes across membranes",
+    "reasoning": "All terms describe transport activities involving ATP hydrolysis and transmembrane movement of various solutes. They share a common mechanism but differ in the specific solute being transported.",
+    "outliers": [],
+    "cleaned_terms": [
+      "GO:0008556",
+      "GO:0015415",
+      "GO:0015425",
+      "GO:0015434",
+      "GO:0015438",
+      "GO:0015444",
+      "GO:0015462"
+    ]
+  },
+  {
+    "community_id": "12.1",
+    "status": "ok",
+    "original_terms": [
+      "GO:0003910",
+      "GO:0004077",
+      "GO:0004467",
+      "GO:0004592",
+      "GO:0004812",
+      "GO:0004814",
+      "GO:0004816",
+      "GO:0004818",
+      "GO:0004819",
+      "GO:0004821",
+      "GO:0004822",
+      "GO:0004823",
+      "GO:0004824",
+      "GO:0004825",
+      "GO:0004826",
+      "GO:0004828",
+      "GO:0004830",
+      "GO:0004831",
+      "GO:0004832",
+      "GO:0008756",
+      "GO:0008795",
+      "GO:0008922",
+      "GO:0016405",
+      "GO:0016979",
+      "GO:0018856",
+      "GO:0018859"
+    ],
+    "initial_score": 8,
+    "final_score": 9,
+    "lin_score": 0.3202,
+    "score_improved": true,
+    "coherent": true,
+    "theme": "Activation of molecules via ATP-dependent ligase activities",
+    "reasoning": "All terms are involved in the activation of various molecules by ATP and the formation of acyl or aminoacyl derivatives. They share a common theme of catalyzing the addition of functional groups to substrates, primarily through ATP-dependent reactions.",
+    "outliers": [
+      "GO:0008756",
+      "GO:0008795"
+    ],
+    "cleaned_terms": [
+      "GO:0003910",
+      "GO:0004077",
+      "GO:0004467",
+      "GO:0004592",
+      "GO:0004812",
+      "GO:0004814",
+      "GO:0004816",
+      "GO:0004818",
+      "GO:0004819",
+      "GO:0004821",
+      "GO:0004822",
+      "GO:0004823",
+      "GO:0004824",
+      "GO:0004825",
+      "GO:0004826",
+      "GO:0004828",
+      "GO:0004830",
+      "GO:0004831",
+      "GO:0004832",
+      "GO:0008922",
+      "GO:0016405",
+      "GO:0016979",
+      "GO:0018856",
+      "GO:0018859"
+    ]
+  },
+  {
+    "community_id": "12.2",
+    "status": "ok",
+    "original_terms": [
+      "GO:0004612",
+      "GO:0008964"
+    ],
+    "initial_score": 9,
+    "final_score": 9,
+    "lin_score": 0.5,
+    "score_improved": false,
+    "coherent": true,
+    "theme": "Enzymatic reactions involving oxaloacetate and phosphoenolpyruvate formation.",
+    "reasoning": "Both terms are related to the catalytic activity of enzymes that form phosphoenolpyruvate from oxaloacetate, differing in their specific substrates and cofactors.",
+    "outliers": [],
+    "cleaned_terms": [
+      "GO:0004612",
+      "GO:0008964"
+    ]
+  },
+  {
+    "community_id": "12.3",
+    "status": "ok",
+    "original_terms": [
+      "GO:0004117",
+      "GO:0004382",
+      "GO:0004385"
+    ],
+    "initial_score": 9,
+    "final_score": 9,
+    "lin_score": 0.0794,
+    "score_improved": false,
+    "coherent": true,
+    "theme": "Enzymatic activities involved in the metabolism and regulation of cyclic nucleotides and their derivatives.",
+    "reasoning": "These terms are all related to the metabolism and regulation of cyclic nucleotides (cAMP and cGMP) and their derivatives in cellular signaling pathways.",
+    "outliers": [],
+    "cleaned_terms": [
+      "GO:0004117",
+      "GO:0004382",
+      "GO:0004385"
+    ]
+  },
+  {
+    "community_id": "12.4.0",
+    "status": "ok",
+    "original_terms": [
+      "GO:0000721",
+      "GO:0003858",
+      "GO:0008866",
+      "GO:0018625",
+      "GO:0018634",
+      "GO:0018638",
+      "GO:0003842",
+      "GO:0003857",
+      "GO:0003938",
+      "GO:0003954",
+      "GO:0003979",
+      "GO:0004022",
+      "GO:0004148",
+      "GO:0004159",
+      "GO:0004318",
+      "GO:0004352",
+      "GO:0004365",
+      "GO:0004399",
+      "GO:0004589",
+      "GO:0004617",
+      "GO:0004745",
+      "GO:0004754",
+      "GO:0004777",
+      "GO:0004854",
+      "GO:0008465",
+      "GO:0008667",
+      "GO:0008678",
+      "GO:0008688",
+      "GO:0008695",
+      "GO:0008709",
+      "GO:0008750",
+      "GO:0008802",
+      "GO:0008823",
+      "GO:0008868",
+      "GO:0008911",
+      "GO:0008926",
+      "GO:0009010",
+      "GO:0009026",
+      "GO:0009027",
+      "GO:0009703",
+      "GO:0010301",
+      "GO:0010349",
+      "GO:0015044",
+      "GO:0016040",
+      "GO:0016617",
+      "GO:0018456",
+      "GO:0018458",
+      "GO:0018460",
+      "GO:0018462",
+      "GO:0018463",
+      "GO:0018464",
+      "GO:0018479",
+      "GO:0018480",
+      "GO:0018481",
+      "GO:0018502",
+      "GO:0018505",
+      "GO:0018507",
+      "GO:0018509",
+      "GO:0018513",
+      "GO:0018518",
+      "GO:0018519",
+      "GO:0018601",
+      "GO:0018610",
+      "GO:0018619",
+      "GO:0018624",
+      "GO:0018629",
+      "GO:0018645",
+      "GO:0018669",
+      "GO:0004029",
+      "GO:0008743",
+      "GO:0008863",
+      "GO:0018521",
+      "GO:0018644",
+      "GO:0018663"
+    ],
+    "initial_score": 6,
+    "final_score": 7,
+    "lin_score": 0.2094,
+    "score_improved": true,
+    "coherent": true,
+    "theme": "Reduction and oxidation (redox) reactions involving various organic compounds and NAD+ as cofactor.",
+    "reasoning": "The community consists of various dehydrogenases and related enzymes that catalyze the reduction or oxidation of different substrates. While they share a common theme of redox reactions, there is significant diversity in their specific functions and substrates.",
+    "outliers": [
+      "GO:0018625",
+      "GO:0018634",
+      "GO:0018638",
+      "GO:0008709"
+    ],
+    "cleaned_terms": [
+      "GO:0000721",
+      "GO:0003858",
+      "GO:0008866",
+      "GO:0003842",
+      "GO:0003857",
+      "GO:0003938",
+      "GO:0003954",
+      "GO:0003979",
+      "GO:0004022",
+      "GO:0004148",
+      "GO:0004159",
+      "GO:0004318",
+      "GO:0004352",
+      "GO:0004365",
+      "GO:0004399",
+      "GO:0004589",
+      "GO:0004617",
+      "GO:0004745",
+      "GO:0004754",
+      "GO:0004777",
+      "GO:0004854",
+      "GO:0008465",
+      "GO:0008667",
+      "GO:0008678",
+      "GO:0008688",
+      "GO:0008695",
+      "GO:0008750",
+      "GO:0008802",
+      "GO:0008823",
+      "GO:0008868",
+      "GO:0008911",
+      "GO:0008926",
+      "GO:0009010",
+      "GO:0009026",
+      "GO:0009027",
+      "GO:0009703",
+      "GO:0010301",
+      "GO:0010349",
+      "GO:0015044",
+      "GO:0016040",
+      "GO:0016617",
+      "GO:0018456",
+      "GO:0018458",
+      "GO:0018460",
+      "GO:0018462",
+      "GO:0018463",
+      "GO:0018464",
+      "GO:0018479",
+      "GO:0018480",
+      "GO:0018481",
+      "GO:0018502",
+      "GO:0018505",
+      "GO:0018507",
+      "GO:0018509",
+      "GO:0018513",
+      "GO:0018518",
+      "GO:0018519",
+      "GO:0018601",
+      "GO:0018610",
+      "GO:0018619",
+      "GO:0018624",
+      "GO:0018629",
+      "GO:0018645",
+      "GO:0018669",
+      "GO:0004029",
+      "GO:0008743",
+      "GO:0008863",
+      "GO:0018521",
+      "GO:0018644",
+      "GO:0018663"
+    ]
+  },
+  {
+    "community_id": "12.4.1",
+    "status": "ok",
+    "original_terms": [
+      "GO:0000286",
+      "GO:0004457",
+      "GO:0004459",
+      "GO:0008720"
+    ],
+    "initial_score": 9,
+    "final_score": 9,
+    "lin_score": 0.2778,
+    "score_improved": false,
+    "coherent": true,
+    "theme": "These GO terms describe various dehydrogenase activities involved in the metabolism of lactic acid and alanine using NAD+.",
+    "reasoning": "All terms are related to the reduction of lactates and alanine using NAD+ as a cofactor in different pathways.",
+    "outliers": [],
+    "cleaned_terms": [
+      "GO:0000286",
+      "GO:0004457",
+      "GO:0004459",
+      "GO:0008720"
+    ]
+  },
+  {
+    "community_id": "12.4.2",
+    "status": "ok",
+    "original_terms": [
+      "GO:0000309",
+      "GO:0001758"
+    ],
+    "initial_score": 4,
+    "final_score": 4,
+    "lin_score": 0.0909,
+    "score_improved": false,
+    "coherent": false,
+    "theme": "Enzymatic activities involving nucleotides and small molecule transformations",
+    "reasoning": "These terms are related to enzymatic activities involving nucleotides and other small molecules but do not share a common biological mechanism or pathway.",
+    "outliers": [],
+    "cleaned_terms": [
+      "GO:0000309",
+      "GO:0001758"
+    ]
+  },
+  {
+    "community_id": "12.4.5",
+    "status": "ok",
+    "original_terms": [
+      "GO:0018504",
+      "GO:0018623",
+      "GO:0018626",
+      "GO:0018658"
+    ],
+    "initial_score": 9,
+    "final_score": 9,
+    "lin_score": 0.25,
+    "score_improved": false,
+    "coherent": true,
+    "theme": "These GO terms describe enzymes that oxidize various aromatic substrates to produce catechol derivatives.",
+    "reasoning": "All terms are involved in the oxidation of aromatic compounds to catechol derivatives, with some variation in substrate specificity.",
+    "outliers": [],
+    "cleaned_terms": [
+      "GO:0018504",
+      "GO:0018623",
+      "GO:0018626",
+      "GO:0018658"
+    ]
+  },
+  {
+    "community_id": "12.4.7",
+    "status": "ok",
+    "original_terms": [
+      "GO:0004491",
+      "GO:0008442"
+    ],
+    "initial_score": 8,
+    "final_score": 8,
+    "lin_score": 0.1667,
+    "score_improved": false,
+    "coherent": true,
+    "theme": "Enzymatic activities involved in the metabolism of branched-chain fatty acids",
+    "reasoning": "Both terms are involved in the metabolism of branched-chain fatty acids, specifically in the conversion of certain metabolites.",
+    "outliers": [],
+    "cleaned_terms": [
+      "GO:0004491",
+      "GO:0008442"
+    ]
+  },
+  {
+    "community_id": "12.4.8",
+    "status": "ok",
+    "original_terms": [
+      "GO:0004552",
+      "GO:0008785"
+    ],
+    "initial_score": 6,
+    "final_score": 6,
+    "lin_score": 0.125,
+    "score_improved": false,
+    "coherent": false,
+    "theme": "Enzymatic reactions involving alcohol and peroxide substrates",
+    "reasoning": "Both terms are related to the oxidation-reduction of alcohols and peroxides, but they involve different substrates.",
+    "outliers": [],
+    "cleaned_terms": [
+      "GO:0004552",
+      "GO:0008785"
+    ]
+  },
+  {
+    "community_id": "12.4.11",
+    "status": "ok",
+    "original_terms": [
+      "GO:0018467",
+      "GO:0018633",
+      "GO:0018648"
+    ],
+    "initial_score": 9,
+    "final_score": 9,
+    "lin_score": 0.25,
+    "score_improved": false,
+    "coherent": true,
+    "theme": "These GO terms describe enzymes involved in the oxidation of various sulfur-containing compounds and formaldehyde.",
+    "reasoning": "All terms are involved in the oxidation of sulfur-containing compounds and formaldehyde, which is related to detoxification processes.",
+    "outliers": [],
+    "cleaned_terms": [
+      "GO:0018467",
+      "GO:0018633",
+      "GO:0018648"
+    ]
+  },
+  {
+    "community_id": "12.4.14",
+    "status": "ok",
+    "original_terms": [
+      "GO:0018474",
+      "GO:0018517",
+      "GO:0018620"
+    ],
+    "initial_score": 9,
+    "final_score": 9,
+    "lin_score": 0.1389,
+    "score_improved": false,
+    "coherent": true,
+    "theme": "Enzymatic reactions involved in the metabolism of phthalate, including dehydrogenation and dioxygenation steps.",
+    "reasoning": "All terms are related to the metabolism of phthalate and involve enzymatic reactions with NAD+ or O2 as cofactors.",
+    "outliers": [],
+    "cleaned_terms": [
+      "GO:0018474",
+      "GO:0018517",
+      "GO:0018620"
+    ]
+  },
+  {
+    "community_id": "12.4.16",
+    "status": "ok",
+    "original_terms": [
+      "GO:0018489",
+      "GO:0018621"
+    ],
+    "initial_score": 8,
+    "final_score": 8,
+    "lin_score": 0.25,
+    "score_improved": false,
+    "coherent": true,
+    "theme": "Oxidation of aromatic compounds to form dihydroxybenzoates",
+    "reasoning": "Both terms are involved in the oxidation of aromatic compounds to form dihydroxybenzoates, but one is specific to vanillate and the other to 4-sulfobenzoate.",
+    "outliers": [],
+    "cleaned_terms": [
+      "GO:0018489",
+      "GO:0018621"
+    ]
+  },
+  {
+    "community_id": "12.4.17",
+    "status": "ok",
+    "original_terms": [
+      "GO:0018511",
+      "GO:0018570"
+    ],
+    "initial_score": 9,
+    "final_score": 9,
+    "lin_score": 0.1667,
+    "score_improved": false,
+    "coherent": true,
+    "theme": "Enzymatic reactions involved in the metabolism of p-cumate.",
+    "reasoning": "Both terms are related to the metabolism of p-cumate, with one catalyzing its dioxygenation and the other its reduction.",
+    "outliers": [],
+    "cleaned_terms": [
+      "GO:0018511",
+      "GO:0018570"
+    ]
+  },
+  {
+    "community_id": "12.6",
+    "status": "ok",
+    "original_terms": [
+      "GO:0001716",
+      "GO:0003884",
+      "GO:0003921",
+      "GO:0008445"
+    ],
+    "initial_score": 6,
+    "final_score": 8,
+    "lin_score": 0.6111,
+    "score_improved": true,
+    "coherent": true,
+    "theme": "Oxidation of amino acids or their derivatives by oxidoreductase activity",
+    "reasoning": "All terms are related to the oxidation of amino acids or their derivatives, but they involve different specific substrates and have slightly varying relationships.",
+    "outliers": [
+      "GO:0003921"
+    ],
+    "cleaned_terms": [
+      "GO:0001716",
+      "GO:0003884",
+      "GO:0008445"
+    ]
+  },
+  {
+    "community_id": "12.7",
+    "status": "ok",
+    "original_terms": [
+      "GO:0000050",
+      "GO:0003837",
+      "GO:0008797",
+      "GO:0009039",
+      "GO:0018750"
+    ],
+    "initial_score": 9,
+    "final_score": 9,
+    "lin_score": 0.3125,
+    "score_improved": false,
+    "coherent": true,
+    "theme": "Enzymatic reactions involved in the urea cycle process",
+    "reasoning": "All terms are related to the urea cycle and its associated enzymatic activities, making them biologically coherent.",
+    "outliers": [],
+    "cleaned_terms": [
+      "GO:0000050",
+      "GO:0003837",
+      "GO:0008797",
+      "GO:0009039",
+      "GO:0018750"
+    ]
+  },
+  {
+    "community_id": "12.8",
+    "status": "ok",
+    "original_terms": [
+      "GO:0000104",
+      "GO:0000907",
+      "GO:0000908",
+      "GO:0004069",
+      "GO:0004448",
+      "GO:0004449",
+      "GO:0004450",
+      "GO:0004451",
+      "GO:0004591",
+      "GO:0004611",
+      "GO:0004656",
+      "GO:0006097",
+      "GO:0006099",
+      "GO:0008336",
+      "GO:0008475",
+      "GO:0008683",
+      "GO:0008734",
+      "GO:0008948",
+      "GO:0009028",
+      "GO:0016615",
+      "GO:0018602"
+    ],
+    "initial_score": 9,
+    "final_score": 9,
+    "lin_score": 0.1908,
+    "score_improved": false,
+    "coherent": true,
+    "theme": "Enzymatic reactions involving 2-oxoglutarate in metabolic pathways such as the TCA cycle and its variants.",
+    "reasoning": "The community includes various enzymes involved in the metabolism of 2-oxoglutarate and related compounds, including dehydrogenases, dioxygenases, and decarboxylases. These terms are closely related to the TCA cycle and its modifications.",
+    "outliers": [],
+    "cleaned_terms": [
+      "GO:0000104",
+      "GO:0000907",
+      "GO:0000908",
+      "GO:0004069",
+      "GO:0004448",
+      "GO:0004449",
+      "GO:0004450",
+      "GO:0004451",
+      "GO:0004591",
+      "GO:0004611",
+      "GO:0004656",
+      "GO:0006097",
+      "GO:0006099",
+      "GO:0008336",
+      "GO:0008475",
+      "GO:0008683",
+      "GO:0008734",
+      "GO:0008948",
+      "GO:0009028",
+      "GO:0016615",
+      "GO:0018602"
+    ]
+  },
+  {
+    "community_id": "12.9",
+    "status": "ok",
+    "original_terms": [
+      "GO:0002948",
+      "GO:0003922",
+      "GO:0003952",
+      "GO:0004044",
+      "GO:0004355",
+      "GO:0004356",
+      "GO:0004359",
+      "GO:0005950",
+      "GO:0015930"
+    ],
+    "initial_score": 9,
+    "final_score": 9,
+    "lin_score": 0.1828,
+    "score_improved": false,
+    "coherent": true,
+    "theme": "These GO terms describe various enzymatic activities involving L-glutamine in metabolic pathways.",
+    "reasoning": "All terms are involved in the metabolism and transformation of L-glutamine, with some focusing on its synthesis and others on its degradation or related reactions.",
+    "outliers": [],
+    "cleaned_terms": [
+      "GO:0002948",
+      "GO:0003922",
+      "GO:0003952",
+      "GO:0004044",
+      "GO:0004355",
+      "GO:0004356",
+      "GO:0004359",
+      "GO:0005950",
+      "GO:0015930"
+    ]
+  },
+  {
+    "community_id": "12.10.1",
+    "status": "ok",
+    "original_terms": [
+      "GO:0003942",
+      "GO:0018510"
+    ],
+    "initial_score": 6,
+    "final_score": 6,
+    "lin_score": 0.1667,
+    "score_improved": false,
+    "coherent": false,
+    "theme": "Enzymatic reactions involving NADP+ as an electron acceptor.",
+    "reasoning": "These terms are related to enzymatic activities but do not share a common biological mechanism or pathway.",
+    "outliers": [],
+    "cleaned_terms": [
+      "GO:0003942",
+      "GO:0018510"
+    ]
+  },
+  {
+    "community_id": "12.10.2",
+    "status": "ok",
+    "original_terms": [
+      "GO:0018618",
+      "GO:0018672"
+    ],
+    "initial_score": 9,
+    "final_score": 9,
+    "lin_score": 0.25,
+    "score_improved": false,
+    "coherent": true,
+    "theme": "Enzymatic reactions involving anthranilate with oxygenation and deamination steps.",
+    "reasoning": "Both terms are related to the enzymatic reactions involving anthranilate and involve oxygenation and deamination processes.",
+    "outliers": [],
+    "cleaned_terms": [
+      "GO:0018618",
+      "GO:0018672"
+    ]
+  },
+  {
+    "community_id": "12.10.4",
+    "status": "ok",
+    "original_terms": [
+      "GO:0000248",
+      "GO:0000249",
+      "GO:0004498",
+      "GO:0004499",
+      "GO:0004502",
+      "GO:0004506",
+      "GO:0004517",
+      "GO:0008389",
+      "GO:0008681",
+      "GO:0010277",
+      "GO:0010295",
+      "GO:0016710",
+      "GO:0016711",
+      "GO:0018632",
+      "GO:0018662",
+      "GO:0018664",
+      "GO:0018666",
+      "GO:0018667",
+      "GO:0018668",
+      "GO:0018670",
+      "GO:0018673",
+      "GO:0018677",
+      "GO:0018678"
+    ],
+    "initial_score": 7,
+    "final_score": 7,
+    "lin_score": 0.4182,
+    "score_improved": false,
+    "coherent": true,
+    "theme": "Enzymes involved in the hydroxylation or oxidation of various organic compounds.",
+    "reasoning": "The community consists of various enzymes that catalyze the hydroxylation or oxidation reactions involving different substrates. While they share a common molecular function related to oxygenation and hydroxylation, the specific substrates vary widely.",
+    "outliers": [],
+    "cleaned_terms": [
+      "GO:0000248",
+      "GO:0000249",
+      "GO:0004498",
+      "GO:0004499",
+      "GO:0004502",
+      "GO:0004506",
+      "GO:0004517",
+      "GO:0008389",
+      "GO:0008681",
+      "GO:0010277",
+      "GO:0010295",
+      "GO:0016710",
+      "GO:0016711",
+      "GO:0018632",
+      "GO:0018662",
+      "GO:0018664",
+      "GO:0018666",
+      "GO:0018667",
+      "GO:0018668",
+      "GO:0018670",
+      "GO:0018673",
+      "GO:0018677",
+      "GO:0018678"
+    ]
+  },
+  {
+    "community_id": "12.10.7",
+    "status": "ok",
+    "original_terms": [
+      "GO:0004350",
+      "GO:0017084"
+    ],
+    "initial_score": 9,
+    "final_score": 9,
+    "lin_score": 0.5,
+    "score_improved": false,
+    "coherent": true,
+    "theme": "Biosynthesis of glutamate 5-semialdehyde in proline and pyrroline metabolism",
+    "reasoning": "Both terms are involved in the biosynthesis of L-glutamate 5-semialdehyde, a key intermediate in proline and pyrroline metabolism.",
+    "outliers": [],
+    "cleaned_terms": [
+      "GO:0004350",
+      "GO:0017084"
+    ]
+  },
+  {
+    "community_id": "12.10.16",
+    "status": "ok",
+    "original_terms": [
+      "GO:0008873",
+      "GO:0008874",
+      "GO:0008875"
+    ],
+    "initial_score": 9,
+    "final_score": 9,
+    "lin_score": 0.8333,
+    "score_improved": false,
+    "coherent": true,
+    "theme": "These GO terms describe various activities involved in the dehydrogenation of gluconate using NADP+ as an electron acceptor.",
+    "reasoning": "All terms are related to the dehydrogenation of gluconate, which is a common biochemical process.",
+    "outliers": [],
+    "cleaned_terms": [
+      "GO:0008873",
+      "GO:0008874",
+      "GO:0008875"
+    ]
+  },
+  {
+    "community_id": "12.13",
+    "status": "ok",
+    "original_terms": [
+      "GO:0004021",
+      "GO:0004813",
+      "GO:0008710"
+    ],
+    "initial_score": 8,
+    "final_score": 9,
+    "lin_score": 0.1,
+    "score_improved": true,
+    "coherent": true,
+    "theme": "These GO terms describe enzymes involved in alanine metabolism, including its aminotransferase activity and tRNA ligase activity.",
+    "reasoning": "Both terms are related to the metabolism of alanine, specifically involving its transformation and transfer into other molecules.",
+    "outliers": [
+      "GO:0008710"
+    ],
+    "cleaned_terms": [
+      "GO:0004021",
+      "GO:0004813"
+    ]
+  },
+  {
+    "community_id": "12.14",
+    "status": "ok",
+    "original_terms": [
+      "GO:0004048",
+      "GO:0004514",
+      "GO:0004749"
+    ],
+    "initial_score": 9,
+    "final_score": 9,
+    "lin_score": 0.2778,
+    "score_improved": false,
+    "coherent": true,
+    "theme": "These GO terms describe enzymes involved in the biosynthesis of nucleotide-related molecules via phosphoribosyltransferase reactions.",
+    "reasoning": "All terms are involved in the biosynthesis of nucleotides and related compounds through phosphoribosyltransferase reactions.",
+    "outliers": [],
+    "cleaned_terms": [
+      "GO:0004048",
+      "GO:0004514",
+      "GO:0004749"
+    ]
+  },
+  {
+    "community_id": "12.16",
+    "status": "ok",
+    "original_terms": [
+      "GO:0003924",
+      "GO:0004019",
+      "GO:0004613",
+      "GO:0004776",
+      "GO:0005092",
+      "GO:0005093",
+      "GO:0005094",
+      "GO:0008893"
+    ],
+    "initial_score": 7,
+    "final_score": 7,
+    "lin_score": 0.1765,
+    "score_improved": false,
+    "coherent": true,
+    "theme": "These GO terms describe enzymatic activities involving GTP and GDP in different cellular processes.",
+    "reasoning": "The terms are related to enzymatic activities involving GTP and GDP in various biological processes. However, they do not all belong to the same specific pathway or mechanism.",
+    "outliers": [],
+    "cleaned_terms": [
+      "GO:0003924",
+      "GO:0004019",
+      "GO:0004613",
+      "GO:0004776",
+      "GO:0005092",
+      "GO:0005093",
+      "GO:0005094",
+      "GO:0008893"
+    ]
+  },
+  {
+    "community_id": "12.17",
+    "status": "ok",
+    "original_terms": [
+      "GO:0004732",
+      "GO:0010293",
+      "GO:0018530",
+      "GO:0018531"
+    ],
+    "initial_score": 9,
+    "final_score": 9,
+    "lin_score": 0.2176,
+    "score_improved": false,
+    "coherent": true,
+    "theme": "Oxidation of specific organic compounds by enzymes using molecular oxygen as a cofactor.",
+    "reasoning": "All terms are involved in the oxidation of specific compounds by catalyzing reactions with oxygen and water, sharing a common biological mechanism.",
+    "outliers": [],
+    "cleaned_terms": [
+      "GO:0004732",
+      "GO:0010293",
+      "GO:0018530",
+      "GO:0018531"
+    ]
+  },
+  {
+    "community_id": "12.18",
+    "status": "ok",
+    "original_terms": [
+      "GO:0001735",
+      "GO:0004123",
+      "GO:0004817",
+      "GO:0017172"
+    ],
+    "initial_score": 8,
+    "final_score": 8,
+    "lin_score": 0.1333,
+    "score_improved": false,
+    "coherent": true,
+    "theme": "Enzymatic processes involving cysteine",
+    "reasoning": "All terms are involved in the metabolism and processing of cysteine, but they represent different enzymatic activities.",
+    "outliers": [],
+    "cleaned_terms": [
+      "GO:0001735",
+      "GO:0004123",
+      "GO:0004817",
+      "GO:0017172"
+    ]
+  },
+  {
+    "community_id": "12.19",
+    "status": "ok",
+    "original_terms": [
+      "GO:0004820",
+      "GO:0018774"
+    ],
+    "initial_score": 4,
+    "final_score": 4,
+    "lin_score": 0.1111,
+    "score_improved": false,
+    "coherent": false,
+    "theme": "Enzymatic activities involving different substrates and products.",
+    "reasoning": "The terms are related to enzymatic activities but do not share a common biological mechanism or pathway.",
+    "outliers": [],
+    "cleaned_terms": [
+      "GO:0004820",
+      "GO:0018774"
+    ]
+  },
+  {
+    "community_id": "12.20",
+    "status": "ok",
+    "original_terms": [
+      "GO:0004096",
+      "GO:0004720",
+      "GO:0004733",
+      "GO:0018549"
+    ],
+    "initial_score": 8,
+    "final_score": 8,
+    "lin_score": 0.1865,
+    "score_improved": false,
+    "coherent": true,
+    "theme": "These GO terms describe enzymes involved in oxidizing different substrates, producing hydrogen peroxide as a common product.",
+    "reasoning": "All terms are related to the oxidation of various substrates by catalyzing reactions involving hydrogen peroxide or other reactive oxygen species.",
+    "outliers": [],
+    "cleaned_terms": [
+      "GO:0004096",
+      "GO:0004720",
+      "GO:0004733",
+      "GO:0018549"
+    ]
+  },
+  {
+    "community_id": "12.21",
+    "status": "ok",
+    "original_terms": [
+      "GO:0003852",
+      "GO:0003878",
+      "GO:0003986",
+      "GO:0003987",
+      "GO:0004042",
+      "GO:0004321",
+      "GO:0004343",
+      "GO:0004410",
+      "GO:0004421",
+      "GO:0004474",
+      "GO:0008774",
+      "GO:0008861",
+      "GO:0008959",
+      "GO:0010177",
+      "GO:0015019",
+      "GO:0017188",
+      "GO:0018478"
+    ],
+    "initial_score": 9,
+    "final_score": 9,
+    "lin_score": 0.2016,
+    "score_improved": false,
+    "coherent": true,
+    "theme": "Acetylation reactions involving acetyl-CoA as the acyl donor in various metabolic processes.",
+    "reasoning": "All terms are involved in acetylation reactions and related metabolic processes. They share a common theme of catalyzing the transfer of an acetyl group from acetyl-CoA to various substrates, which is part of broader metabolic pathways.",
+    "outliers": [],
+    "cleaned_terms": [
+      "GO:0003852",
+      "GO:0003878",
+      "GO:0003986",
+      "GO:0003987",
+      "GO:0004042",
+      "GO:0004321",
+      "GO:0004343",
+      "GO:0004410",
+      "GO:0004421",
+      "GO:0004474",
+      "GO:0008774",
+      "GO:0008861",
+      "GO:0008959",
+      "GO:0010177",
+      "GO:0015019",
+      "GO:0017188",
+      "GO:0018478"
+    ]
+  },
+  {
+    "community_id": "12.22",
+    "status": "ok",
+    "original_terms": [
+      "GO:0004334",
+      "GO:0018710"
+    ],
+    "initial_score": 6,
+    "final_score": 6,
+    "lin_score": 0.1429,
+    "score_improved": false,
+    "coherent": false,
+    "theme": "Involved in the metabolic pathways of ketone bodies, specifically fumarylacetoacetate and acetone.",
+    "reasoning": "Both terms are related to the metabolism of ketone bodies, but they operate on different substrates.",
+    "outliers": [],
+    "cleaned_terms": [
+      "GO:0004334",
+      "GO:0018710"
+    ]
+  },
+  {
+    "community_id": "12.23",
+    "status": "ok",
+    "original_terms": [
+      "GO:0003870",
+      "GO:0004418",
+      "GO:0004655"
+    ],
+    "initial_score": 9,
+    "final_score": 9,
+    "lin_score": 0.1286,
+    "score_improved": false,
+    "coherent": true,
+    "theme": "These GO terms describe enzymes involved in the biosynthesis of heme and related compounds.",
+    "reasoning": "All terms are involved in the biosynthesis of heme and porphyrins, specifically catalyzing reactions that form key intermediates.",
+    "outliers": [],
+    "cleaned_terms": [
+      "GO:0003870",
+      "GO:0004418",
+      "GO:0004655"
+    ]
+  },
+  {
+    "community_id": "12.24",
+    "status": "ok",
+    "original_terms": [
+      "GO:0004774",
+      "GO:0004778",
+      "GO:0008666",
+      "GO:0009361"
+    ],
+    "initial_score": 8,
+    "final_score": 8,
+    "lin_score": 0.1007,
+    "score_improved": false,
+    "coherent": true,
+    "theme": "Enzymatic activities involving succinyl-CoA in metabolic processes.",
+    "reasoning": "All terms are related to the enzymatic activity involving succinyl-CoA in various reactions, but they span different molecular functions and cellular components.",
+    "outliers": [],
+    "cleaned_terms": [
+      "GO:0004774",
+      "GO:0004778",
+      "GO:0008666",
+      "GO:0009361"
+    ]
+  },
+  {
+    "community_id": "12.25",
+    "status": "ok",
+    "original_terms": [
+      "GO:0004053",
+      "GO:0008792"
+    ],
+    "initial_score": 8,
+    "final_score": 8,
+    "lin_score": 0.125,
+    "score_improved": false,
+    "coherent": true,
+    "theme": "These GO terms describe different enzymatic activities involved in the metabolism of arginine.",
+    "reasoning": "Both terms are related to the metabolism of arginine and involve catalytic activities.",
+    "outliers": [],
+    "cleaned_terms": [
+      "GO:0004053",
+      "GO:0008792"
+    ]
+  },
+  {
+    "community_id": "12.27",
+    "status": "ok",
+    "original_terms": [
+      "GO:0003909",
+      "GO:0008977"
+    ],
+    "initial_score": 4,
+    "final_score": 4,
+    "lin_score": 0.1429,
+    "score_improved": false,
+    "coherent": false,
+    "theme": "Enzymatic reactions involving cofactors and substrates in metabolism",
+    "reasoning": "These terms describe different enzymatic activities involved in metabolic pathways, but they do not share a common biological mechanism or pathway.",
+    "outliers": [],
+    "cleaned_terms": [
+      "GO:0003909",
+      "GO:0008977"
+    ]
+  },
+  {
+    "community_id": "12.29",
+    "status": "ok",
+    "original_terms": [
+      "GO:0008726",
+      "GO:0008752",
+      "GO:0018529",
+      "GO:0018679"
+    ],
+    "initial_score": 9,
+    "final_score": 9,
+    "lin_score": 0.3333,
+    "score_improved": false,
+    "coherent": true,
+    "theme": "These GO terms describe enzymes that catalyze the oxidation of different organic compounds using FMNH2 and oxygen as cofactors and substrates, respectively.",
+    "reasoning": "All terms are involved in the oxidation of various substrates using FMNH2 and oxygen, sharing a common mechanism involving flavin mononucleotide (FMN) as a cofactor.",
+    "outliers": [],
+    "cleaned_terms": [
+      "GO:0008726",
+      "GO:0008752",
+      "GO:0018529",
+      "GO:0018679"
+    ]
+  },
+  {
+    "community_id": "12.30",
+    "status": "ok",
+    "original_terms": [
+      "GO:0004328",
+      "GO:0009015",
+      "GO:0009034",
+      "GO:0018760"
+    ],
+    "initial_score": 4,
+    "final_score": 4,
+    "lin_score": 0.1768,
+    "score_improved": false,
+    "coherent": false,
+    "theme": "Enzymatic activities with distinct substrate-specific reactions",
+    "reasoning": "These terms are all related to enzymatic activities, but they catalyze different chemical reactions and do not share a common biological pathway or mechanism.",
+    "outliers": [],
+    "cleaned_terms": [
+      "GO:0004328",
+      "GO:0009015",
+      "GO:0009034",
+      "GO:0018760"
+    ]
+  },
+  {
+    "community_id": "12.31",
+    "status": "ok",
+    "original_terms": [
+      "GO:0008398",
+      "GO:0010309",
+      "GO:0018738"
+    ],
+    "initial_score": 4,
+    "final_score": 6,
+    "lin_score": 0.1667,
+    "score_improved": true,
+    "coherent": false,
+    "theme": "Enzymatic reactions involving the oxidation of specific organic compounds",
+    "reasoning": "Both terms are related to enzymatic reactions involving the oxidation of specific substrates, but they operate on different molecules.",
+    "outliers": [
+      "GO:0018738"
+    ],
+    "cleaned_terms": [
+      "GO:0008398",
+      "GO:0010309"
+    ]
+  },
+  {
+    "community_id": "12.33",
+    "status": "ok",
+    "original_terms": [
+      "GO:0003935",
+      "GO:0008835"
+    ],
+    "initial_score": 9,
+    "final_score": 9,
+    "lin_score": 0.25,
+    "score_improved": false,
+    "coherent": true,
+    "theme": "These GO terms describe enzymes involved in the breakdown of GTP during purine metabolism.",
+    "reasoning": "Both terms are involved in the purine metabolism pathway, specifically in the degradation of GTP.",
+    "outliers": [],
+    "cleaned_terms": [
+      "GO:0003935",
+      "GO:0008835"
+    ]
+  },
+  {
+    "community_id": "12.36",
+    "status": "ok",
+    "original_terms": [
+      "GO:0004055",
+      "GO:0004066",
+      "GO:0004067",
+      "GO:0004071",
+      "GO:0004815"
+    ],
+    "initial_score": 9,
+    "final_score": 9,
+    "lin_score": 0.1654,
+    "score_improved": false,
+    "coherent": true,
+    "theme": "These GO terms all pertain to various enzymatic activities involving aspartate in metabolic processes.",
+    "reasoning": "All terms are involved in the metabolism and modification of aspartate, sharing a common biological theme related to amino acid metabolism.",
+    "outliers": [],
+    "cleaned_terms": [
+      "GO:0004055",
+      "GO:0004066",
+      "GO:0004067",
+      "GO:0004071",
+      "GO:0004815"
+    ]
+  },
+  {
+    "community_id": "12.37",
+    "status": "ok",
+    "original_terms": [
+      "GO:0003955",
+      "GO:0008177",
+      "GO:0008753",
+      "GO:0008924"
+    ],
+    "initial_score": 9,
+    "final_score": 9,
+    "lin_score": 0.2976,
+    "score_improved": false,
+    "coherent": true,
+    "theme": "Reduction of quinones in various enzymatic activities.",
+    "reasoning": "All terms are related to the reduction of quinones by various substrates and are part of redox reactions.",
+    "outliers": [],
+    "cleaned_terms": [
+      "GO:0003955",
+      "GO:0008177",
+      "GO:0008753",
+      "GO:0008924"
+    ]
+  },
+  {
+    "community_id": "12.38",
+    "status": "ok",
+    "original_terms": [
+      "GO:0004030",
+      "GO:0004043",
+      "GO:0004074",
+      "GO:0004303",
+      "GO:0004353",
+      "GO:0004489",
+      "GO:0008839",
+      "GO:0008937",
+      "GO:0008941",
+      "GO:0009013",
+      "GO:0009040",
+      "GO:0015043",
+      "GO:0015049",
+      "GO:0016174",
+      "GO:0016631",
+      "GO:0017150",
+      "GO:0018455",
+      "GO:0018506",
+      "GO:0018592",
+      "GO:0018637",
+      "GO:0018671"
+    ],
+    "initial_score": 9,
+    "final_score": 9,
+    "lin_score": 0.1924,
+    "score_improved": false,
+    "coherent": true,
+    "theme": "Reduction reactions involving NAD(P)+ or NAD(P)H as electron donors in various metabolic pathways.",
+    "reasoning": "All terms are involved in the reduction of various compounds using NAD(P)+ or NAD(P)H as electron donors. They share a common theme of redox reactions, particularly focusing on the reduction step.",
+    "outliers": [],
+    "cleaned_terms": [
+      "GO:0004030",
+      "GO:0004043",
+      "GO:0004074",
+      "GO:0004303",
+      "GO:0004353",
+      "GO:0004489",
+      "GO:0008839",
+      "GO:0008937",
+      "GO:0008941",
+      "GO:0009013",
+      "GO:0009040",
+      "GO:0015043",
+      "GO:0015049",
+      "GO:0016174",
+      "GO:0016631",
+      "GO:0017150",
+      "GO:0018455",
+      "GO:0018506",
+      "GO:0018592",
+      "GO:0018637",
+      "GO:0018671"
+    ]
+  },
+  {
+    "community_id": "12.40",
+    "status": "ok",
+    "original_terms": [
+      "GO:0004014",
+      "GO:0018493"
+    ],
+    "initial_score": 6,
+    "final_score": 6,
+    "lin_score": 0.1429,
+    "score_improved": false,
+    "coherent": false,
+    "theme": "Enzymatic reactions involving the conversion of specific substrates into products, including decarboxylation and dehydrogenation processes.",
+    "reasoning": "Both terms are related to enzymatic reactions but in different pathways and with distinct roles.",
+    "outliers": [],
+    "cleaned_terms": [
+      "GO:0004014",
+      "GO:0018493"
+    ]
+  },
+  {
+    "community_id": "12.43",
+    "status": "ok",
+    "original_terms": [
+      "GO:0004031",
+      "GO:0008131"
+    ],
+    "initial_score": 8,
+    "final_score": 8,
+    "lin_score": 0.1667,
+    "score_improved": false,
+    "coherent": true,
+    "theme": "Oxidoreductase activities involving the oxidation of aldehydes and methylamines.",
+    "reasoning": "Both terms are related to oxidoreductase activities involving the oxidation of various substrates.",
+    "outliers": [],
+    "cleaned_terms": [
+      "GO:0004031",
+      "GO:0008131"
+    ]
+  },
+  {
+    "community_id": "12.46",
+    "status": "ok",
+    "original_terms": [
+      "GO:0004781",
+      "GO:0008512",
+      "GO:0009336",
+      "GO:0009676"
+    ],
+    "initial_score": 9,
+    "final_score": 9,
+    "lin_score": 0.3764,
+    "score_improved": false,
+    "coherent": true,
+    "theme": "These GO terms describe various aspects of sulfate transport and its adenylylation in cellular processes.",
+    "reasoning": "All terms are related to the transport and metabolism of sulfate in biological systems.",
+    "outliers": [],
+    "cleaned_terms": [
+      "GO:0004781",
+      "GO:0008512",
+      "GO:0009336",
+      "GO:0009676"
+    ]
+  },
+  {
+    "community_id": "12.55",
+    "status": "ok",
+    "original_terms": [
+      "GO:0004128",
+      "GO:0004768"
+    ],
+    "initial_score": 4,
+    "final_score": 4,
+    "lin_score": 0.1429,
+    "score_improved": false,
+    "coherent": false,
+    "theme": "Enzymatic activities involving iron and fatty acids, but in different pathways.",
+    "reasoning": "These terms are related to enzymatic activities but do not share a common biological mechanism or pathway.",
+    "outliers": [],
+    "cleaned_terms": [
+      "GO:0004128",
+      "GO:0004768"
+    ]
+  },
+  {
+    "community_id": "12.58",
+    "status": "ok",
+    "original_terms": [
+      "GO:0004324",
+      "GO:0008860"
+    ],
+    "initial_score": 9,
+    "final_score": 9,
+    "lin_score": 0.5,
+    "score_improved": false,
+    "coherent": true,
+    "theme": "Reduction of ferredoxins by NAD(P) cofactors in electron transfer processes",
+    "reasoning": "Both terms are related to the reduction of ferredoxins by NAD(P) cofactors, which is a common biological process in electron transfer.",
+    "outliers": [],
+    "cleaned_terms": [
+      "GO:0004324",
+      "GO:0008860"
+    ]
+  },
+  {
+    "community_id": "12.64",
+    "status": "ok",
+    "original_terms": [
+      "GO:0008390",
+      "GO:0008397"
+    ],
+    "initial_score": 9,
+    "final_score": 9,
+    "lin_score": 0.5,
+    "score_improved": false,
+    "coherent": true,
+    "theme": "These GO terms describe the enzymatic activities of cytochrome P450 enzymes involved in hydroxylation of steroid and testosterone molecules.",
+    "reasoning": "Both terms are related to the activity of cytochrome P450 enzymes, specifically hydroxylase activities.",
+    "outliers": [],
+    "cleaned_terms": [
+      "GO:0008390",
+      "GO:0008397"
+    ]
+  },
+  {
+    "community_id": "12.67",
+    "status": "ok",
+    "original_terms": [
+      "GO:0004672",
+      "GO:0004691",
+      "GO:0004697",
+      "GO:0004699",
+      "GO:0004721"
+    ],
+    "initial_score": 9,
+    "final_score": 9,
+    "lin_score": 0.3204,
+    "score_improved": false,
+    "coherent": true,
+    "theme": "These GO terms describe various types of protein kinases and phosphatases involved in the phosphorylation and dephosphorylation of proteins.",
+    "reasoning": "All terms are related to enzymatic activities involving the phosphorylation or dephosphorylation of proteins. They all belong to the broader category of protein modification enzymes.",
+    "outliers": [],
+    "cleaned_terms": [
+      "GO:0004672",
+      "GO:0004691",
+      "GO:0004697",
+      "GO:0004699",
+      "GO:0004721"
+    ]
+  },
+  {
+    "community_id": "12.75",
+    "status": "ok",
+    "original_terms": [
+      "GO:0005356",
+      "GO:0005358"
+    ],
+    "initial_score": 9,
+    "final_score": 9,
+    "lin_score": 1.0,
+    "score_improved": false,
+    "coherent": true,
+    "theme": "These GO terms describe variations in glucose transport via proton symporter activity.",
+    "reasoning": "Both terms describe specific types of D-glucose transport across membranes using proton symport mechanisms. They are closely related and share the same biological context.",
+    "outliers": [],
+    "cleaned_terms": [
+      "GO:0005356",
+      "GO:0005358"
+    ]
+  },
+  {
+    "community_id": "12.81",
+    "status": "ok",
+    "original_terms": [
+      "GO:0018659",
+      "GO:0018799"
+    ],
+    "initial_score": 8,
+    "final_score": 8,
+    "lin_score": 0.125,
+    "score_improved": false,
+    "coherent": true,
+    "theme": "Enzymatic reactions involving 4-hydroxybenzoate metabolism",
+    "reasoning": "Both terms are involved in the metabolism of 4-hydroxybenzoate but have different functions.",
+    "outliers": [],
+    "cleaned_terms": [
+      "GO:0018659",
+      "GO:0018799"
+    ]
+  },
+  {
+    "community_id": "12.92",
+    "status": "ok",
+    "original_terms": [
+      "GO:0008805",
+      "GO:0018739",
+      "GO:0018787"
+    ],
+    "initial_score": 6,
+    "final_score": 6,
+    "lin_score": 0.1263,
+    "score_improved": false,
+    "coherent": false,
+    "theme": "Enzymatic activities involved in the metabolism of aromatic compounds",
+    "reasoning": "These terms are all related to enzymatic activities involving the modification of aromatic compounds, but they do not share a common biological pathway or mechanism.",
+    "outliers": [],
+    "cleaned_terms": [
+      "GO:0008805",
+      "GO:0018739",
+      "GO:0018787"
+    ]
+  },
+  {
+    "community_id": "12.99",
+    "status": "ok",
+    "original_terms": [
+      "GO:0010291",
+      "GO:0018694"
+    ],
+    "initial_score": 6,
+    "final_score": 6,
+    "lin_score": 0.3333,
+    "score_improved": false,
+    "coherent": false,
+    "theme": "Enzymatic hydroxylation of aromatic compounds",
+    "reasoning": "Both terms are related to the hydroxylation of aromatic compounds, but they act on different substrates.",
+    "outliers": [],
+    "cleaned_terms": [
+      "GO:0010291",
+      "GO:0018694"
+    ]
+  },
+  {
+    "community_id": "12.104",
+    "status": "ok",
+    "original_terms": [
+      "GO:0016213",
+      "GO:0016720",
+      "GO:0017105"
+    ],
+    "initial_score": 9,
+    "final_score": 9,
+    "lin_score": 0.3889,
+    "score_improved": false,
+    "coherent": true,
+    "theme": "These GO terms describe enzymes involved in the desaturation of fatty acids at specific carbon positions.",
+    "reasoning": "All terms are related to the desaturation of fatty acids at specific carbon positions, indicating a common biological theme.",
+    "outliers": [],
+    "cleaned_terms": [
+      "GO:0016213",
+      "GO:0016720",
+      "GO:0017105"
+    ]
+  },
+  {
+    "community_id": "12.107",
+    "status": "ok",
+    "original_terms": [
+      "GO:0018488",
+      "GO:0019108"
+    ],
+    "initial_score": 8,
+    "final_score": 8,
+    "lin_score": 0.1429,
+    "score_improved": false,
+    "coherent": true,
+    "theme": "These GO terms describe enzymes involved in the oxidation of aromatic aldehydes, with one using oxygen directly and the other using NAD+ as a cofactor.",
+    "reasoning": "Both terms are related to the oxidation of aromatic aldehydes but differ in their specific substrates and cofactors.",
+    "outliers": [],
+    "cleaned_terms": [
+      "GO:0018488",
+      "GO:0019108"
+    ]
+  },
+  {
+    "community_id": "13",
+    "status": "ok",
+    "original_terms": [
+      "GO:0015515",
+      "GO:0015531"
+    ],
+    "initial_score": 8,
+    "final_score": 8,
+    "lin_score": 0.3333,
+    "score_improved": false,
+    "coherent": true,
+    "theme": "Transport of citrate across cellular membranes using different mechanisms.",
+    "reasoning": "Both terms are related to the transport of citrate across membranes but differ in their specific mechanisms (antiport vs. symport).",
+    "outliers": [],
+    "cleaned_terms": [
+      "GO:0015515",
+      "GO:0015531"
+    ]
+  },
+  {
+    "community_id": "17",
+    "status": "ok",
+    "original_terms": [
+      "GO:0004161",
+      "GO:0004452"
+    ],
+    "initial_score": 9,
+    "final_score": 9,
+    "lin_score": 0.1111,
+    "score_improved": false,
+    "coherent": true,
+    "theme": "Enzymatic reactions in the biosynthesis of terpenoids from isopentenyl diphosphate.",
+    "reasoning": "Both terms are involved in the biosynthesis of terpenoids and are part of the same pathway, specifically the conversion of isopentenyl diphosphate to dimethylallyl diphosphate.",
+    "outliers": [],
+    "cleaned_terms": [
+      "GO:0004161",
+      "GO:0004452"
+    ]
+  },
+  {
+    "community_id": "31",
+    "status": "ok",
+    "original_terms": [
+      "GO:0000016",
+      "GO:0015371",
+      "GO:0015517"
+    ],
+    "initial_score": 9,
+    "final_score": 9,
+    "lin_score": 0.1312,
+    "score_improved": false,
+    "coherent": true,
+    "theme": "Transport and metabolism of galactose in cells",
+    "reasoning": "All terms are related to the transport and metabolism of galactose across cell membranes.",
+    "outliers": [],
+    "cleaned_terms": [
+      "GO:0000016",
+      "GO:0015371",
+      "GO:0015517"
+    ]
+  },
+  {
+    "community_id": "32",
+    "status": "ok",
+    "original_terms": [
+      "GO:0004344",
+      "GO:0008876"
+    ],
+    "initial_score": 8,
+    "final_score": 8,
+    "lin_score": 1.0,
+    "score_improved": false,
+    "coherent": true,
+    "theme": "These GO terms describe different forms of glucose dehydrogenase activities involving various acceptors.",
+    "reasoning": "Both terms are related to the enzymatic activity of glucose dehydrogenases, but one is more specific.",
+    "outliers": [],
+    "cleaned_terms": [
+      "GO:0004344",
+      "GO:0008876"
+    ]
+  },
+  {
+    "community_id": "33.0.2",
+    "status": "ok",
+    "original_terms": [
+      "GO:0015787",
+      "GO:0015833"
+    ],
+    "initial_score": 6,
+    "final_score": 6,
+    "lin_score": 0.1667,
+    "score_improved": false,
+    "coherent": false,
+    "theme": "Molecular transport processes involving different types of compounds.",
+    "reasoning": "Both terms describe the transport of molecules across cell membranes, but they involve different types of molecules (UDP-glucuronate vs. peptides).",
+    "outliers": [],
+    "cleaned_terms": [
+      "GO:0015787",
+      "GO:0015833"
+    ]
+  },
+  {
+    "community_id": "33.0.18",
+    "status": "ok",
+    "original_terms": [
+      "GO:0010248",
+      "GO:0015814",
+      "GO:0015857"
+    ],
+    "initial_score": 8,
+    "final_score": 8,
+    "lin_score": 0.1508,
+    "score_improved": false,
+    "coherent": true,
+    "theme": "Molecular transport processes involving different chemical substances",
+    "reasoning": "These terms are all related to the transport of molecules across cell membranes, but they involve different specific compounds and mechanisms.",
+    "outliers": [],
+    "cleaned_terms": [
+      "GO:0010248",
+      "GO:0015814",
+      "GO:0015857"
+    ]
+  },
+  {
+    "community_id": "33.1",
+    "status": "ok",
+    "original_terms": [
+      "GO:0006810",
+      "GO:0015864",
+      "GO:0015895"
+    ],
+    "initial_score": 7,
+    "final_score": 9,
+    "lin_score": 0.25,
+    "score_improved": true,
+    "coherent": true,
+    "theme": "Transport processes involving the movement of macromolecules, small molecules, or specific nucleosides within or between cells.",
+    "reasoning": "Both terms are related to the transport of molecules, specifically nucleosides and general substances.",
+    "outliers": [
+      "GO:0015895"
+    ],
+    "cleaned_terms": [
+      "GO:0006810",
+      "GO:0015864"
+    ]
+  },
+  {
+    "community_id": "33.5",
+    "status": "ok",
+    "original_terms": [
+      "GO:0008940",
+      "GO:0015707"
+    ],
+    "initial_score": 6,
+    "final_score": 6,
+    "lin_score": null,
+    "score_improved": false,
+    "coherent": false,
+    "theme": "Involvement in the transport and reduction of nitrate and nitrite compounds.",
+    "reasoning": "Both terms are related to nitrate and nitrite but belong to different namespaces (molecular_function vs. biological_process).",
+    "outliers": [],
+    "cleaned_terms": [
+      "GO:0008940",
+      "GO:0015707"
+    ]
+  },
+  {
+    "community_id": "43",
+    "status": "ok",
+    "original_terms": [
+      "GO:0007079",
+      "GO:0007089",
+      "GO:0010846",
+      "GO:0016321"
+    ],
+    "initial_score": 9,
+    "final_score": 9,
+    "lin_score": 0.0841,
+    "score_improved": false,
+    "coherent": true,
+    "theme": "Cell cycle processes involving chromosome segregation and recombination",
+    "reasoning": "The terms are all related to processes occurring during cell division, specifically focusing on chromosome movement and recombination in both mitosis and meiosis.",
+    "outliers": [],
+    "cleaned_terms": [
+      "GO:0007079",
+      "GO:0007089",
+      "GO:0010846",
+      "GO:0016321"
+    ]
+  },
+  {
+    "community_id": "45",
+    "status": "ok",
+    "original_terms": [
+      "GO:0000024",
+      "GO:0000025",
+      "GO:0015481"
+    ],
+    "initial_score": 9,
+    "final_score": 9,
+    "lin_score": 0.5,
+    "score_improved": false,
+    "coherent": true,
+    "theme": "These GO terms describe different aspects of maltose metabolism including synthesis, breakdown, and transport across membranes.",
+    "reasoning": "All terms are related to the metabolism of maltose, covering its biosynthesis, catabolism, and transport.",
+    "outliers": [],
+    "cleaned_terms": [
+      "GO:0000024",
+      "GO:0000025",
+      "GO:0015481"
+    ]
+  },
+  {
+    "community_id": "55",
+    "status": "ok",
+    "original_terms": [
+      "GO:0004560",
+      "GO:0016997"
+    ],
+    "initial_score": 6,
+    "final_score": 6,
+    "lin_score": 0.3333,
+    "score_improved": false,
+    "coherent": false,
+    "theme": "Enzymatic activities targeting specific sugar residues in glycans",
+    "reasoning": "Both terms are related to glycosidase activities, but they act on different sugars.",
+    "outliers": [],
+    "cleaned_terms": [
+      "GO:0004560",
+      "GO:0016997"
+    ]
+  },
+  {
+    "community_id": "61",
+    "status": "ok",
+    "original_terms": [
+      "GO:0004475",
+      "GO:0008446"
+    ],
+    "initial_score": 9,
+    "final_score": 9,
+    "lin_score": 0.1111,
+    "score_improved": false,
+    "coherent": true,
+    "theme": "Enzymatic reactions in GDP-mannose biosynthesis pathway",
+    "reasoning": "Both terms are involved in the biosynthesis of GDP-mannose and share a common biological theme related to carbohydrate metabolism.",
+    "outliers": [],
+    "cleaned_terms": [
+      "GO:0004475",
+      "GO:0008446"
+    ]
+  },
+  {
+    "community_id": "76",
+    "status": "ok",
+    "original_terms": [
+      "GO:0018289",
+      "GO:0018315"
+    ],
+    "initial_score": 9,
+    "final_score": 9,
+    "lin_score": 0.25,
+    "score_improved": false,
+    "coherent": true,
+    "theme": "Incorporation of molybdenum into metallo-sulfur and molybdopterin complexes",
+    "reasoning": "Both terms are related to the biological process of incorporating molybdenum into specific complexes, which is coherent.",
+    "outliers": [],
+    "cleaned_terms": [
+      "GO:0018289",
+      "GO:0018315"
+    ]
+  },
+  {
+    "community_id": "77",
+    "status": "ok",
+    "original_terms": [
+      "GO:0016226",
+      "GO:0018283"
+    ],
+    "initial_score": 9,
+    "final_score": 9,
+    "lin_score": 1.0,
+    "score_improved": false,
+    "coherent": true,
+    "theme": "Processes involved in the assembly and incorporation of iron into metallo-sulfur clusters.",
+    "reasoning": "Both terms are directly related to the assembly of iron-sulfur clusters, with one being a more specific process.",
+    "outliers": [],
+    "cleaned_terms": [
+      "GO:0016226",
+      "GO:0018283"
+    ]
+  },
+  {
+    "community_id": "98",
+    "status": "ok",
+    "original_terms": [
+      "GO:0005762",
+      "GO:0005763"
+    ],
+    "initial_score": 9,
+    "final_score": 9,
+    "lin_score": 0.1667,
+    "score_improved": false,
+    "coherent": true,
+    "theme": "These GO terms describe the large and small subunits of the mitochondrial ribosome.",
+    "reasoning": "Both terms are related to the structure of the mitochondrial ribosome and its components.",
+    "outliers": [],
+    "cleaned_terms": [
+      "GO:0005762",
+      "GO:0005763"
+    ]
+  },
+  {
+    "community_id": "99",
+    "status": "ok",
+    "original_terms": [
+      "GO:0005930",
+      "GO:0006404",
+      "GO:0016860",
+      "GO:0016861"
+    ],
+    "initial_score": 1,
+    "final_score": 1,
+    "lin_score": 1.0,
+    "score_improved": false,
+    "coherent": false,
+    "theme": "These GO terms represent unrelated biological processes and molecular functions.",
+    "reasoning": "The terms are from different biological processes and molecular functions with no clear common theme.",
+    "outliers": [],
+    "cleaned_terms": [
+      "GO:0005930",
+      "GO:0006404",
+      "GO:0016860",
+      "GO:0016861"
+    ]
+  },
+  {
+    "community_id": "102",
+    "status": "ok",
+    "original_terms": [
+      "GO:0001608",
+      "GO:0001609",
+      "GO:0001621",
+      "GO:0001637",
+      "GO:0001647",
+      "GO:0004930",
+      "GO:0004948",
+      "GO:0004962",
+      "GO:0004965",
+      "GO:0008020",
+      "GO:0008227",
+      "GO:0008528",
+      "GO:0016907"
+    ],
+    "initial_score": 10,
+    "final_score": 10,
+    "lin_score": 0.4607,
+    "score_improved": false,
+    "coherent": true,
+    "theme": "G protein-coupled receptor-mediated signal transduction",
+    "reasoning": "All terms describe receptors that couple with various ligands and activate a G-protein to transmit signals across the membrane. They share the same biological mechanism of signal transduction through G-protein-coupled receptors.",
+    "outliers": [],
+    "cleaned_terms": [
+      "GO:0001608",
+      "GO:0001609",
+      "GO:0001621",
+      "GO:0001637",
+      "GO:0001647",
+      "GO:0004930",
+      "GO:0004948",
+      "GO:0004962",
+      "GO:0004965",
+      "GO:0008020",
+      "GO:0008227",
+      "GO:0008528",
+      "GO:0016907"
+    ]
+  },
+  {
+    "community_id": "121",
+    "status": "ok",
+    "original_terms": [
+      "GO:0001067",
+      "GO:0001068",
+      "GO:0001069"
+    ],
+    "initial_score": 9,
+    "final_score": 9,
+    "lin_score": 0.8333,
+    "score_improved": false,
+    "coherent": true,
+    "theme": "Binding to regulatory regions of nucleic acids or RNA involved in gene regulation processes.",
+    "reasoning": "All terms are related to binding to regulatory regions of nucleic acids or RNA, which is a coherent biological theme.",
+    "outliers": [],
+    "cleaned_terms": [
+      "GO:0001067",
+      "GO:0001068",
+      "GO:0001069"
+    ]
+  },
+  {
+    "community_id": "122",
+    "status": "ok",
+    "original_terms": [
+      "GO:0000082",
+      "GO:0000086"
+    ],
+    "initial_score": 9,
+    "final_score": 9,
+    "lin_score": 0.5,
+    "score_improved": false,
+    "coherent": true,
+    "theme": "These GO terms represent key transitions in the mitotic cell cycle process.",
+    "reasoning": "Both terms are part of the mitotic cell cycle and describe transitions between different phases.",
+    "outliers": [],
+    "cleaned_terms": [
+      "GO:0000082",
+      "GO:0000086"
+    ]
+  },
+  {
+    "community_id": "126",
+    "status": "ok",
+    "original_terms": [
+      "GO:0007144",
+      "GO:0010774"
+    ],
+    "initial_score": 9,
+    "final_score": 9,
+    "lin_score": 0.1,
+    "score_improved": false,
+    "coherent": true,
+    "theme": "These GO terms describe processes involved in female meiosis, particularly focusing on meiotic recombination.",
+    "reasoning": "Both terms are related to meiosis, specifically female meiosis I and a process involved in meiotic recombination.",
+    "outliers": [],
+    "cleaned_terms": [
+      "GO:0007144",
+      "GO:0010774"
+    ]
+  },
+  {
+    "community_id": "136",
+    "status": "ok",
+    "original_terms": [
+      "GO:0000091",
+      "GO:0019097"
+    ],
+    "initial_score": 1,
+    "final_score": 1,
+    "lin_score": 0.0909,
+    "score_improved": false,
+    "coherent": false,
+    "theme": "None",
+    "reasoning": "The terms are from different biological processes with no clear common theme.",
+    "outliers": [],
+    "cleaned_terms": [
+      "GO:0000091",
+      "GO:0019097"
+    ]
+  },
+  {
+    "community_id": "156",
+    "status": "ok",
+    "original_terms": [
+      "GO:0000101",
+      "GO:0008090",
+      "GO:0015697"
+    ],
+    "initial_score": 6,
+    "final_score": 6,
+    "lin_score": 0.1898,
+    "score_improved": false,
+    "coherent": false,
+    "theme": "Transport processes in cells and tissues",
+    "reasoning": "The terms are related to the general process of transport but do not share a common biological mechanism or pathway.",
+    "outliers": [],
+    "cleaned_terms": [
+      "GO:0000101",
+      "GO:0008090",
+      "GO:0015697"
+    ]
+  },
+  {
+    "community_id": "163",
+    "status": "ok",
+    "original_terms": [
+      "GO:0004397",
+      "GO:0006547"
+    ],
+    "initial_score": 8,
+    "final_score": 8,
+    "lin_score": null,
+    "score_improved": false,
+    "coherent": true,
+    "theme": "Involvement in the metabolic processing of L-histidine at both functional and pathway levels.",
+    "reasoning": "Both terms are related to the processing of L-histidine but one is a molecular function and the other is a biological process.",
+    "outliers": [],
+    "cleaned_terms": [
+      "GO:0004397",
+      "GO:0006547"
+    ]
+  },
+  {
+    "community_id": "210",
+    "status": "ok",
+    "original_terms": [
+      "GO:0000914",
+      "GO:0005938"
+    ],
+    "initial_score": 6,
+    "final_score": 6,
+    "lin_score": null,
+    "score_improved": false,
+    "coherent": false,
+    "theme": "Actin-based cellular components and processes",
+    "reasoning": "Both terms are related to actin-based structures in the cell but serve different roles. Phragmoplast assembly is specific to cytokinesis, while cell cortex is a more general term for a region of the cell.",
+    "outliers": [],
+    "cleaned_terms": [
+      "GO:0000914",
+      "GO:0005938"
+    ]
+  },
+  {
+    "community_id": "226",
+    "status": "ok",
+    "original_terms": [
+      "GO:0000137",
+      "GO:0005797"
+    ],
+    "initial_score": 9,
+    "final_score": 9,
+    "lin_score": 0.5,
+    "score_improved": false,
+    "coherent": true,
+    "theme": "These GO terms describe different compartments within the Golgi apparatus.",
+    "reasoning": "All terms are related to different compartments of the Golgi apparatus, which is a coherent biological context.",
+    "outliers": [],
+    "cleaned_terms": [
+      "GO:0000137",
+      "GO:0005797"
+    ]
+  },
+  {
+    "community_id": "228",
+    "status": "ok",
+    "original_terms": [
+      "GO:0000138",
+      "GO:0006796"
+    ],
+    "initial_score": 1,
+    "final_score": 1,
+    "lin_score": null,
+    "score_improved": false,
+    "coherent": false,
+    "theme": "Golgi cisterna and phosphate-containing compound metabolic processes have no common theme.",
+    "reasoning": "The terms are from different biological domains (cellular component vs. biological process).",
+    "outliers": [],
+    "cleaned_terms": [
+      "GO:0000138",
+      "GO:0006796"
+    ]
+  },
+  {
+    "community_id": "229",
+    "status": "ok",
+    "original_terms": [
+      "GO:0005794",
+      "GO:0016258"
+    ],
+    "initial_score": 9,
+    "final_score": 9,
+    "lin_score": null,
+    "score_improved": false,
+    "coherent": true,
+    "theme": "These GO terms describe processes and components of the Golgi apparatus in cellular biology.",
+    "reasoning": "Both terms are related to the Golgi apparatus and its functions, specifically focusing on the organelle itself and a biological process that occurs within it.",
+    "outliers": [],
+    "cleaned_terms": [
+      "GO:0005794",
+      "GO:0016258"
+    ]
+  },
+  {
+    "community_id": "239",
+    "status": "ok",
+    "original_terms": [
+      "GO:0000144",
+      "GO:0005940"
+    ],
+    "initial_score": 9,
+    "final_score": 9,
+    "lin_score": 1.0,
+    "score_improved": false,
+    "coherent": true,
+    "theme": "These GO terms describe ring-shaped structures formed by septins during cell division.",
+    "reasoning": "Both terms describe structures involved in cytokinesis and are composed of septins. They share the same biological context.",
+    "outliers": [],
+    "cleaned_terms": [
+      "GO:0000144",
+      "GO:0005940"
+    ]
+  },
+  {
+    "community_id": "245",
+    "status": "ok",
+    "original_terms": [
+      "GO:0008094",
+      "GO:0008569"
+    ],
+    "initial_score": 6,
+    "final_score": 6,
+    "lin_score": 0.125,
+    "score_improved": false,
+    "coherent": false,
+    "theme": "ATP-dependent activities, though distinct in function, share the common mechanism of utilizing ATP for catalytic processes.",
+    "reasoning": "The terms are related to ATP-dependent activities but operate in different cellular contexts (DNA modification vs. cytoskeletal movement).",
+    "outliers": [],
+    "cleaned_terms": [
+      "GO:0008094",
+      "GO:0008569"
+    ]
+  },
+  {
+    "community_id": "250",
+    "status": "ok",
+    "original_terms": [
+      "GO:0000148",
+      "GO:0010827"
+    ],
+    "initial_score": 6,
+    "final_score": 6,
+    "lin_score": null,
+    "score_improved": false,
+    "coherent": false,
+    "theme": "Involved in carbohydrate metabolism processes, specifically glucan synthesis and glucose transmembrane transport.",
+    "reasoning": "The terms are related to carbohydrate metabolism but have different roles in the process.",
+    "outliers": [],
+    "cleaned_terms": [
+      "GO:0000148",
+      "GO:0010827"
+    ]
+  },
+  {
+    "community_id": "256",
+    "status": "ok",
+    "original_terms": [
+      "GO:0000152",
+      "GO:0000153",
+      "GO:0000835"
+    ],
+    "initial_score": 9,
+    "final_score": 9,
+    "lin_score": 0.6111,
+    "score_improved": false,
+    "coherent": true,
+    "theme": "Ubiquitin ligase complexes function in protein degradation across various cellular compartments.",
+    "reasoning": "All terms describe ubiquitin ligase complexes found in different cellular compartments, which are part of the same biological process but have distinct roles.",
+    "outliers": [],
+    "cleaned_terms": [
+      "GO:0000152",
+      "GO:0000153",
+      "GO:0000835"
+    ]
+  },
+  {
+    "community_id": "257",
+    "status": "ok",
+    "original_terms": [
+      "GO:0000486",
+      "GO:0002104",
+      "GO:0002105",
+      "GO:0002106"
+    ],
+    "initial_score": 9,
+    "final_score": 9,
+    "lin_score": 0.375,
+    "score_improved": false,
+    "coherent": true,
+    "theme": "Endonucleolytic cleavages during processing of tetracistronic rRNA transcripts.",
+    "reasoning": "All terms describe endonucleolytic cleavage events in rRNA molecules derived from a tetracistronic primary transcript. They are closely related and part of the same biological process.",
+    "outliers": [],
+    "cleaned_terms": [
+      "GO:0000486",
+      "GO:0002104",
+      "GO:0002105",
+      "GO:0002106"
+    ]
+  },
+  {
+    "community_id": "280",
+    "status": "ok",
+    "original_terms": [
+      "GO:0008813",
+      "GO:0008909"
+    ],
+    "initial_score": 9,
+    "final_score": 9,
+    "lin_score": 0.125,
+    "score_improved": false,
+    "coherent": true,
+    "theme": "Enzymatic reactions in the biosynthesis of isochorismate from chorismate",
+    "reasoning": "Both terms are involved in the biosynthesis of isochorismate from chorismate, which is part of a common metabolic pathway.",
+    "outliers": [],
+    "cleaned_terms": [
+      "GO:0008813",
+      "GO:0008909"
+    ]
+  },
+  {
+    "community_id": "282.0",
+    "status": "ok",
+    "original_terms": [
+      "GO:0008252",
+      "GO:0008655"
+    ],
+    "initial_score": 7,
+    "final_score": 7,
+    "lin_score": null,
+    "score_improved": false,
+    "coherent": true,
+    "theme": "These GO terms relate to processes involving nucleotides, specifically their breakdown and recycling.",
+    "reasoning": "The terms are related to nucleotide metabolism but have different roles in the process.",
+    "outliers": [],
+    "cleaned_terms": [
+      "GO:0008252",
+      "GO:0008655"
+    ]
+  },
+  {
+    "community_id": "284",
+    "status": "ok",
+    "original_terms": [
+      "GO:0000166",
+      "GO:0015690",
+      "GO:0018818"
+    ],
+    "initial_score": 1,
+    "final_score": 1,
+    "lin_score": 0.1111,
+    "score_improved": false,
+    "coherent": false,
+    "theme": "None",
+    "reasoning": "The terms are from different biological domains and do not share a common theme.",
+    "outliers": [],
+    "cleaned_terms": [
+      "GO:0000166",
+      "GO:0015690",
+      "GO:0018818"
+    ]
+  },
+  {
+    "community_id": "289",
+    "status": "ok",
+    "original_terms": [
+      "GO:0004529",
+      "GO:0008296",
+      "GO:0008311"
+    ],
+    "initial_score": 9,
+    "final_score": 9,
+    "lin_score": 0.6111,
+    "score_improved": false,
+    "coherent": true,
+    "theme": "These GO terms describe various forms and specificities of 3'-5' DNA exonuclease activities.",
+    "reasoning": "All terms are related to the enzymatic cleavage of nucleotides from DNA molecules, specifically focusing on 3'-5' direction.",
+    "outliers": [],
+    "cleaned_terms": [
+      "GO:0004529",
+      "GO:0008296",
+      "GO:0008311"
+    ]
+  },
+  {
+    "community_id": "291",
+    "status": "ok",
+    "original_terms": [
+      "GO:0000176",
+      "GO:0000177",
+      "GO:0000178"
+    ],
+    "initial_score": 8,
+    "final_score": 8,
+    "lin_score": 0.8333,
+    "score_improved": false,
+    "coherent": true,
+    "theme": "Different subtypes of exosome complexes involved in RNA processing and degradation.",
+    "reasoning": "All terms describe different subtypes of the same molecular complex involved in RNA processing and degradation, but they are defined at a more specific level.",
+    "outliers": [],
+    "cleaned_terms": [
+      "GO:0000176",
+      "GO:0000177",
+      "GO:0000178"
+    ]
+  },
+  {
+    "community_id": "300",
+    "status": "ok",
+    "original_terms": [
+      "GO:0008649",
+      "GO:0009383",
+      "GO:0016278",
+      "GO:0016300"
+    ],
+    "initial_score": 7,
+    "final_score": 9,
+    "lin_score": 0.3444,
+    "score_improved": true,
+    "coherent": true,
+    "theme": "Methyltransferase activities involved in modifying nucleosides within RNA molecules.",
+    "reasoning": "All terms are related to the transfer of a methyl group in RNA molecules, specifically rRNA and tRNA.",
+    "outliers": [
+      "GO:0016278"
+    ],
+    "cleaned_terms": [
+      "GO:0008649",
+      "GO:0009383",
+      "GO:0016300"
+    ]
+  },
+  {
+    "community_id": "302",
+    "status": "ok",
+    "original_terms": [
+      "GO:0008989",
+      "GO:0016072"
+    ],
+    "initial_score": 8,
+    "final_score": 8,
+    "lin_score": null,
+    "score_improved": false,
+    "coherent": true,
+    "theme": "Terms related to rRNA processing and its role in ribosomal structure and function.",
+    "reasoning": "Both terms are related to rRNA, but one is a molecular function and the other is a biological process.",
+    "outliers": [],
+    "cleaned_terms": [
+      "GO:0008989",
+      "GO:0016072"
+    ]
+  },
+  {
+    "community_id": "303",
+    "status": "ok",
+    "original_terms": [
+      "GO:0000973",
+      "GO:0000976"
+    ],
+    "initial_score": 6,
+    "final_score": 6,
+    "lin_score": null,
+    "score_improved": false,
+    "coherent": false,
+    "theme": "Gene regulation at the transcriptional level, involving both process and function aspects.",
+    "reasoning": "The terms are related to gene regulation but span different levels of biological processes and molecular functions.",
+    "outliers": [],
+    "cleaned_terms": [
+      "GO:0000973",
+      "GO:0000976"
+    ]
+  },
+  {
+    "community_id": "317",
+    "status": "ok",
+    "original_terms": [
+      "GO:0000707",
+      "GO:0007008",
+      "GO:0007028",
+      "GO:0007043",
+      "GO:0007052",
+      "GO:0008057",
+      "GO:0009657",
+      "GO:0010256",
+      "GO:0010265",
+      "GO:0016043",
+      "GO:0016050",
+      "GO:0017062"
+    ],
+    "initial_score": 7,
+    "final_score": 7,
+    "lin_score": 0.2491,
+    "score_improved": false,
+    "coherent": true,
+    "theme": "Assembly and organization of various cellular components and structures",
+    "reasoning": "The terms are all related to the assembly and organization of cellular components or structures. However, they vary in specificity from general cellular processes to more specific organelle or molecular complexes.",
+    "outliers": [],
+    "cleaned_terms": [
+      "GO:0000707",
+      "GO:0007008",
+      "GO:0007028",
+      "GO:0007043",
+      "GO:0007052",
+      "GO:0008057",
+      "GO:0009657",
+      "GO:0010256",
+      "GO:0010265",
+      "GO:0016043",
+      "GO:0016050",
+      "GO:0017062"
+    ]
+  },
+  {
+    "community_id": "337",
+    "status": "ok",
+    "original_terms": [
+      "GO:0000224",
+      "GO:0016262"
+    ],
+    "initial_score": 9,
+    "final_score": 9,
+    "lin_score": 0.1111,
+    "score_improved": false,
+    "coherent": true,
+    "theme": "These GO terms describe enzymes involved in N-linked glycosylation of proteins.",
+    "reasoning": "Both terms are related to glycosylation processes involving N-acetylglucosamine in proteins.",
+    "outliers": [],
+    "cleaned_terms": [
+      "GO:0000224",
+      "GO:0016262"
+    ]
+  },
+  {
+    "community_id": "339",
+    "status": "ok",
+    "original_terms": [
+      "GO:0000225",
+      "GO:0017176"
+    ],
+    "initial_score": 9,
+    "final_score": 9,
+    "lin_score": 0.1111,
+    "score_improved": false,
+    "coherent": true,
+    "theme": "Involved in the biosynthesis of glycosylphosphatidylinositol (GPI) anchors through deacetylation and acetylation steps.",
+    "reasoning": "Both terms are involved in the biosynthesis of glycosylphosphatidylinositol (GPI) anchors, which is a common biological process.",
+    "outliers": [],
+    "cleaned_terms": [
+      "GO:0000225",
+      "GO:0017176"
+    ]
+  },
+  {
+    "community_id": "341",
+    "status": "ok",
+    "original_terms": [
+      "GO:0018772",
+      "GO:0018773"
+    ],
+    "initial_score": 9,
+    "final_score": 9,
+    "lin_score": 0.5,
+    "score_improved": false,
+    "coherent": true,
+    "theme": "These GO terms describe enzymes involved in the hydrolysis of acetyl-containing compounds.",
+    "reasoning": "Both terms are related to the hydrolysis of specific organic compounds and share a common parent term.",
+    "outliers": [],
+    "cleaned_terms": [
+      "GO:0018772",
+      "GO:0018773"
+    ]
+  },
+  {
+    "community_id": "342",
+    "status": "ok",
+    "original_terms": [
+      "GO:0000226",
+      "GO:0007010"
+    ],
+    "initial_score": 9,
+    "final_score": 9,
+    "lin_score": 1.0,
+    "score_improved": false,
+    "coherent": true,
+    "theme": "Organization of cellular cytoskeleton structures, particularly microtubules.",
+    "reasoning": "Both terms are related to the organization of cytoskeletal structures, specifically microtubules. They share a common biological process.",
+    "outliers": [],
+    "cleaned_terms": [
+      "GO:0000226",
+      "GO:0007010"
+    ]
+  },
+  {
+    "community_id": "346",
+    "status": "ok",
+    "original_terms": [
+      "GO:0000234",
+      "GO:0002838",
+      "GO:0004298"
+    ],
+    "initial_score": 1,
+    "final_score": 1,
+    "lin_score": 0.1111,
+    "score_improved": false,
+    "coherent": false,
+    "theme": "",
+    "reasoning": "The terms are from different biological processes and molecular functions with no clear common theme.",
+    "outliers": [],
+    "cleaned_terms": [
+      "GO:0000234",
+      "GO:0002838",
+      "GO:0004298"
+    ]
+  },
+  {
+    "community_id": "347",
+    "status": "ok",
+    "original_terms": [
+      "GO:0002950",
+      "GO:0004306"
+    ],
+    "initial_score": 9,
+    "final_score": 9,
+    "lin_score": 0.2,
+    "score_improved": false,
+    "coherent": true,
+    "theme": "Biosynthesis of CDP-ethanolamine in sphingolipid metabolism",
+    "reasoning": "Both terms are involved in the biosynthesis of sphingolipids, specifically focusing on the formation of CDP-ethanolamine.",
+    "outliers": [],
+    "cleaned_terms": [
+      "GO:0002950",
+      "GO:0004306"
+    ]
+  },
+  {
+    "community_id": "348",
+    "status": "ok",
+    "original_terms": [
+      "GO:0004013",
+      "GO:0004122",
+      "GO:0008898"
+    ],
+    "initial_score": 8,
+    "final_score": 8,
+    "lin_score": 0.1263,
+    "score_improved": false,
+    "coherent": true,
+    "theme": "Enzymatic activities involved in the metabolism of S-adenosylhomocysteine and its derivatives.",
+    "reasoning": "All terms are involved in the metabolism of homocysteine and related molecules, but they represent different enzymatic activities within this pathway.",
+    "outliers": [],
+    "cleaned_terms": [
+      "GO:0004013",
+      "GO:0004122",
+      "GO:0008898"
+    ]
+  },
+  {
+    "community_id": "379",
+    "status": "ok",
+    "original_terms": [
+      "GO:0000247",
+      "GO:0003838"
+    ],
+    "initial_score": 9,
+    "final_score": 9,
+    "lin_score": 0.1111,
+    "score_improved": false,
+    "coherent": true,
+    "theme": "These GO terms describe enzymes involved in the biosynthesis and modification of sterols.",
+    "reasoning": "Both terms are related to the biosynthesis of sterols, specifically involving isomerization and methylation steps.",
+    "outliers": [],
+    "cleaned_terms": [
+      "GO:0000247",
+      "GO:0003838"
+    ]
+  },
+  {
+    "community_id": "393",
+    "status": "ok",
+    "original_terms": [
+      "GO:0000256",
+      "GO:0015720"
+    ],
+    "initial_score": 8,
+    "final_score": 8,
+    "lin_score": 0.1111,
+    "score_improved": false,
+    "coherent": true,
+    "theme": "Biological processes involving allantoin, including its breakdown and transport within cells.",
+    "reasoning": "Both terms are related to the handling of allantoin in biological processes, but one is about catabolism and the other about transport.",
+    "outliers": [],
+    "cleaned_terms": [
+      "GO:0000256",
+      "GO:0015720"
+    ]
+  },
+  {
+    "community_id": "401",
+    "status": "ok",
+    "original_terms": [
+      "GO:0000423",
+      "GO:0006264"
+    ],
+    "initial_score": 6,
+    "final_score": 6,
+    "lin_score": 0.0909,
+    "score_improved": false,
+    "coherent": false,
+    "theme": "Processes involving mitochondria but with distinct functions",
+    "reasoning": "Mitophagy and mitochondrial DNA replication are both processes related to mitochondria but operate in different contexts. Mitophagy involves the degradation of mitochondria, while mitochondrial DNA replication is about synthesizing new strands of DNA.",
+    "outliers": [],
+    "cleaned_terms": [
+      "GO:0000423",
+      "GO:0006264"
+    ]
+  },
+  {
+    "community_id": "406",
+    "status": "ok",
+    "original_terms": [
+      "GO:0006625",
+      "GO:0009514"
+    ],
+    "initial_score": 7,
+    "final_score": 7,
+    "lin_score": null,
+    "score_improved": false,
+    "coherent": true,
+    "theme": "These GO terms relate to the structure and function of peroxisomes in plants, specifically their targeting and specialized form.",
+    "reasoning": "The terms are related to peroxisomes but have different levels of specificity and focus.",
+    "outliers": [],
+    "cleaned_terms": [
+      "GO:0006625",
+      "GO:0009514"
+    ]
+  },
+  {
+    "community_id": "408",
+    "status": "ok",
+    "original_terms": [
+      "GO:0002812",
+      "GO:0015628"
+    ],
+    "initial_score": 6,
+    "final_score": 6,
+    "lin_score": 0.0833,
+    "score_improved": false,
+    "coherent": false,
+    "theme": "Bacterial defense mechanisms and protein export pathways",
+    "reasoning": "Both terms are related to bacterial processes but have different focuses. One is about biosynthetic process of antibacterial peptides against Gram-negative bacteria, and the other is about protein secretion by a specific bacterial secretion system.",
+    "outliers": [],
+    "cleaned_terms": [
+      "GO:0002812",
+      "GO:0015628"
+    ]
+  },
+  {
+    "community_id": "411",
+    "status": "ok",
+    "original_terms": [
+      "GO:0006045",
+      "GO:0006046"
+    ],
+    "initial_score": 9,
+    "final_score": 9,
+    "lin_score": 0.25,
+    "score_improved": false,
+    "coherent": true,
+    "theme": "These GO terms describe the metabolic processes involving N-acetylglucosamine, covering both its synthesis and breakdown.",
+    "reasoning": "Both terms are related to the metabolism of N-acetylglucosamine but one is about biosynthesis and the other about catabolism.",
+    "outliers": [],
+    "cleaned_terms": [
+      "GO:0006045",
+      "GO:0006046"
+    ]
+  },
+  {
+    "community_id": "413",
+    "status": "ok",
+    "original_terms": [
+      "GO:0000271",
+      "GO:0010646",
+      "GO:0010647"
+    ],
+    "initial_score": 4,
+    "final_score": 4,
+    "lin_score": 0.397,
+    "score_improved": false,
+    "coherent": false,
+    "theme": "These terms represent distinct biological processes related to cell communication and polysaccharide biosynthesis.",
+    "reasoning": "The terms are from different biological processes and do not share a common mechanism or pathway.",
+    "outliers": [],
+    "cleaned_terms": [
+      "GO:0000271",
+      "GO:0010646",
+      "GO:0010647"
+    ]
+  },
+  {
+    "community_id": "428",
+    "status": "ok",
+    "original_terms": [
+      "GO:0006568",
+      "GO:0009117",
+      "GO:0010559",
+      "GO:0016124"
+    ],
+    "initial_score": 4,
+    "final_score": 4,
+    "lin_score": 0.0748,
+    "score_improved": false,
+    "coherent": false,
+    "theme": "Various metabolic processes involving different molecules.",
+    "reasoning": "These terms are from different metabolic processes and do not share a common biological mechanism or pathway.",
+    "outliers": [],
+    "cleaned_terms": [
+      "GO:0006568",
+      "GO:0009117",
+      "GO:0010559",
+      "GO:0016124"
+    ]
+  },
+  {
+    "community_id": "431",
+    "status": "ok",
+    "original_terms": [
+      "GO:0000293",
+      "GO:0015038"
+    ],
+    "initial_score": 8,
+    "final_score": 8,
+    "lin_score": 0.2,
+    "score_improved": false,
+    "coherent": true,
+    "theme": "Reduction-oxidation (redox) reactions in molecular functions.",
+    "reasoning": "Both terms are related to enzymatic activities involving the reduction and oxidation of molecules.",
+    "outliers": [],
+    "cleaned_terms": [
+      "GO:0000293",
+      "GO:0015038"
+    ]
+  },
+  {
+    "community_id": "440",
+    "status": "ok",
+    "original_terms": [
+      "GO:0004766",
+      "GO:0008216",
+      "GO:0016768"
+    ],
+    "initial_score": 9,
+    "final_score": 9,
+    "lin_score": 0.5,
+    "score_improved": false,
+    "coherent": true,
+    "theme": "Polyamine biosynthesis processes and activities",
+    "reasoning": "All terms are related to the biosynthesis of polyamines (spermidine and spermine) from S-adenosylmethioninamine.",
+    "outliers": [],
+    "cleaned_terms": [
+      "GO:0004766",
+      "GO:0008216",
+      "GO:0016768"
+    ]
+  },
+  {
+    "community_id": "449",
+    "status": "ok",
+    "original_terms": [
+      "GO:0001101",
+      "GO:0009409",
+      "GO:0009411",
+      "GO:0009608",
+      "GO:0009741",
+      "GO:0010039",
+      "GO:0010225"
+    ],
+    "initial_score": 6,
+    "final_score": 6,
+    "lin_score": 0.214,
+    "score_improved": false,
+    "coherent": false,
+    "theme": "Responses to diverse external stimuli including chemicals, temperature, radiation, and symbionts.",
+    "reasoning": "The terms are all related to responses to various stimuli but do not share a common biological mechanism or pathway. They cover different types of environmental and chemical stimuli.",
+    "outliers": [],
+    "cleaned_terms": [
+      "GO:0001101",
+      "GO:0009409",
+      "GO:0009411",
+      "GO:0009608",
+      "GO:0009741",
+      "GO:0010039",
+      "GO:0010225"
+    ]
+  },
+  {
+    "community_id": "454",
+    "status": "ok",
+    "original_terms": [
+      "GO:0009410",
+      "GO:0009615"
+    ],
+    "initial_score": 6,
+    "final_score": 6,
+    "lin_score": 0.1667,
+    "score_improved": false,
+    "coherent": false,
+    "theme": "responses to foreign substances or pathogens",
+    "reasoning": "Both terms describe responses to external stimuli, but one is specific to xenobiotics while the other is for viruses.",
+    "outliers": [],
+    "cleaned_terms": [
+      "GO:0009410",
+      "GO:0009615"
+    ]
+  },
+  {
+    "community_id": "457",
+    "status": "ok",
+    "original_terms": [
+      "GO:0000308",
+      "GO:0016762"
+    ],
+    "initial_score": 1,
+    "final_score": 1,
+    "lin_score": null,
+    "score_improved": false,
+    "coherent": false,
+    "theme": "These GO terms represent distinct molecular functions and cellular components without a common biological theme.",
+    "reasoning": "The terms are from different biological domains (cytoplasmic complex vs. enzymatic activity), with no clear functional relationship.",
+    "outliers": [],
+    "cleaned_terms": [
+      "GO:0000308",
+      "GO:0016762"
+    ]
+  },
+  {
+    "community_id": "459",
+    "status": "ok",
+    "original_terms": [
+      "GO:0000310",
+      "GO:0008892"
+    ],
+    "initial_score": 8,
+    "final_score": 8,
+    "lin_score": 0.1111,
+    "score_improved": false,
+    "coherent": true,
+    "theme": "Enzymatic reactions involving purine metabolism",
+    "reasoning": "Both terms are involved in the metabolism of purines, specifically xanthine and guanine.",
+    "outliers": [],
+    "cleaned_terms": [
+      "GO:0000310",
+      "GO:0008892"
+    ]
+  },
+  {
+    "community_id": "485",
+    "status": "ok",
+    "original_terms": [
+      "GO:0009827",
+      "GO:0009832"
+    ],
+    "initial_score": 9,
+    "final_score": 9,
+    "lin_score": 0.1667,
+    "score_improved": false,
+    "coherent": true,
+    "theme": "Biological processes involved in the modification and biosynthesis of plant cell walls.",
+    "reasoning": "Both terms are related to the processes involving plant cell walls, specifically focusing on modifications and biogenesis.",
+    "outliers": [],
+    "cleaned_terms": [
+      "GO:0009827",
+      "GO:0009832"
+    ]
+  },
+  {
+    "community_id": "501",
+    "status": "ok",
+    "original_terms": [
+      "GO:0000334",
+      "GO:0015805"
+    ],
+    "initial_score": 1,
+    "final_score": 1,
+    "lin_score": null,
+    "score_improved": false,
+    "coherent": false,
+    "theme": "",
+    "reasoning": "The terms are from different biological processes and molecular functions with no clear common theme.",
+    "outliers": [],
+    "cleaned_terms": [
+      "GO:0000334",
+      "GO:0015805"
+    ]
+  },
+  {
+    "community_id": "509",
+    "status": "ok",
+    "original_terms": [
+      "GO:0016073",
+      "GO:0017069"
+    ],
+    "initial_score": 9,
+    "final_score": 9,
+    "lin_score": null,
+    "score_improved": false,
+    "coherent": true,
+    "theme": "These GO terms describe processes involving snRNA, focusing on its metabolic pathway and binding function.",
+    "reasoning": "Both terms are related to the interaction and metabolism of snRNAs in eukaryotic cells.",
+    "outliers": [],
+    "cleaned_terms": [
+      "GO:0016073",
+      "GO:0017069"
+    ]
+  },
+  {
+    "community_id": "513",
+    "status": "ok",
+    "original_terms": [
+      "GO:0005851",
+      "GO:0005894",
+      "GO:0005897",
+      "GO:0005953"
+    ],
+    "initial_score": 4,
+    "final_score": 4,
+    "lin_score": 0.2202,
+    "score_improved": false,
+    "coherent": false,
+    "theme": "These GO terms describe different protein complexes with distinct functions.",
+    "reasoning": "The terms are related to protein complexes involved in cellular processes but do not share a common biological mechanism or pathway.",
+    "outliers": [],
+    "cleaned_terms": [
+      "GO:0005851",
+      "GO:0005894",
+      "GO:0005897",
+      "GO:0005953"
+    ]
+  },
+  {
+    "community_id": "600",
+    "status": "ok",
+    "original_terms": [
+      "GO:0007166",
+      "GO:0007229",
+      "GO:0009736"
+    ],
+    "initial_score": 9,
+    "final_score": 9,
+    "lin_score": 0.5278,
+    "score_improved": false,
+    "coherent": true,
+    "theme": "These GO terms represent various signaling pathways initiated by the binding of specific ligands to cell surface receptors or integrins, ultimately regulating cellular processes.",
+    "reasoning": "All terms describe different types of signal transduction pathways initiated by the binding of various ligands to cell surface receptors or integrins, leading to downstream cellular processes.",
+    "outliers": [],
+    "cleaned_terms": [
+      "GO:0007166",
+      "GO:0007229",
+      "GO:0009736"
+    ]
+  },
+  {
+    "community_id": "606",
+    "status": "ok",
+    "original_terms": [
+      "GO:0001080",
+      "GO:0006006"
+    ],
+    "initial_score": 4,
+    "final_score": 4,
+    "lin_score": 0.0588,
+    "score_improved": false,
+    "coherent": false,
+    "theme": "Metabolic processes involving different substrates (glucose vs. nitrogen catabolites).",
+    "reasoning": "These terms are from different biological processes and do not share a common mechanism or pathway.",
+    "outliers": [],
+    "cleaned_terms": [
+      "GO:0001080",
+      "GO:0006006"
+    ]
+  },
+  {
+    "community_id": "621",
+    "status": "ok",
+    "original_terms": [
+      "GO:0006366",
+      "GO:0016595"
+    ],
+    "initial_score": 1,
+    "final_score": 1,
+    "lin_score": null,
+    "score_improved": false,
+    "coherent": false,
+    "theme": "",
+    "reasoning": "The terms are from different biological processes and molecular functions, with no clear common theme.",
+    "outliers": [],
+    "cleaned_terms": [
+      "GO:0006366",
+      "GO:0016595"
+    ]
+  },
+  {
+    "community_id": "624",
+    "status": "ok",
+    "original_terms": [
+      "GO:0000422",
+      "GO:0016236"
+    ],
+    "initial_score": 9,
+    "final_score": 9,
+    "lin_score": 0.5,
+    "score_improved": false,
+    "coherent": true,
+    "theme": "These GO terms describe processes involved in the autophagic degradation of mitochondria.",
+    "reasoning": "Both terms are related to the process of autophagy, specifically focusing on the degradation and disposal of cellular components.",
+    "outliers": [],
+    "cleaned_terms": [
+      "GO:0000422",
+      "GO:0016236"
+    ]
+  },
+  {
+    "community_id": "640",
+    "status": "ok",
+    "original_terms": [
+      "GO:0000432",
+      "GO:0003961"
+    ],
+    "initial_score": 1,
+    "final_score": 1,
+    "lin_score": null,
+    "score_improved": false,
+    "coherent": false,
+    "theme": "No common biological theme.",
+    "reasoning": "The terms are from different biological processes and molecular functions, with no clear common theme.",
+    "outliers": [],
+    "cleaned_terms": [
+      "GO:0000432",
+      "GO:0003961"
+    ]
+  },
+  {
+    "community_id": "654",
+    "status": "ok",
+    "original_terms": [
+      "GO:0000448",
+      "GO:0000477"
+    ],
+    "initial_score": 9,
+    "final_score": 9,
+    "lin_score": 0.25,
+    "score_improved": false,
+    "coherent": true,
+    "theme": "Cleavage and processing steps in the maturation of LSU-rRNA from a tricistronic rRNA transcript.",
+    "reasoning": "Both terms are related to the maturation of rRNA from a tricistronic transcript, specifically focusing on cleavage events.",
+    "outliers": [],
+    "cleaned_terms": [
+      "GO:0000448",
+      "GO:0000477"
+    ]
+  },
+  {
+    "community_id": "662",
+    "status": "ok",
+    "original_terms": [
+      "GO:0000452",
+      "GO:0002132"
+    ],
+    "initial_score": 8,
+    "final_score": 8,
+    "lin_score": 0.1111,
+    "score_improved": false,
+    "coherent": true,
+    "theme": "Post-transcriptional RNA modifications involving methylation at specific nucleotide residues.",
+    "reasoning": "Both terms are related to post-transcriptional modifications of RNA molecules, but they involve different types of RNA and specific positions.",
+    "outliers": [],
+    "cleaned_terms": [
+      "GO:0000452",
+      "GO:0002132"
+    ]
+  },
+  {
+    "community_id": "664",
+    "status": "ok",
+    "original_terms": [
+      "GO:0016892",
+      "GO:0016895",
+      "GO:0016896"
+    ],
+    "initial_score": 9,
+    "final_score": 9,
+    "lin_score": 0.2222,
+    "score_improved": false,
+    "coherent": true,
+    "theme": "Hydrolytic cleavage of nucleic acid ester linkages resulting in phosphomonoesters.",
+    "reasoning": "All terms are related to the hydrolysis of ester linkages in nucleic acids, specifically producing 3'- or 5'-phosphomonoesters. They belong to different types of exonucleases and endonucleases acting on RNA and DNA.",
+    "outliers": [],
+    "cleaned_terms": [
+      "GO:0016892",
+      "GO:0016895",
+      "GO:0016896"
+    ]
+  },
+  {
+    "community_id": "665",
+    "status": "ok",
+    "original_terms": [
+      "GO:0000454",
+      "GO:0000455",
+      "GO:0015394"
+    ],
+    "initial_score": 6,
+    "final_score": 8,
+    "lin_score": 0.5,
+    "score_improved": true,
+    "coherent": true,
+    "theme": "These GO terms describe different mechanisms of pseudouridine synthesis in rRNA during ribosome biogenesis.",
+    "reasoning": "Both terms are related to the process of pseudouridine synthesis in rRNA during ribosome biogenesis, but they differ in the mechanism.",
+    "outliers": [
+      "GO:0015394"
+    ],
+    "cleaned_terms": [
+      "GO:0000454",
+      "GO:0000455"
+    ]
+  },
+  {
+    "community_id": "673",
+    "status": "ok",
+    "original_terms": [
+      "GO:0000461",
+      "GO:0007509"
+    ],
+    "initial_score": 1,
+    "final_score": 1,
+    "lin_score": 0.0714,
+    "score_improved": false,
+    "coherent": false,
+    "theme": "False; these terms describe unrelated cellular and developmental processes.",
+    "reasoning": "The terms are from different biological processes and do not share a common theme.",
+    "outliers": [],
+    "cleaned_terms": [
+      "GO:0000461",
+      "GO:0007509"
+    ]
+  },
+  {
+    "community_id": "678",
+    "status": "ok",
+    "original_terms": [
+      "GO:0000463",
+      "GO:0000488"
+    ],
+    "initial_score": 9,
+    "final_score": 9,
+    "lin_score": 0.5,
+    "score_improved": false,
+    "coherent": true,
+    "theme": "Maturation of LSU-rRNA from multi-cistronic pre-rRNA transcripts",
+    "reasoning": "Both terms describe processes related to the maturation of ribosomal RNA (rRNA) from precursor transcripts, specifically focusing on LSU-rRNA. They differ slightly in the number of rRNAs involved in the initial transcript.",
+    "outliers": [],
+    "cleaned_terms": [
+      "GO:0000463",
+      "GO:0000488"
+    ]
+  },
+  {
+    "community_id": "681",
+    "status": "ok",
+    "original_terms": [
+      "GO:0000464",
+      "GO:0015827"
+    ],
+    "initial_score": 1,
+    "final_score": 1,
+    "lin_score": 0.0588,
+    "score_improved": false,
+    "coherent": false,
+    "theme": "",
+    "reasoning": "The terms are from different biological processes and do not share a common theme.",
+    "outliers": [],
+    "cleaned_terms": [
+      "GO:0000464",
+      "GO:0015827"
+    ]
+  },
+  {
+    "community_id": "683",
+    "status": "ok",
+    "original_terms": [
+      "GO:0000465",
+      "GO:0016827"
+    ],
+    "initial_score": 1,
+    "final_score": 1,
+    "lin_score": null,
+    "score_improved": false,
+    "coherent": false,
+    "theme": "Exonucleolytic trimming vs. phosphorus bond hydrolysis",
+    "reasoning": "The terms are from different biological processes and molecular functions, lacking a common theme.",
+    "outliers": [],
+    "cleaned_terms": [
+      "GO:0000465",
+      "GO:0016827"
+    ]
+  },
+  {
+    "community_id": "698",
+    "status": "ok",
+    "original_terms": [
+      "GO:0000479",
+      "GO:0010020"
+    ],
+    "initial_score": 1,
+    "final_score": 1,
+    "lin_score": 0.0714,
+    "score_improved": false,
+    "coherent": false,
+    "theme": "NA",
+    "reasoning": "The terms are from different biological processes and do not share a common theme.",
+    "outliers": [],
+    "cleaned_terms": [
+      "GO:0000479",
+      "GO:0010020"
+    ]
+  },
+  {
+    "community_id": "715",
+    "status": "ok",
+    "original_terms": [
+      "GO:0000497",
+      "GO:0000900"
+    ],
+    "initial_score": 6,
+    "final_score": 6,
+    "lin_score": 0.1429,
+    "score_improved": false,
+    "coherent": false,
+    "theme": "Interactions between gene products and nucleic acids in regulatory processes.",
+    "reasoning": "The terms are related to molecular functions involving interactions with DNA and RNA, but they describe different specific activities.",
+    "outliers": [],
+    "cleaned_terms": [
+      "GO:0000497",
+      "GO:0000900"
+    ]
+  },
+  {
+    "community_id": "725",
+    "status": "ok",
+    "original_terms": [
+      "GO:0000514",
+      "GO:0004782"
+    ],
+    "initial_score": 6,
+    "final_score": 6,
+    "lin_score": 0.0833,
+    "score_improved": false,
+    "coherent": false,
+    "theme": "Involved in the transport and metabolism of sulfinoalanine derivatives.",
+    "reasoning": "Both terms are related to the metabolism of sulfur-containing amino acids, specifically involving sulfinoalanine. However, one term describes an antiporter activity while the other describes a decarboxylation reaction.",
+    "outliers": [],
+    "cleaned_terms": [
+      "GO:0000514",
+      "GO:0004782"
+    ]
+  },
+  {
+    "community_id": "728",
+    "status": "ok",
+    "original_terms": [
+      "GO:0005278",
+      "GO:0015369",
+      "GO:0015387",
+      "GO:0015493"
+    ],
+    "initial_score": 9,
+    "final_score": 9,
+    "lin_score": 0.2238,
+    "score_improved": false,
+    "coherent": true,
+    "theme": "These GO terms describe various types of antiport and symport activities involving different solutes and protons across cell membranes.",
+    "reasoning": "All terms describe the transport of molecules across membranes using protons as a counterion. They are part of the broader category of ion and amino acid transporters.",
+    "outliers": [],
+    "cleaned_terms": [
+      "GO:0005278",
+      "GO:0015369",
+      "GO:0015387",
+      "GO:0015493"
+    ]
+  },
+  {
+    "community_id": "733",
+    "status": "ok",
+    "original_terms": [
+      "GO:0000700",
+      "GO:0019104"
+    ],
+    "initial_score": 9,
+    "final_score": 9,
+    "lin_score": 1.0,
+    "score_improved": false,
+    "coherent": true,
+    "theme": "Enzymatic repair of DNA by removing damaged bases via N-glycosidic bond cleavage.",
+    "reasoning": "Both terms are related to the enzymatic removal of damaged bases from DNA, specifically through cleavage of the N-C1' glycosidic bond.",
+    "outliers": [],
+    "cleaned_terms": [
+      "GO:0000700",
+      "GO:0019104"
+    ]
+  },
+  {
+    "community_id": "765",
+    "status": "ok",
+    "original_terms": [
+      "GO:0000713",
+      "GO:0008241"
+    ],
+    "initial_score": 1,
+    "final_score": 1,
+    "lin_score": null,
+    "score_improved": false,
+    "coherent": false,
+    "theme": "NA",
+    "reasoning": "The terms are from different biological processes and molecular functions, with no clear common theme.",
+    "outliers": [],
+    "cleaned_terms": [
+      "GO:0000713",
+      "GO:0008241"
+    ]
+  },
+  {
+    "community_id": "775",
+    "status": "ok",
+    "original_terms": [
+      "GO:0000722",
+      "GO:0007004"
+    ],
+    "initial_score": 9,
+    "final_score": 9,
+    "lin_score": 0.25,
+    "score_improved": false,
+    "coherent": true,
+    "theme": "Maintenance of telomere length through recombination and telomerase activity.",
+    "reasoning": "Both terms are related to the biological process of maintaining telomeres but through different mechanisms.",
+    "outliers": [],
+    "cleaned_terms": [
+      "GO:0000722",
+      "GO:0007004"
+    ]
+  },
+  {
+    "community_id": "786",
+    "status": "ok",
+    "original_terms": [
+      "GO:0006281",
+      "GO:0010213"
+    ],
+    "initial_score": 9,
+    "final_score": 9,
+    "lin_score": 1.0,
+    "score_improved": false,
+    "coherent": true,
+    "theme": "These GO terms describe processes involved in repairing damaged DNA.",
+    "reasoning": "Both terms are related to the broader category of DNA repair, with one being a specific type.",
+    "outliers": [],
+    "cleaned_terms": [
+      "GO:0006281",
+      "GO:0010213"
+    ]
+  },
+  {
+    "community_id": "794",
+    "status": "ok",
+    "original_terms": [
+      "GO:0000740",
+      "GO:0016320"
+    ],
+    "initial_score": 9,
+    "final_score": 9,
+    "lin_score": 0.5,
+    "score_improved": false,
+    "coherent": true,
+    "theme": "The GO terms describe processes related to the fusion of lipid bilayer membranes in various cellular compartments.",
+    "reasoning": "Both terms describe the process of joining lipid bilayer membranes in different cellular compartments.",
+    "outliers": [],
+    "cleaned_terms": [
+      "GO:0000740",
+      "GO:0016320"
+    ]
+  },
+  {
+    "community_id": "798",
+    "status": "ok",
+    "original_terms": [
+      "GO:0000753",
+      "GO:0007292"
+    ],
+    "initial_score": 8,
+    "final_score": 8,
+    "lin_score": 0.125,
+    "score_improved": false,
+    "coherent": true,
+    "theme": "These GO terms describe aspects of female gamete-related processes in sexual reproduction.",
+    "reasoning": "Both terms are related to sexual reproduction processes but have different specific roles.",
+    "outliers": [],
+    "cleaned_terms": [
+      "GO:0000753",
+      "GO:0007292"
+    ]
+  },
+  {
+    "community_id": "822",
+    "status": "ok",
+    "original_terms": [
+      "GO:0000765",
+      "GO:0008913"
+    ],
+    "initial_score": 1,
+    "final_score": 1,
+    "lin_score": null,
+    "score_improved": false,
+    "coherent": false,
+    "theme": "",
+    "reasoning": "The terms are from different biological processes and molecular functions, with no clear common theme.",
+    "outliers": [],
+    "cleaned_terms": [
+      "GO:0000765",
+      "GO:0008913"
+    ]
+  },
+  {
+    "community_id": "831",
+    "status": "ok",
+    "original_terms": [
+      "GO:0003990",
+      "GO:0004102",
+      "GO:0004630"
+    ],
+    "initial_score": 6,
+    "final_score": 9,
+    "lin_score": 0.0909,
+    "score_improved": true,
+    "coherent": true,
+    "theme": "These GO terms describe enzymes involved in the biosynthesis and hydrolysis of acetylcholine.",
+    "reasoning": "Both terms are related to the biosynthesis and degradation of acetylcholine, which is a key neurotransmitter.",
+    "outliers": [
+      "GO:0004630"
+    ],
+    "cleaned_terms": [
+      "GO:0003990",
+      "GO:0004102"
+    ]
+  },
+  {
+    "community_id": "889",
+    "status": "ok",
+    "original_terms": [
+      "GO:0000828",
+      "GO:0000829"
+    ],
+    "initial_score": 10,
+    "final_score": 10,
+    "lin_score": 0.5,
+    "score_improved": false,
+    "coherent": true,
+    "theme": "Phosphorylation of inositol phosphates",
+    "reasoning": "Both terms are related to the phosphorylation of inositol phosphates and belong to the same biological mechanism.",
+    "outliers": [],
+    "cleaned_terms": [
+      "GO:0000828",
+      "GO:0000829"
+    ]
+  },
+  {
+    "community_id": "897",
+    "status": "ok",
+    "original_terms": [
+      "GO:0000836",
+      "GO:0000838",
+      "GO:0000839"
+    ],
+    "initial_score": 9,
+    "final_score": 9,
+    "lin_score": 0.8333,
+    "score_improved": false,
+    "coherent": true,
+    "theme": "These GO terms describe various sub-complexes of the Hrd1p ubiquitin ligase complex involved in ER-associated protein degradation.",
+    "reasoning": "All terms are related to the Hrd1p ubiquitin ligase complex and its role in ER-associated protein degradation (ERAD). They describe different sub-complexes involved in recognizing and ubiquitinating misfolded proteins.",
+    "outliers": [],
+    "cleaned_terms": [
+      "GO:0000836",
+      "GO:0000838",
+      "GO:0000839"
+    ]
+  },
+  {
+    "community_id": "906",
+    "status": "ok",
+    "original_terms": [
+      "GO:0001955",
+      "GO:0003188",
+      "GO:0003195"
+    ],
+    "initial_score": 6,
+    "final_score": 9,
+    "lin_score": 0.5,
+    "score_improved": true,
+    "coherent": true,
+    "theme": "Formation of specific heart valves during development",
+    "reasoning": "Both terms are related to the formation of heart valves, specifically the tricuspid valve. They share a common biological process and context.",
+    "outliers": [
+      "GO:0001955"
+    ],
+    "cleaned_terms": [
+      "GO:0003188",
+      "GO:0003195"
+    ]
+  },
+  {
+    "community_id": "933",
+    "status": "ok",
+    "original_terms": [
+      "GO:0000923",
+      "GO:0005816"
+    ],
+    "initial_score": 8,
+    "final_score": 8,
+    "lin_score": 0.5,
+    "score_improved": false,
+    "coherent": true,
+    "theme": "Microtubule organizing centers in eukaryotic cells, with specific roles in cell division.",
+    "reasoning": "Both terms are related to microtubule organizing centers but in different cell types (fungi vs. animal cells).",
+    "outliers": [],
+    "cleaned_terms": [
+      "GO:0000923",
+      "GO:0005816"
+    ]
+  },
+  {
+    "community_id": "972",
+    "status": "ok",
+    "original_terms": [
+      "GO:0000956",
+      "GO:0003281"
+    ],
+    "initial_score": 2,
+    "final_score": 2,
+    "lin_score": 0.0714,
+    "score_improved": false,
+    "coherent": false,
+    "theme": "These GO terms describe distinct biological processes related to mRNA degradation and heart septum development.",
+    "reasoning": "The terms are from different biological processes and do not share a common mechanism or pathway.",
+    "outliers": [],
+    "cleaned_terms": [
+      "GO:0000956",
+      "GO:0003281"
+    ]
+  },
+  {
+    "community_id": "974",
+    "status": "ok",
+    "original_terms": [
+      "GO:0000957",
+      "GO:0008650"
+    ],
+    "initial_score": 8,
+    "final_score": 8,
+    "lin_score": null,
+    "score_improved": false,
+    "coherent": true,
+    "theme": "RNA processing activities within the mitochondrial context",
+    "reasoning": "Both terms are related to RNA processing in the mitochondrion but one is a biological process and the other is a molecular function.",
+    "outliers": [],
+    "cleaned_terms": [
+      "GO:0000957",
+      "GO:0008650"
+    ]
+  },
+  {
+    "community_id": "976",
+    "status": "ok",
+    "original_terms": [
+      "GO:0000959",
+      "GO:0000960"
+    ],
+    "initial_score": 9,
+    "final_score": 9,
+    "lin_score": 0.0667,
+    "score_improved": false,
+    "coherent": true,
+    "theme": "These GO terms describe processes related to RNA metabolism and regulation within the mitochondrial context.",
+    "reasoning": "Both terms are related to RNA processes in mitochondria and share a common biological domain.",
+    "outliers": [],
+    "cleaned_terms": [
+      "GO:0000959",
+      "GO:0000960"
+    ]
+  },
+  {
+    "community_id": "1009",
+    "status": "ok",
+    "original_terms": [
+      "GO:0000978",
+      "GO:0000992"
+    ],
+    "initial_score": 6,
+    "final_score": 6,
+    "lin_score": 0.5,
+    "score_improved": false,
+    "coherent": false,
+    "theme": "DNA binding by RNA polymerase II and III",
+    "reasoning": "Both terms describe DNA binding activities specific to RNA polymerases II and III, but they are for different polymerases.",
+    "outliers": [],
+    "cleaned_terms": [
+      "GO:0000978",
+      "GO:0000992"
+    ]
+  },
+  {
+    "community_id": "1013",
+    "status": "ok",
+    "original_terms": [
+      "GO:0000981",
+      "GO:0001217"
+    ],
+    "initial_score": 7,
+    "final_score": 7,
+    "lin_score": 0.5,
+    "score_improved": false,
+    "coherent": true,
+    "theme": "DNA-binding transcription regulatory activities",
+    "reasoning": "Both terms are related to DNA-binding transcription factors but one is an activator and the other a repressor. They share the same biological domain (transcription regulation) but have different roles.",
+    "outliers": [],
+    "cleaned_terms": [
+      "GO:0000981",
+      "GO:0001217"
+    ]
+  },
+  {
+    "community_id": "1020",
+    "status": "ok",
+    "original_terms": [
+      "GO:0000993",
+      "GO:0001099"
+    ],
+    "initial_score": 9,
+    "final_score": 9,
+    "lin_score": 0.5,
+    "score_improved": false,
+    "coherent": true,
+    "theme": "Binding to components of the RNA polymerase II transcription machinery.",
+    "reasoning": "Both terms are related to the binding of components involved in RNA polymerase II transcription, specifically focusing on the core enzyme and the minimal set of factors required for its function.",
+    "outliers": [],
+    "cleaned_terms": [
+      "GO:0000993",
+      "GO:0001099"
+    ]
+  },
+  {
+    "community_id": "1026",
+    "status": "ok",
+    "original_terms": [
+      "GO:0000995",
+      "GO:0001181",
+      "GO:0016251"
+    ],
+    "initial_score": 9,
+    "final_score": 9,
+    "lin_score": 0.5,
+    "score_improved": false,
+    "coherent": true,
+    "theme": "These GO terms describe various general transcription initiation factor activities for different RNA polymerases.",
+    "reasoning": "All terms are related to the initiation of transcription by different RNA polymerases and involve similar molecular functions such as general transcription initiation factors.",
+    "outliers": [],
+    "cleaned_terms": [
+      "GO:0000995",
+      "GO:0001181",
+      "GO:0016251"
+    ]
+  },
+  {
+    "community_id": "1060",
+    "status": "ok",
+    "original_terms": [
+      "GO:0001046",
+      "GO:0005985"
+    ],
+    "initial_score": 1,
+    "final_score": 1,
+    "lin_score": null,
+    "score_improved": false,
+    "coherent": false,
+    "theme": "These GO terms represent different biological processes and functions.",
+    "reasoning": "The terms are from different biological domains (molecular function and biological process).",
+    "outliers": [],
+    "cleaned_terms": [
+      "GO:0001046",
+      "GO:0005985"
+    ]
+  },
+  {
+    "community_id": "1061",
+    "status": "ok",
+    "original_terms": [
+      "GO:0001048",
+      "GO:0007507"
+    ],
+    "initial_score": 1,
+    "final_score": 1,
+    "lin_score": null,
+    "score_improved": false,
+    "coherent": false,
+    "theme": "One term relates to RNA polymerase binding, while the other is about heart development.",
+    "reasoning": "The terms are from different biological domains (molecular function and biological process) with no clear functional relationship.",
+    "outliers": [],
+    "cleaned_terms": [
+      "GO:0001048",
+      "GO:0007507"
+    ]
+  },
+  {
+    "community_id": "1068",
+    "status": "ok",
+    "original_terms": [
+      "GO:0001072",
+      "GO:0001073"
+    ],
+    "initial_score": 8,
+    "final_score": 8,
+    "lin_score": 0.5,
+    "score_improved": false,
+    "coherent": true,
+    "theme": "These GO terms describe different binding interactions of antitermination factors during transcription.",
+    "reasoning": "Both terms describe activities of antitermination factors in transcription, but they differ by the type of interaction (RNA vs. DNA).",
+    "outliers": [],
+    "cleaned_terms": [
+      "GO:0001072",
+      "GO:0001073"
+    ]
+  },
+  {
+    "community_id": "1086",
+    "status": "ok",
+    "original_terms": [
+      "GO:0001098",
+      "GO:0001108"
+    ],
+    "initial_score": 9,
+    "final_score": 9,
+    "lin_score": 1.0,
+    "score_improved": false,
+    "coherent": true,
+    "theme": "Binding to components of the bacterial-type RNA polymerase basal transcription machinery.",
+    "reasoning": "Both terms are related to the binding of components involved in the initiation of transcription, specifically focusing on the basal transcription machinery and its holoenzyme form.",
+    "outliers": [],
+    "cleaned_terms": [
+      "GO:0001098",
+      "GO:0001108"
+    ]
+  },
+  {
+    "community_id": "1092",
+    "status": "ok",
+    "original_terms": [
+      "GO:0002171",
+      "GO:0002173",
+      "GO:0009784",
+      "GO:0009885"
+    ],
+    "initial_score": 8,
+    "final_score": 8,
+    "lin_score": 0.2976,
+    "score_improved": false,
+    "coherent": true,
+    "theme": "Transmembrane receptors transmitting signals to initiate cellular responses",
+    "reasoning": "All terms are related to transmembrane receptors that transmit signals across the cell membrane to initiate changes in cell activity. However, they differ in their specific ligands and mechanisms.",
+    "outliers": [],
+    "cleaned_terms": [
+      "GO:0002171",
+      "GO:0002173",
+      "GO:0009784",
+      "GO:0009885"
+    ]
+  },
+  {
+    "community_id": "1097",
+    "status": "ok",
+    "original_terms": [
+      "GO:0001111",
+      "GO:0001182"
+    ],
+    "initial_score": 9,
+    "final_score": 9,
+    "lin_score": 0.5,
+    "score_improved": false,
+    "coherent": true,
+    "theme": "Process of transitioning from initiation to elongation in transcription by RNA polymerases I and II.",
+    "reasoning": "Both terms are related to the transition from initiation to elongation phases of transcription by different RNA polymerases.",
+    "outliers": [],
+    "cleaned_terms": [
+      "GO:0001111",
+      "GO:0001182"
+    ]
+  },
+  {
+    "community_id": "1098",
+    "status": "ok",
+    "original_terms": [
+      "GO:0001112",
+      "GO:0001113"
+    ],
+    "initial_score": 8,
+    "final_score": 8,
+    "lin_score": 1.0,
+    "score_improved": false,
+    "coherent": true,
+    "theme": "Formation of a transcription bubble at different types of promoters",
+    "reasoning": "Both terms describe the process of forming an open complex during transcription initiation, but one is specific to RNA polymerase II and the other is more general.",
+    "outliers": [],
+    "cleaned_terms": [
+      "GO:0001112",
+      "GO:0001113"
+    ]
+  },
+  {
+    "community_id": "1103",
+    "status": "ok",
+    "original_terms": [
+      "GO:0001114",
+      "GO:0005849"
+    ],
+    "initial_score": 8,
+    "final_score": 8,
+    "lin_score": 0.3333,
+    "score_improved": false,
+    "coherent": true,
+    "theme": "These GO terms describe complexes involved in RNA processing and modification.",
+    "reasoning": "Both terms are related to cellular components involved in RNA processing and complex formation.",
+    "outliers": [],
+    "cleaned_terms": [
+      "GO:0001114",
+      "GO:0005849"
+    ]
+  },
+  {
+    "community_id": "1156",
+    "status": "ok",
+    "original_terms": [
+      "GO:0003993",
+      "GO:0010694"
+    ],
+    "initial_score": 6,
+    "final_score": 6,
+    "lin_score": null,
+    "score_improved": false,
+    "coherent": false,
+    "theme": "Phosphatase-related activities at different pH conditions",
+    "reasoning": "The terms are related to phosphatase activity but in different contexts (molecular function vs. biological process) and with different pH optima.",
+    "outliers": [],
+    "cleaned_terms": [
+      "GO:0003993",
+      "GO:0010694"
+    ]
+  },
+  {
+    "community_id": "1160",
+    "status": "ok",
+    "original_terms": [
+      "GO:0001408",
+      "GO:0001409"
+    ],
+    "initial_score": 8,
+    "final_score": 8,
+    "lin_score": null,
+    "score_improved": false,
+    "coherent": true,
+    "theme": "These GO terms describe aspects of guanine nucleotide transport mechanisms.",
+    "reasoning": "Both terms are related to guanine nucleotide transport, but one is a biological process and the other is a molecular function.",
+    "outliers": [],
+    "cleaned_terms": [
+      "GO:0001408",
+      "GO:0001409"
+    ]
+  },
+  {
+    "community_id": "1162",
+    "status": "ok",
+    "original_terms": [
+      "GO:0003371",
+      "GO:0007163",
+      "GO:0007473",
+      "GO:0007479",
+      "GO:0009945",
+      "GO:0009948",
+      "GO:0016332",
+      "GO:0016334",
+      "GO:0016336"
+    ],
+    "initial_score": 9,
+    "final_score": 9,
+    "lin_score": 0.2586,
+    "score_improved": false,
+    "coherent": true,
+    "theme": "All GO terms describe processes involving the establishment or maintenance of cellular or tissue polarity in different developmental stages and contexts.",
+    "reasoning": "The terms are all related to the establishment and maintenance of polarity in various biological contexts, including cell migration, development, and tissue organization.",
+    "outliers": [],
+    "cleaned_terms": [
+      "GO:0003371",
+      "GO:0007163",
+      "GO:0007473",
+      "GO:0007479",
+      "GO:0009945",
+      "GO:0009948",
+      "GO:0016332",
+      "GO:0016334",
+      "GO:0016336"
+    ]
+  },
+  {
+    "community_id": "1209",
+    "status": "ok",
+    "original_terms": [
+      "GO:0002138",
+      "GO:0006776"
+    ],
+    "initial_score": 9,
+    "final_score": 9,
+    "lin_score": 0.3333,
+    "score_improved": false,
+    "coherent": true,
+    "theme": "These GO terms describe metabolic processes involving retinoids, particularly focusing on vitamin A and its derivatives.",
+    "reasoning": "Both terms are related to the metabolic processes involving retinoids, specifically focusing on vitamin A and its derivatives.",
+    "outliers": [],
+    "cleaned_terms": [
+      "GO:0002138",
+      "GO:0006776"
+    ]
+  },
+  {
+    "community_id": "1214",
+    "status": "ok",
+    "original_terms": [
+      "GO:0001530",
+      "GO:0003978",
+      "GO:0008918",
+      "GO:0008921"
+    ],
+    "initial_score": 6,
+    "final_score": 9,
+    "lin_score": 0.2333,
+    "score_improved": true,
+    "coherent": true,
+    "theme": "These GO terms describe enzymes involved in modifying and binding lipopolysaccharides.",
+    "reasoning": "All terms are related to the modification and binding of lipopolysaccharides, which is a coherent biological process.",
+    "outliers": [
+      "GO:0003978"
+    ],
+    "cleaned_terms": [
+      "GO:0001530",
+      "GO:0008918",
+      "GO:0008921"
+    ]
+  },
+  {
+    "community_id": "1258",
+    "status": "ok",
+    "original_terms": [
+      "GO:0001560",
+      "GO:0009831"
+    ],
+    "initial_score": 6,
+    "final_score": 6,
+    "lin_score": 0.0714,
+    "score_improved": false,
+    "coherent": false,
+    "theme": "Cell growth processes, including regulation and structural modifications.",
+    "reasoning": "The terms are related to cell growth but span different aspects of the process.",
+    "outliers": [],
+    "cleaned_terms": [
+      "GO:0001560",
+      "GO:0009831"
+    ]
+  },
+  {
+    "community_id": "1268",
+    "status": "ok",
+    "original_terms": [
+      "GO:0001565",
+      "GO:0005034"
+    ],
+    "initial_score": 6,
+    "final_score": 6,
+    "lin_score": 0.3333,
+    "score_improved": false,
+    "coherent": false,
+    "theme": "Sensing environmental conditions (osmolarity) and transmitting signals to cells.",
+    "reasoning": "The terms are related to sensing and initiating changes in cell activity but do not share a common biological mechanism or pathway.",
+    "outliers": [],
+    "cleaned_terms": [
+      "GO:0001565",
+      "GO:0005034"
+    ]
+  },
+  {
+    "community_id": "1272",
+    "status": "ok",
+    "original_terms": [
+      "GO:0006704",
+      "GO:0008212"
+    ],
+    "initial_score": 6,
+    "final_score": 6,
+    "lin_score": 0.25,
+    "score_improved": false,
+    "coherent": false,
+    "theme": "Biosynthetic processes for different types of corticosteroids from cholesterol.",
+    "reasoning": "Both terms are related to the biosynthesis of corticosteroids from cholesterol but belong to different biological processes.",
+    "outliers": [],
+    "cleaned_terms": [
+      "GO:0006704",
+      "GO:0008212"
+    ]
+  },
+  {
+    "community_id": "1275",
+    "status": "ok",
+    "original_terms": [
+      "GO:0001568",
+      "GO:0015667"
+    ],
+    "initial_score": 1,
+    "final_score": 1,
+    "lin_score": null,
+    "score_improved": false,
+    "coherent": false,
+    "theme": "NA",
+    "reasoning": "The terms are from different biological processes and molecular functions with no clear common theme.",
+    "outliers": [],
+    "cleaned_terms": [
+      "GO:0001568",
+      "GO:0015667"
+    ]
+  },
+  {
+    "community_id": "1278",
+    "status": "ok",
+    "original_terms": [
+      "GO:0001571",
+      "GO:0017134"
+    ],
+    "initial_score": 8,
+    "final_score": 8,
+    "lin_score": 0.125,
+    "score_improved": false,
+    "coherent": true,
+    "theme": "Involvement of fibroblast growth factor receptors in signal transduction and binding processes.",
+    "reasoning": "Both terms are related to the interaction with fibroblast growth factors but differ in their specific functions. One is about the activity of a receptor, and the other is specifically about binding.",
+    "outliers": [],
+    "cleaned_terms": [
+      "GO:0001571",
+      "GO:0017134"
+    ]
+  },
+  {
+    "community_id": "1298",
+    "status": "ok",
+    "original_terms": [
+      "GO:0001646",
+      "GO:0006198"
+    ],
+    "initial_score": 7,
+    "final_score": 7,
+    "lin_score": null,
+    "score_improved": false,
+    "coherent": true,
+    "theme": "These GO terms relate to different stages of cAMP signaling and metabolism.",
+    "reasoning": "Both terms are related to the metabolism of cAMP but in different aspects. One is about the receptor activity that initiates a signal, and the other is about the breakdown of cAMP.",
+    "outliers": [],
+    "cleaned_terms": [
+      "GO:0001646",
+      "GO:0006198"
+    ]
+  },
+  {
+    "community_id": "1304",
+    "status": "ok",
+    "original_terms": [
+      "GO:0004505",
+      "GO:0004511",
+      "GO:0006585",
+      "GO:0006729"
+    ],
+    "initial_score": 9,
+    "final_score": 9,
+    "lin_score": 0.2917,
+    "score_improved": false,
+    "coherent": true,
+    "theme": "These GO terms describe the metabolic pathways involving the conversion of phenylalanine to tyrosine and further to dopamine, with a focus on tetrahydrobiopterin as a cofactor.",
+    "reasoning": "All terms are related to the metabolism of phenylalanine and tyrosine, including their hydroxylation steps and the biosynthetic processes involved.",
+    "outliers": [],
+    "cleaned_terms": [
+      "GO:0004505",
+      "GO:0004511",
+      "GO:0006585",
+      "GO:0006729"
+    ]
+  },
+  {
+    "community_id": "1319",
+    "status": "ok",
+    "original_terms": [
+      "GO:0001614",
+      "GO:0009326",
+      "GO:0015532"
+    ],
+    "initial_score": 2,
+    "final_score": 2,
+    "lin_score": 0.0769,
+    "score_improved": false,
+    "coherent": false,
+    "theme": "These GO terms represent different types of transport activities and enzyme complexes, but lack a common theme.",
+    "reasoning": "The terms are from different biological domains (molecular function and cellular component) with no clear functional relationship.",
+    "outliers": [],
+    "cleaned_terms": [
+      "GO:0001614",
+      "GO:0009326",
+      "GO:0015532"
+    ]
+  },
+  {
+    "community_id": "1325",
+    "status": "ok",
+    "original_terms": [
+      "GO:0001634",
+      "GO:0008417"
+    ],
+    "initial_score": 6,
+    "final_score": 6,
+    "lin_score": 0.1,
+    "score_improved": false,
+    "coherent": false,
+    "theme": "Molecular functions related to receptor activity and carbohydrate modification.",
+    "reasoning": "The terms are from the molecular_function namespace and describe activities of different types of receptors and transferases, which are involved in signal transduction pathways.",
+    "outliers": [],
+    "cleaned_terms": [
+      "GO:0001634",
+      "GO:0008417"
+    ]
+  },
+  {
+    "community_id": "1331",
+    "status": "ok",
+    "original_terms": [
+      "GO:0001642",
+      "GO:0007194"
+    ],
+    "initial_score": 8,
+    "final_score": 8,
+    "lin_score": null,
+    "score_improved": false,
+    "coherent": true,
+    "theme": "Terms are centered around regulation of adenylate cyclase activity, with one being its functional role and the other its biological outcome.",
+    "reasoning": "Both terms are related to adenylate cyclase activity but one is a molecular function and the other is a biological process.",
+    "outliers": [],
+    "cleaned_terms": [
+      "GO:0001642",
+      "GO:0007194"
+    ]
+  },
+  {
+    "community_id": "1335",
+    "status": "ok",
+    "original_terms": [
+      "GO:0003255",
+      "GO:0010002"
+    ],
+    "initial_score": 9,
+    "final_score": 9,
+    "lin_score": 1.0,
+    "score_improved": false,
+    "coherent": true,
+    "theme": "These GO terms describe the differentiation processes of cardiac and endocardial precursor cells from unspecialized mesodermal cells.",
+    "reasoning": "Both terms describe the process of specialized mesodermal cells acquiring characteristics of specific cardiac and endocardial precursor cells.",
+    "outliers": [],
+    "cleaned_terms": [
+      "GO:0003255",
+      "GO:0010002"
+    ]
+  },
+  {
+    "community_id": "1336",
+    "status": "ok",
+    "original_terms": [
+      "GO:0001649",
+      "GO:0001711"
+    ],
+    "initial_score": 6,
+    "final_score": 6,
+    "lin_score": 0.2,
+    "score_improved": false,
+    "coherent": false,
+    "theme": "Cell differentiation processes in distinct mesodermal and endodermal lineages.",
+    "reasoning": "The terms are related to cell differentiation but belong to different tissue lineages (osteoblast and endodermal cells).",
+    "outliers": [],
+    "cleaned_terms": [
+      "GO:0001649",
+      "GO:0001711"
+    ]
+  },
+  {
+    "community_id": "1339",
+    "status": "ok",
+    "original_terms": [
+      "GO:0001651",
+      "GO:0010370"
+    ],
+    "initial_score": 9,
+    "final_score": 9,
+    "lin_score": 0.1667,
+    "score_improved": false,
+    "coherent": true,
+    "theme": "Structures involved in ribosomal RNA processing and nucleolar organization",
+    "reasoning": "Both terms are related to cellular components within the nucleus, specifically structures associated with ribosomal RNA processing and nucleolar organization.",
+    "outliers": [],
+    "cleaned_terms": [
+      "GO:0001651",
+      "GO:0010370"
+    ]
+  },
+  {
+    "community_id": "1350",
+    "status": "ok",
+    "original_terms": [
+      "GO:0001895",
+      "GO:0006877"
+    ],
+    "initial_score": 6,
+    "final_score": 6,
+    "lin_score": 0.1111,
+    "score_improved": false,
+    "coherent": false,
+    "theme": "Homeostatic processes in biological tissues and cells.",
+    "reasoning": "The terms are related to homeostatic processes but in different contexts (retina vs. intracellular ion).",
+    "outliers": [],
+    "cleaned_terms": [
+      "GO:0001895",
+      "GO:0006877"
+    ]
+  },
+  {
+    "community_id": "1361",
+    "status": "ok",
+    "original_terms": [
+      "GO:0001669",
+      "GO:0005739"
+    ],
+    "initial_score": 6,
+    "final_score": 6,
+    "lin_score": 0.1667,
+    "score_improved": false,
+    "coherent": false,
+    "theme": "These GO terms describe distinct cellular components with different functions.",
+    "reasoning": "The terms are from the cellular component namespace and describe different organelles, but they do not share a common biological mechanism or pathway.",
+    "outliers": [],
+    "cleaned_terms": [
+      "GO:0001669",
+      "GO:0005739"
+    ]
+  },
+  {
+    "community_id": "1369",
+    "status": "ok",
+    "original_terms": [
+      "GO:0006241",
+      "GO:0006254"
+    ],
+    "initial_score": 8,
+    "final_score": 8,
+    "lin_score": 0.5,
+    "score_improved": false,
+    "coherent": true,
+    "theme": "These GO terms describe the metabolic processes of CTP, covering both its synthesis and breakdown.",
+    "reasoning": "Both terms are related to the metabolism of CTP but represent opposite processes.",
+    "outliers": [],
+    "cleaned_terms": [
+      "GO:0006241",
+      "GO:0006254"
+    ]
+  },
+  {
+    "community_id": "1373",
+    "status": "ok",
+    "original_terms": [
+      "GO:0001681",
+      "GO:0006054"
+    ],
+    "initial_score": 8,
+    "final_score": 8,
+    "lin_score": null,
+    "score_improved": false,
+    "coherent": true,
+    "theme": "Involvement in sialic acid metabolism at both functional and process levels",
+    "reasoning": "Both terms are related to the processing of N-acetylneuraminate (sialic acid) but one is a molecular function and the other is a biological process.",
+    "outliers": [],
+    "cleaned_terms": [
+      "GO:0001681",
+      "GO:0006054"
+    ]
+  },
+  {
+    "community_id": "1389",
+    "status": "ok",
+    "original_terms": [
+      "GO:0001697",
+      "GO:0001699"
+    ],
+    "initial_score": 9,
+    "final_score": 9,
+    "lin_score": 0.5,
+    "score_improved": false,
+    "coherent": true,
+    "theme": "Regulated secretion of gastric acid in response to specific neurotransmitters or hormones.",
+    "reasoning": "Both terms describe the regulated release of gastric acid in response to different stimuli, indicating a common biological process.",
+    "outliers": [],
+    "cleaned_terms": [
+      "GO:0001697",
+      "GO:0001699"
+    ]
+  },
+  {
+    "community_id": "1398",
+    "status": "ok",
+    "original_terms": [
+      "GO:0016543",
+      "GO:0016544",
+      "GO:0016545",
+      "GO:0016546"
+    ],
+    "initial_score": 9,
+    "final_score": 9,
+    "lin_score": 0.4167,
+    "score_improved": false,
+    "coherent": true,
+    "theme": "These GO terms represent various actions involved in the male courtship behavior of Drosophila melanogaster.",
+    "reasoning": "All terms describe different actions performed by a male during courtship in Drosophila melanogaster.",
+    "outliers": [],
+    "cleaned_terms": [
+      "GO:0016543",
+      "GO:0016544",
+      "GO:0016545",
+      "GO:0016546"
+    ]
+  },
+  {
+    "community_id": "1401",
+    "status": "ok",
+    "original_terms": [
+      "GO:0001704",
+      "GO:0001706"
+    ],
+    "initial_score": 9,
+    "final_score": 9,
+    "lin_score": 1.0,
+    "score_improved": false,
+    "coherent": true,
+    "theme": "Formation of germ layers during early embryonic development",
+    "reasoning": "These terms are closely related as they describe the process of germ layer formation during gastrulation, specifically focusing on the endoderm and its broader category.",
+    "outliers": [],
+    "cleaned_terms": [
+      "GO:0001704",
+      "GO:0001706"
+    ]
+  },
+  {
+    "community_id": "1407",
+    "status": "ok",
+    "original_terms": [
+      "GO:0001708",
+      "GO:0010454"
+    ],
+    "initial_score": 9,
+    "final_score": 9,
+    "lin_score": 0.1111,
+    "score_improved": false,
+    "coherent": true,
+    "theme": "These terms describe processes involved in the specification and regulation of cell fate during development.",
+    "reasoning": "Both terms are related to cell fate and regulation of cell fate commitment.",
+    "outliers": [],
+    "cleaned_terms": [
+      "GO:0001708",
+      "GO:0010454"
+    ]
+  },
+  {
+    "community_id": "1413",
+    "status": "ok",
+    "original_terms": [
+      "GO:0007463",
+      "GO:0009996"
+    ],
+    "initial_score": 8,
+    "final_score": 8,
+    "lin_score": 0.0667,
+    "score_improved": false,
+    "coherent": true,
+    "theme": "These GO terms describe processes related to cell fate determination, specifically in photoreceptor cells.",
+    "reasoning": "Both terms are related to the process of cell fate determination and specification in photoreceptors.",
+    "outliers": [],
+    "cleaned_terms": [
+      "GO:0007463",
+      "GO:0009996"
+    ]
+  },
+  {
+    "community_id": "1425",
+    "status": "ok",
+    "original_terms": [
+      "GO:0006553",
+      "GO:0009085",
+      "GO:0015819"
+    ],
+    "initial_score": 9,
+    "final_score": 9,
+    "lin_score": 0.1495,
+    "score_improved": false,
+    "coherent": true,
+    "theme": "These GO terms describe various processes related to lysine, including its biosynthesis, transport, and metabolism.",
+    "reasoning": "All terms are related to the biological process of lysine and involve different aspects of its handling within cells.",
+    "outliers": [],
+    "cleaned_terms": [
+      "GO:0006553",
+      "GO:0009085",
+      "GO:0015819"
+    ]
+  },
+  {
+    "community_id": "1437",
+    "status": "ok",
+    "original_terms": [
+      "GO:0003851",
+      "GO:0008120"
+    ],
+    "initial_score": 9,
+    "final_score": 9,
+    "lin_score": 0.1667,
+    "score_improved": false,
+    "coherent": true,
+    "theme": "Enzymatic reactions involved in the synthesis of glycosphingolipids by modifying ceramides with galactose or glucose.",
+    "reasoning": "Both terms are involved in the biosynthesis of glycosphingolipids and share a common biological theme related to lipid modification and glycosylation.",
+    "outliers": [],
+    "cleaned_terms": [
+      "GO:0003851",
+      "GO:0008120"
+    ]
+  },
+  {
+    "community_id": "1438",
+    "status": "ok",
+    "original_terms": [
+      "GO:0001730",
+      "GO:0009891"
+    ],
+    "initial_score": 1,
+    "final_score": 1,
+    "lin_score": null,
+    "score_improved": false,
+    "coherent": false,
+    "theme": "These GO terms represent distinct biological concepts without a common theme.",
+    "reasoning": "The terms are from different biological processes and molecular functions with no clear direct relationship.",
+    "outliers": [],
+    "cleaned_terms": [
+      "GO:0001730",
+      "GO:0009891"
+    ]
+  },
+  {
+    "community_id": "1445",
+    "status": "ok",
+    "original_terms": [
+      "GO:0004027",
+      "GO:0008459",
+      "GO:0008476",
+      "GO:0017051"
+    ],
+    "initial_score": 6,
+    "final_score": 9,
+    "lin_score": 0.3333,
+    "score_improved": true,
+    "coherent": true,
+    "theme": "These GO terms describe enzymes that catalyze the transfer of a sulfate group to various substrates such as alcohols, chondroitin, and protein tyrosine.",
+    "reasoning": "All terms are involved in the transfer of a sulfate group to specific substrates, which is part of the broader category of sulfation reactions.",
+    "outliers": [
+      "GO:0017051"
+    ],
+    "cleaned_terms": [
+      "GO:0004027",
+      "GO:0008459",
+      "GO:0008476"
+    ]
+  },
+  {
+    "community_id": "1458",
+    "status": "ok",
+    "original_terms": [
+      "GO:0007453",
+      "GO:0010016"
+    ],
+    "initial_score": 6,
+    "final_score": 6,
+    "lin_score": 0.25,
+    "score_improved": false,
+    "coherent": false,
+    "theme": "Morphogenesis processes in plant and insect anatomy.",
+    "reasoning": "Both terms describe the process of generating and organizing anatomical structures, but they pertain to different parts of an organism (clypeo-labral disc vs. shoot system).",
+    "outliers": [],
+    "cleaned_terms": [
+      "GO:0007453",
+      "GO:0010016"
+    ]
+  },
+  {
+    "community_id": "1519.0",
+    "status": "ok",
+    "original_terms": [
+      "GO:0001773",
+      "GO:0002276",
+      "GO:0002280",
+      "GO:0002281",
+      "GO:0002283",
+      "GO:0002312"
+    ],
+    "initial_score": 9,
+    "final_score": 9,
+    "lin_score": 0.2467,
+    "score_improved": false,
+    "coherent": true,
+    "theme": "Activation of various immune cell types involved in an immune response.",
+    "reasoning": "All terms describe the activation of different types of immune cells in an immune response.",
+    "outliers": [],
+    "cleaned_terms": [
+      "GO:0001773",
+      "GO:0002276",
+      "GO:0002280",
+      "GO:0002281",
+      "GO:0002283",
+      "GO:0002312"
+    ]
+  },
+  {
+    "community_id": "1549",
+    "status": "ok",
+    "original_terms": [
+      "GO:0001790",
+      "GO:0001792"
+    ],
+    "initial_score": 9,
+    "final_score": 9,
+    "lin_score": 0.1111,
+    "score_improved": false,
+    "coherent": true,
+    "theme": "Interaction with polymeric forms of immunoglobulins (IgA and IgM) in biological membranes.",
+    "reasoning": "Both terms are related to the interaction with polymeric immunoglobulins, specifically IgA and IgM isotypes.",
+    "outliers": [],
+    "cleaned_terms": [
+      "GO:0001790",
+      "GO:0001792"
+    ]
+  },
+  {
+    "community_id": "1552",
+    "status": "ok",
+    "original_terms": [
+      "GO:0001791",
+      "GO:0001793"
+    ],
+    "initial_score": 9,
+    "final_score": 9,
+    "lin_score": 0.1111,
+    "score_improved": false,
+    "coherent": true,
+    "theme": "Interaction with IgM antibodies in immune response mechanisms.",
+    "reasoning": "Both terms are related to the interaction with IgM antibodies, specifically in a molecular function context.",
+    "outliers": [],
+    "cleaned_terms": [
+      "GO:0001791",
+      "GO:0001793"
+    ]
+  },
+  {
+    "community_id": "1553",
+    "status": "ok",
+    "original_terms": [
+      "GO:0001861",
+      "GO:0004888"
+    ],
+    "initial_score": 8,
+    "final_score": 8,
+    "lin_score": 0.5,
+    "score_improved": false,
+    "coherent": true,
+    "theme": "Transmitting extracellular signals to initiate cellular responses through membrane receptors.",
+    "reasoning": "Both terms are related to the transmission of signals across cell membranes in response to external stimuli.",
+    "outliers": [],
+    "cleaned_terms": [
+      "GO:0001861",
+      "GO:0004888"
+    ]
+  },
+  {
+    "community_id": "1556",
+    "status": "ok",
+    "original_terms": [
+      "GO:0002437",
+      "GO:0002679",
+      "GO:0002861"
+    ],
+    "initial_score": 9,
+    "final_score": 9,
+    "lin_score": 0.1057,
+    "score_improved": false,
+    "coherent": true,
+    "theme": "Involvement of inflammatory processes in defense responses to antigenic stimuli.",
+    "reasoning": "All terms are related to the immune response and inflammation, specifically in relation to antigenic stimuli.",
+    "outliers": [],
+    "cleaned_terms": [
+      "GO:0002437",
+      "GO:0002679",
+      "GO:0002861"
+    ]
+  },
+  {
+    "community_id": "1560",
+    "status": "ok",
+    "original_terms": [
+      "GO:0001796",
+      "GO:0002892",
+      "GO:0002893"
+    ],
+    "initial_score": 9,
+    "final_score": 9,
+    "lin_score": 0.8333,
+    "score_improved": false,
+    "coherent": true,
+    "theme": "Regulation of type II hypersensitivity responses in biological processes.",
+    "reasoning": "All terms are related to the modulation and control of type II hypersensitivity responses.",
+    "outliers": [],
+    "cleaned_terms": [
+      "GO:0001796",
+      "GO:0002892",
+      "GO:0002893"
+    ]
+  },
+  {
+    "community_id": "1561",
+    "status": "ok",
+    "original_terms": [
+      "GO:0001797",
+      "GO:0005010"
+    ],
+    "initial_score": 1,
+    "final_score": 1,
+    "lin_score": null,
+    "score_improved": false,
+    "coherent": false,
+    "theme": "None",
+    "reasoning": "The terms are from different biological processes and molecular functions, with no clear common theme.",
+    "outliers": [],
+    "cleaned_terms": [
+      "GO:0001797",
+      "GO:0005010"
+    ]
+  },
+  {
+    "community_id": "1564",
+    "status": "ok",
+    "original_terms": [
+      "GO:0001799",
+      "GO:0001800",
+      "GO:0001801"
+    ],
+    "initial_score": 9,
+    "final_score": 9,
+    "lin_score": 0.8333,
+    "score_improved": false,
+    "coherent": true,
+    "theme": "Modulation of type IIb hypersensitivity responses.",
+    "reasoning": "All terms are related to the modulation (positive or negative) of a specific type of inflammatory response (type IIb hypersensitivity).",
+    "outliers": [],
+    "cleaned_terms": [
+      "GO:0001799",
+      "GO:0001800",
+      "GO:0001801"
+    ]
+  },
+  {
+    "community_id": "1571",
+    "status": "ok",
+    "original_terms": [
+      "GO:0001804",
+      "GO:0001805"
+    ],
+    "initial_score": 9,
+    "final_score": 9,
+    "lin_score": 0.5,
+    "score_improved": false,
+    "coherent": true,
+    "theme": "Regulation of type III hypersensitivity responses",
+    "reasoning": "These terms are related to the regulation of a specific type of inflammatory response (type III hypersensitivity). They cover both positive and negative regulatory processes.",
+    "outliers": [],
+    "cleaned_terms": [
+      "GO:0001804",
+      "GO:0001805"
+    ]
+  },
+  {
+    "community_id": "1576",
+    "status": "ok",
+    "original_terms": [
+      "GO:0002694",
+      "GO:0002695"
+    ],
+    "initial_score": 9,
+    "final_score": 9,
+    "lin_score": 1.0,
+    "score_improved": false,
+    "coherent": true,
+    "theme": "These GO terms describe processes involved in regulating the activation state of leukocytes.",
+    "reasoning": "Both terms are directly related to the modulation of leukocyte activation, with one being a general term and the other specifically focusing on inhibition.",
+    "outliers": [],
+    "cleaned_terms": [
+      "GO:0002694",
+      "GO:0002695"
+    ]
+  },
+  {
+    "community_id": "1578",
+    "status": "ok",
+    "original_terms": [
+      "GO:0001807",
+      "GO:0001808",
+      "GO:0001809"
+    ],
+    "initial_score": 9,
+    "final_score": 9,
+    "lin_score": 0.8333,
+    "score_improved": false,
+    "coherent": true,
+    "theme": "Modulation of type IV hypersensitivity responses.",
+    "reasoning": "All terms are related to the modulation (positive or negative) of a specific type of inflammatory response (type IV hypersensitivity).",
+    "outliers": [],
+    "cleaned_terms": [
+      "GO:0001807",
+      "GO:0001808",
+      "GO:0001809"
+    ]
+  },
+  {
+    "community_id": "1579",
+    "status": "ok",
+    "original_terms": [
+      "GO:0001811",
+      "GO:0001812",
+      "GO:0004568"
+    ],
+    "initial_score": 7,
+    "final_score": 7,
+    "lin_score": 0.5,
+    "score_improved": false,
+    "coherent": false,
+    "theme": "Regulation of type I hypersensitivity responses",
+    "reasoning": "The terms are related to type I hypersensitivity but one term (GO:0004568) is about a molecular function, which makes the community less coherent.",
+    "outliers": [],
+    "cleaned_terms": [
+      "GO:0001811",
+      "GO:0001812",
+      "GO:0004568"
+    ]
+  },
+  {
+    "community_id": "1581",
+    "status": "ok",
+    "original_terms": [
+      "GO:0001816",
+      "GO:0007009"
+    ],
+    "initial_score": 1,
+    "final_score": 1,
+    "lin_score": 0.1111,
+    "score_improved": false,
+    "coherent": false,
+    "theme": "These GO terms represent distinct biological processes without a common theme.",
+    "reasoning": "The terms 'cytokine production' and 'plasma membrane organization' belong to different biological processes with no clear functional relationship.",
+    "outliers": [],
+    "cleaned_terms": [
+      "GO:0001816",
+      "GO:0007009"
+    ]
+  },
+  {
+    "community_id": "1584",
+    "status": "ok",
+    "original_terms": [
+      "GO:0002371",
+      "GO:0002372"
+    ],
+    "initial_score": 8,
+    "final_score": 8,
+    "lin_score": 1.0,
+    "score_improved": false,
+    "coherent": true,
+    "theme": "Cytokine production processes in dendritic cells",
+    "reasoning": "Both terms are related to cytokine production by dendritic cells, but one is more specific to myeloid dendritic cells.",
+    "outliers": [],
+    "cleaned_terms": [
+      "GO:0002371",
+      "GO:0002372"
+    ]
+  },
+  {
+    "community_id": "1602",
+    "status": "ok",
+    "original_terms": [
+      "GO:0001834",
+      "GO:0006968",
+      "GO:0018262"
+    ],
+    "initial_score": 1,
+    "final_score": 1,
+    "lin_score": 0.1196,
+    "score_improved": false,
+    "coherent": false,
+    "theme": "False, no common biological theme among the terms.",
+    "reasoning": "The terms are from different biological processes and do not share a common theme.",
+    "outliers": [],
+    "cleaned_terms": [
+      "GO:0001834",
+      "GO:0006968",
+      "GO:0018262"
+    ]
+  },
+  {
+    "community_id": "1624",
+    "status": "ok",
+    "original_terms": [
+      "GO:0001849",
+      "GO:0001857"
+    ],
+    "initial_score": 9,
+    "final_score": 9,
+    "lin_score": 0.1111,
+    "score_improved": false,
+    "coherent": true,
+    "theme": "Interaction with complement component C1q in the context of the classical complement pathway.",
+    "reasoning": "Both terms are related to the interaction with complement component C1q and its role in the classical complement cascade.",
+    "outliers": [],
+    "cleaned_terms": [
+      "GO:0001849",
+      "GO:0001857"
+    ]
+  },
+  {
+    "community_id": "1625",
+    "status": "ok",
+    "original_terms": [
+      "GO:0001850",
+      "GO:0004876",
+      "GO:0009782"
+    ],
+    "initial_score": 6,
+    "final_score": 9,
+    "lin_score": 0.1111,
+    "score_improved": true,
+    "coherent": true,
+    "theme": "These GO terms describe interactions of the complement component C3a with receptors and binding sites.",
+    "reasoning": "Both terms are related to the complement component C3a and its interaction with cells, indicating a strong functional relationship.",
+    "outliers": [
+      "GO:0009782"
+    ],
+    "cleaned_terms": [
+      "GO:0001850",
+      "GO:0004876"
+    ]
+  },
+  {
+    "community_id": "1626",
+    "status": "ok",
+    "original_terms": [
+      "GO:0001852",
+      "GO:0002656"
+    ],
+    "initial_score": 1,
+    "final_score": 1,
+    "lin_score": null,
+    "score_improved": false,
+    "coherent": false,
+    "theme": "NA",
+    "reasoning": "The terms are from different biological processes and molecular functions, with no clear common theme.",
+    "outliers": [],
+    "cleaned_terms": [
+      "GO:0001852",
+      "GO:0002656"
+    ]
+  },
+  {
+    "community_id": "1628",
+    "status": "ok",
+    "original_terms": [
+      "GO:0001853",
+      "GO:0001859"
+    ],
+    "initial_score": 9,
+    "final_score": 9,
+    "lin_score": 0.1111,
+    "score_improved": false,
+    "coherent": true,
+    "theme": "These GO terms describe the interaction and signaling roles of complement component C3dg in the immune system.",
+    "reasoning": "Both terms are related to the binding and receptor activity of complement component C3dg, which is part of the immune response.",
+    "outliers": [],
+    "cleaned_terms": [
+      "GO:0001853",
+      "GO:0001859"
+    ]
+  },
+  {
+    "community_id": "1631",
+    "status": "ok",
+    "original_terms": [
+      "GO:0001860",
+      "GO:0009706"
+    ],
+    "initial_score": 1,
+    "final_score": 1,
+    "lin_score": null,
+    "score_improved": false,
+    "coherent": false,
+    "theme": "NA",
+    "reasoning": "The terms are from different biological domains (molecular function vs cellular component) and do not share a common theme.",
+    "outliers": [],
+    "cleaned_terms": [
+      "GO:0001860",
+      "GO:0009706"
+    ]
+  },
+  {
+    "community_id": "1635",
+    "status": "ok",
+    "original_terms": [
+      "GO:0001862",
+      "GO:0001863"
+    ],
+    "initial_score": 9,
+    "final_score": 9,
+    "lin_score": 0.1111,
+    "score_improved": false,
+    "coherent": true,
+    "theme": "Molecular interactions involving collectins in cellular signaling processes",
+    "reasoning": "Both terms are related to the interaction with collectins and involve molecular functions, specifically binding and receptor activity.",
+    "outliers": [],
+    "cleaned_terms": [
+      "GO:0001862",
+      "GO:0001863"
+    ]
+  },
+  {
+    "community_id": "1637",
+    "status": "ok",
+    "original_terms": [
+      "GO:0001864",
+      "GO:0008029"
+    ],
+    "initial_score": 8,
+    "final_score": 8,
+    "lin_score": 0.1111,
+    "score_improved": false,
+    "coherent": true,
+    "theme": "Interactions involving pentraxins in biological processes",
+    "reasoning": "Both terms are related to interactions with pentraxins, but one is about binding and the other about receptor activity.",
+    "outliers": [],
+    "cleaned_terms": [
+      "GO:0001864",
+      "GO:0008029"
+    ]
+  },
+  {
+    "community_id": "1647",
+    "status": "ok",
+    "original_terms": [
+      "GO:0001876",
+      "GO:0001877"
+    ],
+    "initial_score": 9,
+    "final_score": 9,
+    "lin_score": 0.1,
+    "score_improved": false,
+    "coherent": true,
+    "theme": "These GO terms describe the interaction between lipoarabinomannan and its receptors in the context of innate immunity.",
+    "reasoning": "Both terms are related to the binding and immune response involving lipoarabinomannan (LAM), which is a component of Mycobacterium tuberculosis.",
+    "outliers": [],
+    "cleaned_terms": [
+      "GO:0001876",
+      "GO:0001877"
+    ]
+  },
+  {
+    "community_id": "1650",
+    "status": "ok",
+    "original_terms": [
+      "GO:0001878",
+      "GO:0014076"
+    ],
+    "initial_score": 6,
+    "final_score": 6,
+    "lin_score": 0.125,
+    "score_improved": false,
+    "coherent": false,
+    "theme": "Responses to chemical stimuli in biological processes",
+    "reasoning": "Both terms describe responses to chemical stimuli, but the specific chemicals (yeast and fluoxetine) are different.",
+    "outliers": [],
+    "cleaned_terms": [
+      "GO:0001878",
+      "GO:0014076"
+    ]
+  },
+  {
+    "community_id": "1662",
+    "status": "ok",
+    "original_terms": [
+      "GO:0003977",
+      "GO:0008760"
+    ],
+    "initial_score": 9,
+    "final_score": 9,
+    "lin_score": 0.1667,
+    "score_improved": false,
+    "coherent": true,
+    "theme": "Biosynthesis of peptidoglycan in bacteria",
+    "reasoning": "Both terms are involved in the biosynthesis of peptidoglycan, a key component of bacterial cell walls. They catalyze different steps in this process.",
+    "outliers": [],
+    "cleaned_terms": [
+      "GO:0003977",
+      "GO:0008760"
+    ]
+  },
+  {
+    "community_id": "1663",
+    "status": "ok",
+    "original_terms": [
+      "GO:0004380",
+      "GO:0004381",
+      "GO:0006225",
+      "GO:0006256"
+    ],
+    "initial_score": 6,
+    "final_score": 9,
+    "lin_score": 0.5,
+    "score_improved": true,
+    "coherent": true,
+    "theme": "These GO terms describe the metabolic processes involving UDP (uridine diphosphate) in its formation and breakdown.",
+    "reasoning": "Both terms are related to the metabolic processes of UDP, with one focusing on biosynthesis and the other on catabolism.",
+    "outliers": [
+      "GO:0004380",
+      "GO:0004381"
+    ],
+    "cleaned_terms": [
+      "GO:0006225",
+      "GO:0006256"
+    ]
+  },
+  {
+    "community_id": "1667",
+    "status": "ok",
+    "original_terms": [
+      "GO:0005978",
+      "GO:0010303"
+    ],
+    "initial_score": 6,
+    "final_score": 6,
+    "lin_score": null,
+    "score_improved": false,
+    "coherent": false,
+    "theme": "Terms relate to processes and activities involved in glycogen metabolism.",
+    "reasoning": "Both terms are related to carbohydrate metabolism but belong to different categories (biological process vs. molecular function).",
+    "outliers": [],
+    "cleaned_terms": [
+      "GO:0005978",
+      "GO:0010303"
+    ]
+  },
+  {
+    "community_id": "1734",
+    "status": "ok",
+    "original_terms": [
+      "GO:0001947",
+      "GO:0003313"
+    ],
+    "initial_score": 9,
+    "final_score": 9,
+    "lin_score": 0.1,
+    "score_improved": false,
+    "coherent": true,
+    "theme": "These GO terms describe processes involved in the initial formation and looping of the heart during embryonic development.",
+    "reasoning": "Both terms are related to the early stages of heart development, specifically focusing on different aspects of heart formation and organization.",
+    "outliers": [],
+    "cleaned_terms": [
+      "GO:0001947",
+      "GO:0003313"
+    ]
+  },
+  {
+    "community_id": "1736",
+    "status": "ok",
+    "original_terms": [
+      "GO:0009913",
+      "GO:0010481"
+    ],
+    "initial_score": 9,
+    "final_score": 9,
+    "lin_score": 0.1667,
+    "score_improved": false,
+    "coherent": true,
+    "theme": "These GO terms describe processes involved in the development and division of epidermal cells.",
+    "reasoning": "Both terms are related to the development and maintenance of epidermal cells, specifically focusing on their differentiation and division processes.",
+    "outliers": [],
+    "cleaned_terms": [
+      "GO:0009913",
+      "GO:0010481"
+    ]
+  },
+  {
+    "community_id": "1737",
+    "status": "ok",
+    "original_terms": [
+      "GO:0001949",
+      "GO:0010026"
+    ],
+    "initial_score": 7,
+    "final_score": 7,
+    "lin_score": 0.25,
+    "score_improved": false,
+    "coherent": true,
+    "theme": "Cell differentiation in specialized epidermal cell types.",
+    "reasoning": "Both terms describe the process of specialized epidermal cells acquiring specific features, but they refer to different types of cells (sebaceous gland and trichome).",
+    "outliers": [],
+    "cleaned_terms": [
+      "GO:0001949",
+      "GO:0010026"
+    ]
+  },
+  {
+    "community_id": "1741",
+    "status": "ok",
+    "original_terms": [
+      "GO:0002583",
+      "GO:0002586",
+      "GO:0002592",
+      "GO:0002619",
+      "GO:0002628",
+      "GO:0002649",
+      "GO:0002652",
+      "GO:0002718",
+      "GO:0002736",
+      "GO:0002843",
+      "GO:0002846",
+      "GO:0002855",
+      "GO:0002874",
+      "GO:0002905",
+      "GO:0003115",
+      "GO:0003119",
+      "GO:0006141",
+      "GO:0006357",
+      "GO:0006417",
+      "GO:0008591",
+      "GO:0009962",
+      "GO:0010185",
+      "GO:0010321",
+      "GO:0010439",
+      "GO:0010482",
+      "GO:0010695",
+      "GO:0010795"
+    ],
+    "initial_score": 9,
+    "final_score": 9,
+    "lin_score": 0.133,
+    "score_improved": false,
+    "coherent": true,
+    "theme": "Regulation of various biological processes including immune response, metabolic pathways, and signaling cascades.",
+    "reasoning": "The community is centered around the theme of regulation in various biological processes. Most terms are related to the modulation of frequencies, rates, or extents of specific cellular and molecular activities.",
+    "outliers": [],
+    "cleaned_terms": [
+      "GO:0002583",
+      "GO:0002586",
+      "GO:0002592",
+      "GO:0002619",
+      "GO:0002628",
+      "GO:0002649",
+      "GO:0002652",
+      "GO:0002718",
+      "GO:0002736",
+      "GO:0002843",
+      "GO:0002846",
+      "GO:0002855",
+      "GO:0002874",
+      "GO:0002905",
+      "GO:0003115",
+      "GO:0003119",
+      "GO:0006141",
+      "GO:0006357",
+      "GO:0006417",
+      "GO:0008591",
+      "GO:0009962",
+      "GO:0010185",
+      "GO:0010321",
+      "GO:0010439",
+      "GO:0010482",
+      "GO:0010695",
+      "GO:0010795"
+    ]
+  },
+  {
+    "community_id": "1758",
+    "status": "ok",
+    "original_terms": [
+      "GO:0001973",
+      "GO:0008063"
+    ],
+    "initial_score": 4,
+    "final_score": 4,
+    "lin_score": 0.25,
+    "score_improved": false,
+    "coherent": false,
+    "theme": "These GO terms represent distinct signaling pathways initiated by different receptors.",
+    "reasoning": "The terms are from different biological processes and do not share a common mechanism or pathway.",
+    "outliers": [],
+    "cleaned_terms": [
+      "GO:0001973",
+      "GO:0008063"
+    ]
+  },
+  {
+    "community_id": "1762",
+    "status": "ok",
+    "original_terms": [
+      "GO:0001979",
+      "GO:0003027",
+      "GO:0003047"
+    ],
+    "initial_score": 8,
+    "final_score": 8,
+    "lin_score": 0.3914,
+    "score_improved": false,
+    "coherent": true,
+    "theme": "Regulation of systemic arterial blood pressure through different signaling pathways.",
+    "reasoning": "All terms are related to the regulation of systemic arterial blood pressure but involve different mechanisms (chemoreceptor signaling and catecholamine signaling).",
+    "outliers": [],
+    "cleaned_terms": [
+      "GO:0001979",
+      "GO:0003027",
+      "GO:0003047"
+    ]
+  },
+  {
+    "community_id": "1767.2",
+    "status": "ok",
+    "original_terms": [
+      "GO:0016639",
+      "GO:0016695",
+      "GO:0016697"
+    ],
+    "initial_score": 9,
+    "final_score": 9,
+    "lin_score": 0.5278,
+    "score_improved": false,
+    "coherent": true,
+    "theme": "These GO terms describe various forms of oxidoreductase activities where hydrogen acts as the electron donor.",
+    "reasoning": "All terms are related to oxidoreductase activity, specifically involving hydrogen as an electron donor in different contexts.",
+    "outliers": [],
+    "cleaned_terms": [
+      "GO:0016639",
+      "GO:0016695",
+      "GO:0016697"
+    ]
+  },
+  {
+    "community_id": "1767.3",
+    "status": "ok",
+    "original_terms": [
+      "GO:0016645",
+      "GO:0016651"
+    ],
+    "initial_score": 8,
+    "final_score": 8,
+    "lin_score": 0.5,
+    "score_improved": false,
+    "coherent": true,
+    "theme": "These GO terms describe oxidoreductase activities involving the reduction of different acceptors.",
+    "reasoning": "Both terms are related to oxidoreductase activities but with different specific substrates.",
+    "outliers": [],
+    "cleaned_terms": [
+      "GO:0016645",
+      "GO:0016651"
+    ]
+  },
+  {
+    "community_id": "1767.6",
+    "status": "ok",
+    "original_terms": [
+      "GO:0016627",
+      "GO:0016628",
+      "GO:0016632",
+      "GO:0016634",
+      "GO:0016635",
+      "GO:0016636"
+    ],
+    "initial_score": 9,
+    "final_score": 9,
+    "lin_score": 0.6667,
+    "score_improved": false,
+    "coherent": true,
+    "theme": "These GO terms describe various oxidoreductase activities where a CH-CH group acts as a donor to reduce different types of acceptors.",
+    "reasoning": "All terms describe different types of oxidoreductase activities involving the same type of donor (CH-CH group) and various acceptors, indicating a strong functional relationship within the same biological mechanism.",
+    "outliers": [],
+    "cleaned_terms": [
+      "GO:0016627",
+      "GO:0016628",
+      "GO:0016632",
+      "GO:0016634",
+      "GO:0016635",
+      "GO:0016636"
+    ]
+  },
+  {
+    "community_id": "1767.13",
+    "status": "ok",
+    "original_terms": [
+      "GO:0016708",
+      "GO:0016709"
+    ],
+    "initial_score": 9,
+    "final_score": 9,
+    "lin_score": 0.5,
+    "score_improved": false,
+    "coherent": true,
+    "theme": "These GO terms describe oxidoreductase activities involving the transfer of electrons and incorporation of oxygen into a donor molecule, specifically focusing on reactions with NAD(P)H as one of the donors.",
+    "reasoning": "Both terms describe oxidoreductase activities involving the transfer of electrons from NAD(P)H to donors with different numbers of oxygen atoms incorporated. They are closely related in their molecular function.",
+    "outliers": [],
+    "cleaned_terms": [
+      "GO:0016708",
+      "GO:0016709"
+    ]
+  },
+  {
+    "community_id": "1767.17",
+    "status": "ok",
+    "original_terms": [
+      "GO:0016667",
+      "GO:0016668",
+      "GO:0016669",
+      "GO:0016670",
+      "GO:0016671",
+      "GO:0016672"
+    ],
+    "initial_score": 9,
+    "final_score": 9,
+    "lin_score": 0.6667,
+    "score_improved": false,
+    "coherent": true,
+    "theme": "These GO terms all pertain to oxidoreductase activities where a sulfur-containing group acts as the electron donor in various redox reactions with different acceptors.",
+    "reasoning": "All terms describe different types of redox reactions involving sulfur-containing groups as donors and various acceptors.",
+    "outliers": [],
+    "cleaned_terms": [
+      "GO:0016667",
+      "GO:0016668",
+      "GO:0016669",
+      "GO:0016670",
+      "GO:0016671",
+      "GO:0016672"
+    ]
+  },
+  {
+    "community_id": "1767.18",
+    "status": "ok",
+    "original_terms": [
+      "GO:0016675",
+      "GO:0016677"
+    ],
+    "initial_score": 9,
+    "final_score": 9,
+    "lin_score": 1.0,
+    "score_improved": false,
+    "coherent": true,
+    "theme": "These GO terms describe oxidoreductase activities involving heme groups, specifically with different acceptors.",
+    "reasoning": "Both terms are related to the catalysis of oxidation-reduction reactions involving heme groups and nitrogenous groups.",
+    "outliers": [],
+    "cleaned_terms": [
+      "GO:0016675",
+      "GO:0016677"
+    ]
+  },
+  {
+    "community_id": "1779",
+    "status": "ok",
+    "original_terms": [
+      "GO:0001988",
+      "GO:0002026"
+    ],
+    "initial_score": 8,
+    "final_score": 8,
+    "lin_score": 0.25,
+    "score_improved": false,
+    "coherent": true,
+    "theme": "Regulation of heart contraction during baroreceptor response and general cardiac function.",
+    "reasoning": "Both terms are related to the regulation of heart contraction under specific physiological conditions.",
+    "outliers": [],
+    "cleaned_terms": [
+      "GO:0001988",
+      "GO:0002026"
+    ]
+  },
+  {
+    "community_id": "1782",
+    "status": "ok",
+    "original_terms": [
+      "GO:0001987",
+      "GO:0002014"
+    ],
+    "initial_score": 9,
+    "final_score": 9,
+    "lin_score": 0.5,
+    "score_improved": false,
+    "coherent": true,
+    "theme": "These GO terms describe vasoconstriction of arteries in response to changes in blood pressure and carbon dioxide levels.",
+    "reasoning": "Both terms describe vasoconstriction of arteries in response to different stimuli, indicating a common biological process.",
+    "outliers": [],
+    "cleaned_terms": [
+      "GO:0001987",
+      "GO:0002014"
+    ]
+  },
+  {
+    "community_id": "1786",
+    "status": "ok",
+    "original_terms": [
+      "GO:0001997",
+      "GO:0003090"
+    ],
+    "initial_score": 9,
+    "final_score": 9,
+    "lin_score": 1.0,
+    "score_improved": false,
+    "coherent": true,
+    "theme": "Regulation of heart contraction by epinephrine and norepinephrine.",
+    "reasoning": "Both terms are related to the positive regulation of heart contraction in response to epinephrine or norepinephrine. They differ slightly in specifying whether the source is systemic (GO:0001997) or neuronal (GO:0003090).",
+    "outliers": [],
+    "cleaned_terms": [
+      "GO:0001997",
+      "GO:0003090"
+    ]
+  },
+  {
+    "community_id": "1787",
+    "status": "ok",
+    "original_terms": [
+      "GO:0001991",
+      "GO:0003100"
+    ],
+    "initial_score": 8,
+    "final_score": 8,
+    "lin_score": 0.3333,
+    "score_improved": false,
+    "coherent": true,
+    "theme": "Regulation of systemic arterial blood pressure through distinct hormonal pathways.",
+    "reasoning": "Both terms are related to the regulation of systemic arterial blood pressure, but they involve different mechanisms (renin-angiotensin and endothelin).",
+    "outliers": [],
+    "cleaned_terms": [
+      "GO:0001991",
+      "GO:0003100"
+    ]
+  },
+  {
+    "community_id": "1790",
+    "status": "ok",
+    "original_terms": [
+      "GO:0001992",
+      "GO:0005000"
+    ],
+    "initial_score": 9,
+    "final_score": 9,
+    "lin_score": null,
+    "score_improved": false,
+    "coherent": true,
+    "theme": "These GO terms describe aspects of the vasopressin-mediated regulation of blood pressure.",
+    "reasoning": "Both terms are related to the biological process of blood pressure regulation through vasopressin, with one term focusing on the overall process and the other on a specific molecular function.",
+    "outliers": [],
+    "cleaned_terms": [
+      "GO:0001992",
+      "GO:0005000"
+    ]
+  },
+  {
+    "community_id": "1797",
+    "status": "ok",
+    "original_terms": [
+      "GO:0001996",
+      "GO:0002025"
+    ],
+    "initial_score": 7,
+    "final_score": 7,
+    "lin_score": 0.0769,
+    "score_improved": false,
+    "coherent": true,
+    "theme": "Response to epinephrine/norepinephrine in the cardiovascular system",
+    "reasoning": "Both terms are related to the cardiovascular system and involve responses to epinephrine/norepinephrine. However, they describe different processes.",
+    "outliers": [],
+    "cleaned_terms": [
+      "GO:0001996",
+      "GO:0002025"
+    ]
+  },
+  {
+    "community_id": "1840",
+    "status": "ok",
+    "original_terms": [
+      "GO:0002028",
+      "GO:0016422"
+    ],
+    "initial_score": 1,
+    "final_score": 1,
+    "lin_score": null,
+    "score_improved": false,
+    "coherent": false,
+    "theme": "",
+    "reasoning": "The terms are from different biological processes and molecular functions with no clear common theme.",
+    "outliers": [],
+    "cleaned_terms": [
+      "GO:0002028",
+      "GO:0016422"
+    ]
+  },
+  {
+    "community_id": "1841",
+    "status": "ok",
+    "original_terms": [
+      "GO:0002029",
+      "GO:0007195"
+    ],
+    "initial_score": 8,
+    "final_score": 8,
+    "lin_score": 0.1,
+    "score_improved": false,
+    "coherent": true,
+    "theme": "Inhibition of GPCR-mediated signaling pathways",
+    "reasoning": "Both terms are related to G protein-coupled receptor (GPCR) signaling pathways but one is a more general process while the other specifies an inhibitory mechanism.",
+    "outliers": [],
+    "cleaned_terms": [
+      "GO:0002029",
+      "GO:0007195"
+    ]
+  },
+  {
+    "community_id": "1847",
+    "status": "ok",
+    "original_terms": [
+      "GO:0002040",
+      "GO:0016525"
+    ],
+    "initial_score": 8,
+    "final_score": 8,
+    "lin_score": 0.0833,
+    "score_improved": false,
+    "coherent": true,
+    "theme": "These GO terms describe aspects of angiogenesis and its inhibition.",
+    "reasoning": "Both terms are related to angiogenesis but one describes the process while the other its negative regulation.",
+    "outliers": [],
+    "cleaned_terms": [
+      "GO:0002040",
+      "GO:0016525"
+    ]
+  },
+  {
+    "community_id": "1880",
+    "status": "ok",
+    "original_terms": [
+      "GO:0002069",
+      "GO:0003007"
+    ],
+    "initial_score": 6,
+    "final_score": 6,
+    "lin_score": 0.125,
+    "score_improved": false,
+    "coherent": false,
+    "theme": "Developmental processes in multicellular organisms, specifically focusing on cell maturation and organ formation.",
+    "reasoning": "The terms are related to developmental processes but in different tissues (epithelial vs. heart).",
+    "outliers": [],
+    "cleaned_terms": [
+      "GO:0002069",
+      "GO:0003007"
+    ]
+  }
+]

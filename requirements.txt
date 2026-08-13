@@ -1,4 +1,7 @@
-openai>=1.0.0
 networkx>=3.0
-python-dotenv>=1.0.0
-matplotlib>=3.0.0
+python-igraph>=0.11
+leidenalg>=0.10
+speakeasy2
+goatools>=1.4
+numpy>=1.24
+requests>=2.31
