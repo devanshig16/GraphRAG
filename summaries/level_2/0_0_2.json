@@ -1,0 +1,65 @@
+0, protein
+1, go:0004672
+2, phosphoprotein
+3, go:0004676
+4, phosphatidylinositol-3-phosphate
+5, go:0004677
+6, go:0004679
+7, go:0004690
+8, go:0004691
+9, go:0004692
+10, go:0004697
+11, go:0004699
+12, go:0004707
+13, protein_phosphate
+14, go:0004721
+15, attachment_to_target_membrane
+
+Relationships:
+0, protein, attachment_to_target_membrane, mediates
+1, go:0004672, phosphoprotein, has_product
+2, go:0004672, protein, has_reactant
+3, go:0004676, phosphatidylinositol-3-phosphate, dependent_on
+4, go:0004676, phosphoprotein, has_product
+5, go:0004677, phosphoprotein, has_product
+6, go:0004679, phosphoprotein, has_product
+7, go:0004690, phosphoprotein, has_product
+8, go:0004691, protein, has_reactant
+9, go:0004691, phosphoprotein, has_product
+10, go:0004692, phosphoprotein, has_product
+11, go:0004697, phosphoprotein, has_product
+12, go:0004697, protein, has_reactant
+13, go:0004699, phosphoprotein, has_product
+14, go:0004699, protein, has_reactant
+15, go:0004707, protein_phosphate, has_product
+16, go:0004707, protein, has_reactant
+17, go:0004721, phosphoprotein, has_reactant
+18, go:0004721, protein, has_product
+{
+  "title": "Phosphorylation and Membrane Attachment Community",
+  "summary": "This community focuses on the biological mechanisms involving phosphorylation of proteins and their attachment to target membranes. Key entities include various GO terms representing different stages of this process, from initial protein modification to final membrane localization.",
+  "findings": [
+    {
+      "summary": "Protein Phosphorylation",
+      "explanation": "The community highlights the central role of phosphorylation in modifying proteins (entity 0). This is evidenced by relationships where GO term go:0004672 (protein phosphorylation) has_product phosphoprotein (entity 2), indicating that protein phosphorylation results in the formation of phosphoproteins. Additionally, several other GO terms such as go:0004691 and go:0004699 also have_product phosphoprotein, suggesting multiple pathways leading to this modification."
+    },
+    {
+      "summary": "Phosphatidylinositol-3-Phosphate Dependent Processes",
+      "explanation": "The relationship between phosphatidylinositol-3-phosphate (entity 4) and phosphoprotein (entity 2) through the dependent_on relationship indicates that certain processes involving phosphoproteins are dependent on this lipid. This suggests a critical role of PI(3)P in regulating or facilitating phosphorylation-dependent cellular functions, possibly related to vesicle trafficking or membrane dynamics."
+    },
+    {
+      "summary": "Protein Attachment to Target Membrane",
+      "explanation": "The community also emphasizes the importance of protein attachment to target membranes (entity 18). GO term go:0004721 (attachment of protein to membrane) has_product protein (entity 16), indicating that proteins can attach to membranes after being modified. This relationship is significant as it links phosphorylation with membrane localization, a crucial step in many cellular processes such as signal transduction and vesicle transport."
+    },
+    {
+      "summary": "Phosphoprotein Products of Various Processes",
+      "explanation": "Multiple GO terms (entities 1, 3-6, 7) are involved in producing phosphoproteins. For instance, go:0004672 directly produces phosphoprotein, while others like go:0004690 and go:0004697 also contribute to this process through has_product relationships. This indicates a complex network of pathways leading to the formation of phosphorylated proteins, each potentially serving different cellular functions."
+    },
+    {
+      "summary": "Protein Phosphate as a Product",
+      "explanation": "The relationship between go:0004707 (protein phosphate) and protein (entity 16) through has_product indicates that the removal of phosphate groups from proteins is also a significant process in this community. This suggests a dynamic regulation mechanism where both phosphorylation and dephosphorylation play crucial roles, maintaining cellular homeostasis."
+    }
+  ],
+  "rating": 8.5,
+  "rating_explanation": "The community provides a detailed insight into the complex interplay between protein modification and membrane attachment, highlighting key biological processes with significant implications for cellular function and regulation."
+}

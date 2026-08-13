@@ -1,0 +1,49 @@
+0, go:0004714
+1, protein-l-tyrosine
+2, protein-l-tyrosine_phosphate
+3, go:0005011
+4, macrophage_colony-stimulating_factor_m-csf_receptor_ligand
+5, go:0005020
+6, stem_cell_factor_receptor_ligand
+7, go:0008288
+
+Realationships:
+0, go:0004714, protein-l-tyrosine, has_reactant
+1, go:0004714, protein-l-tyrosine_phosphate, has_product
+2, go:0005011, macrophage_colony-stimulating_factor_m-csf_receptor_ligand, combining_with
+3, go:0005011, protein-l-tyrosine_phosphate, has_product
+4, go:0005011, protein-l-tyrosine, has_reactant
+5, go:0005020, protein-l-tyrosine, has_reactant
+6, go:0005020, protein-l-tyrosine_phosphate, has_product
+7, go:0005020, stem_cell_factor_receptor_ligand, combines_with
+8, go:0008288, protein-l-tyrosine, has_reactant
+9, go:0008288, protein-l-tyrosine_phosphate, has_product
+
+{
+  "title": "Tyrosine Phosphorylation Pathways",
+  "summary": "The community focuses on the biological processes involving tyrosine phosphorylation and its role in receptor-ligand interactions. Key entities include protein-l-tyrosine, protein-l-tyrosine_phosphate, and their involvement with macrophage colony-stimulating factor (M-CSF) receptor ligand and stem cell factor receptor ligand.",
+  "findings": [
+    {
+      "summary": "Tyrosine Phosphorylation in M-CSF Signaling",
+      "explanation": "The community highlights the role of tyrosine phosphorylation in macrophage colony-stimulating factor (M-CSF) signaling. Specifically, protein-l-tyrosine is a reactant that combines with M-CSF receptor ligand to produce protein-l-tyrosine_phosphate as a product. This process is crucial for activating downstream signaling pathways involved in cell proliferation and differentiation."
+    },
+    {
+      "summary": "Tyrosine Phosphorylation in Stem Cell Factor Signaling",
+      "explanation": "Similarly, tyrosine phosphorylation plays a significant role in stem cell factor (SCF) signaling. Protein-l-tyrosine acts as a reactant that combines with SCF receptor ligand to generate protein-l-tyrosine_phosphate as a product. This interaction is essential for the activation of signaling cascades that regulate hematopoietic stem cell function and survival."
+    },
+    {
+      "summary": "Tyrosine Phosphorylation as a Common Mechanism",
+      "explanation": "Both M-CSF and SCF receptor ligands utilize tyrosine phosphorylation to activate their respective signaling pathways. This common mechanism underscores the importance of tyrosine phosphorylation in mediating cellular responses to extracellular signals, highlighting its role in various biological processes such as cell growth, differentiation, and survival."
+    },
+    {
+      "summary": "Protein-l-tyrosine Phosphate as a Key Product",
+      "explanation": "The community emphasizes the significance of protein-l-tyrosine_phosphate as a product in both M-CSF and SCF signaling pathways. This phosphorylated form of tyrosine serves as an important intermediate that can further interact with other proteins or enzymes, leading to the activation of downstream signaling cascades. The presence of this product indicates the successful initiation of these signaling pathways."
+    },
+    {
+      "summary": "Receptor-Ligand Interactions Driving Signaling",
+      "explanation": "The interactions between M-CSF receptor ligand and SCF receptor ligand with their respective tyrosine phosphorylated proteins are central to the community's structure. These interactions represent key steps in the activation of signaling pathways, where the binding of ligands to receptors triggers a cascade of events leading to cellular responses. This underscores the importance of these interactions in various biological processes."
+    }
+  ],
+  "rating": 9,
+  "rating_explanation": "The community focuses on critical signaling pathways involving tyrosine phosphorylation and receptor-ligand interactions, which are fundamental for understanding cell biology and disease mechanisms."
+}

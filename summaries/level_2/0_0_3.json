@@ -1,0 +1,52 @@
+0, go:0000828
+1, diphospho-1d-myo-inositol-pentakisphosphate
+2, 1d-myo-inositol_hexakisphosphate
+3, go:0000829
+4, bis(diphospho)-1d-myo-inositol-tetrakisphosphate
+5, go:0000830
+6, 4-diphospho-1d-myo-inositol_(1,2,3,5,6)pentakisphosphate
+7, go:0000831
+8, 6-diphospho-1d-myo-inositol_(1,2,3,4,5)pentakisphosphate
+9, go:0000832
+10, 5-diphospho-1d-myo-inositol_1,2,3,4,6-pentakisphosphate
+
+Realtionships:
+0, go:0000828, diphospho-1d-myo-inositol-pentakisphosphate, has_product
+1, go:0000828, 1d-myo-inositol_hexakisphosphate, has_reactant
+2, go:0000829, diphospho-1d-myo-inositol-pentakisphosphate, has_reactant
+3, go:0000829, bis(diphospho)-1d-myo-inositol-tetrakisphosphate, has_product
+4, go:0000830, 1d-myo-inositol_hexakisphosphate, has_reactant
+5, go:0000830, 4-diphospho-1d-myo-inositol_(1,2,3,5,6)pentakisphosphate, involves
+6, go:0000831, 6-diphospho-1d-myo-inositol_(1,2,3,4,5)pentakisphosphate, has_product
+7, go:0000831, 1d-myo-inositol_hexakisphosphate, has_reactant
+8, go:0000832, 1d-myo-inositol_hexakisphosphate, has_reactant
+9, go:0000832, 5-diphospho-1d-myo-inositol_1,2,3,4,6-pentakisphosphate, has_product
+
+{
+  "title": "Inositol Phosphate Metabolism Community",
+  "summary": "The community focuses on the metabolic pathways of inositol phosphates, particularly their synthesis and degradation. Key entities include various diphospho- and triphospho-inositol derivatives, with relationships indicating product formation and reactant involvement.",
+  "findings": [
+    {
+      "summary": "Diphospho-1d-myo-inositol-pentakisphosphate is a central entity in the community.",
+      "explanation": "go:0000828 (diphospho-1d-myo-inositol-pentakisphosphate) serves as a pivotal molecule, acting both as a product of go:0000829 and a reactant for go:0000830. This suggests that diphospho-1d-myo-inositol-pentakisphosphate is involved in the synthesis pathway from 1d-myo-inositol_hexakisphosphate, while also participating as a reactant to form other derivatives such as bis(diphospho)-1d-myo-inositol-tetrakisphosphate. This central role indicates its importance in the overall metabolism of inositol phosphates."
+    },
+    {
+      "summary": "The community includes multiple diphospho-derivatives of inositol.",
+      "explanation": "Several entities, such as 4-diphospho-1d-myo-inositol_(1,2,3,5,6)pentakisphosphate (go:0000831), 6-diphospho-1d-myo-inositol_(1,2,3,4,5)pentakisphosphate (go:0000832), and bis(diphospho)-1d-myo-inositol-tetrakisphosphate, are present. These entities represent different diphospho-derivatives of inositol, indicating a complex network of reactions involving the modification of these molecules. The presence of multiple diphospho-derivatives suggests that there is a diverse set of biological functions associated with these compounds."
+    },
+    {
+      "summary": "The community includes a pathway for the degradation of 1d-myo-inositol_hexakisphosphate.",
+      "explanation": "go:0000829 (bis(diphospho)-1d-myo-inositol-tetrakisphosphate) is formed from go:0000828, and go:0000830 (4-diphospho-1d-myo-inositol_(1,2,3,5,6)pentakisphosphate) is derived from 1d-myo-inositol_hexakisphosphate. This indicates a pathway where inositol hexakisphosphate can be broken down into diphospho-derivatives, which may play roles in cellular signaling or other biological processes."
+    },
+    {
+      "summary": "The community highlights the complexity of inositol phosphate metabolism.",
+      "explanation": "The presence of multiple entities and their interconnections suggest a complex network of reactions. For instance, go:0000831 (6-diphospho-1d-myo-inositol_(1,2,3,4,5)pentakisphosphate) is formed from 1d-myo-inositol_hexakisphosphate and goes on to produce another diphospho-derivative. This complexity implies that inositol phosphate metabolism involves intricate regulatory mechanisms and may be involved in various cellular processes such as signal transduction or energy metabolism."
+    },
+    {
+      "summary": "The community includes a pathway for the formation of 5-diphospho-1d-myo-inositol_1,2,3,4,6-pentakisphosphate.",
+      "explanation": "go:0000832 (5-diphospho-1d-myo-inositol_1,2,3,4,6-pentakisphosphate) is formed from 1d-myo-inositol_hexakisphosphate. This suggests a specific pathway for the formation of this particular diphospho-derivative, which may have unique biological functions distinct from other inositol phosphates."
+    }
+  ],
+  "rating": 8.5,
+  "rating_explanation": "The community represents a significant metabolic pathway with multiple interrelated entities and complex reactions, indicating its importance in cellular processes."
+}
