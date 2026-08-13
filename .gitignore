@@ -1,7 +1,15 @@
-.env
+# Local tool installs, not project code
+lib/
+bin/
+
+# Large external datasets — download separately, not stored in git
+uniprot/
+tf-idf/
+combined_analysis/
+all_go_terms/
+go-basic.obo
+ollama-linux-amd64.tar.zst
+
 __pycache__/
 *.pyc
-*.pyo
-.DS_Store
-*.pdf
-*.docx
+.env
