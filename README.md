@@ -4,6 +4,8 @@ A GraphRAG pipeline applied to Gene Ontology (GO) term relationships: extract a 
 
 Judged across 259 GO-term communities: **71.4% scored coherent**, with outlier-term cleaning raising the average judge score from 7.15 → 7.31 (see `llm_judge_se2_results_level2.json`).
 
+**[Browse the results](./index.html)** — a static, filterable/searchable viewer over the judge output (`python3 -m http.server` from this directory, then open `index.html`; it fetches the JSON directly, so it won't load over a plain `file://` URL). This is also the one repo in this cleanup pass without a live GitHub Pages deploy yet — enabling Pages on this repo (Settings → Pages → deploy from `main` / root) would make it clickable with no further work.
+
 ## Pipeline
 
 1. **Extraction** (`extract_graph.py`, `extract_directed_graph.py`) — builds a graph from GO term relationships, reduced to its giant connected component (`giant_component*.pkl`).
